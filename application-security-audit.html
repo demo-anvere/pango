@@ -3,49 +3,10 @@
       class="html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_left html_header_sidebar html_logo_left html_menu_right html_slim html_disabled html_mobile_menu_phone html_header_searchicon html_content_align_left html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_4009 av-cookies-consent-show-message-bar av-cookies-cookie-consent-enabled av-cookies-can-opt-out av-cookies-user-silent-accept avia-cookie-check-browser-settings av-no-preview html_text_menu_active ">
 <head>
     <meta charset="UTF-8"/>
-
-
     <!-- mobile setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Scripts/CSS and wp_head hook -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
-
-    <script type='text/javascript'>
-
-        function avia_cookie_check_sessionStorage() {
-            //	FF throws error when all cookies blocked !!
-            var sessionBlocked = false
-            try {
-                var test = sessionStorage.getItem('aviaCookieRefused') != null
-            } catch (e) {
-                sessionBlocked = true
-            }
-
-            var aviaCookieRefused = !sessionBlocked ? sessionStorage.getItem('aviaCookieRefused') : null
-
-            var html = document.getElementsByTagName('html')[0]
-
-            /**
-             * Set a class to avoid calls to sessionStorage
-             */
-            if (sessionBlocked || aviaCookieRefused) {
-                if (html.className.indexOf('av-cookies-session-refused') < 0) {
-                    html.className += ' av-cookies-session-refused'
-                }
-            }
-
-            if (sessionBlocked || aviaCookieRefused || document.cookie.match(/aviaCookieConsent/)) {
-                if (html.className.indexOf('av-cookies-user-silent-accept') >= 0) {
-                    html.className = html.className.replace(/\bav-cookies-user-silent-accept\b/g, '')
-                }
-            }
-        }
-
-        avia_cookie_check_sessionStorage()
-
-    </script>
-
     <!-- This site is optimized with the Yoast SEO plugin v20.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>44+ Technologies</title>
     <meta name="description"
@@ -572,9 +533,6 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="msapplication-config" content="wp-content/uploads/fbrfg/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <!--[if lt IE 9]>
-    <script src="wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
-
 
     <!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
     <script type="text/javascript">'use strict'
@@ -804,39 +762,39 @@
                                 <li id="menu-item-3352"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-1">
                                     <a href="about.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">About</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Về chúng tôi</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3395"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2">
                                     <a href="products.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Products</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Sản phẩm</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3424"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3">
                                     <a href="team.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Team</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Đội ngũ</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3474"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4">
                                     <a href="careers.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Nghề nghiệp</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3386"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-5">
                                     <a href="contact.html" itemprop="url"><span class="avia-bullet"></span><span
                                             class="avia-menu-text"><div class="contact-block"><div
-                                            class="top-img"></div><h3>Contact us</h3><p><em>to learn more about our M&#038;A program or to work with us.</em></p></div></span><span
+                                            class="top-img"></div><h3>Liên hệ</h3><p><em>để tìm hiểu thêm về chương trình M&#038;A của chúng tôi hoặc để làm việc với chúng tôi.</em></p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li id="menu-item-3583"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-6">
                                     <a target="_blank" href="https://www.aura.com" itemprop="url" rel="noopener"><span
                                             class="avia-bullet"></span><span class="avia-menu-text"><div
-                                            class="menutext"><p>44+ Technologies is owned and operated by <u>Aura</u>.</p></div></span><span
+                                            class="menutext"><p>44+ Technologies được sở hữu và vận hành bởi <u>Aura</u>.</p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li class="av-burger-menu-main menu-item-avia-special av-small-burger-icon">
@@ -877,8 +835,8 @@
                                      style='border-radius:0px; '>
                                     <div style='padding-bottom:0px; margin: 0px 0px 0px 0px;font-size:64px;'
                                          class='av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-2  avia-builder-el-no-sibling  av-inherit-size '>
-                                        <h1 class='av-special-heading-tag ' itemprop="headline">Application Security
-                                            Audit</h1>
+                                        <h1 class='av-special-heading-tag ' itemprop="headline">Kiểm tra bảo mật ứng
+                                            dụng</h1>
                                         <div class='special-heading-border'>
                                             <div class='special-heading-inner-border'></div>
                                         </div>
@@ -893,41 +851,40 @@
                                     <section class="av_textblock_section " itemscope="itemscope"
                                              itemtype="https://schema.org/CreativeWork">
                                         <div class='avia_textblock  ' style='font-size:22px; ' itemprop="text">
-                                            <div dir="auto"><strong>44+ Technologies Completes an Application Security Audit
-                                                of its Partner VPN Solution</strong></div>
+                                            <div dir="auto"><strong>44+ Technologies hoàn thành kiểm tra bảo mật ứng
+                                                dụng cho giải pháp VPN đối tác của mình</strong></div>
                                             <div dir="auto">
-                                                <p class="p1"><b>January 25, 2023.</b> This November, the 44+ Technologies
-                                                    engaged the security firm Aon Cyber Solutions to perform a
-                                                    privacy-focused security assessment of the company’s Catapult Hydra
-                                                    source code and Partner VPN platform.</p>
-                                                <p class="p1">“This audit made the security of our Partner VPN solution
-                                                    even stronger” explains Neill Feather, 44+ Technologies’s President. “Following
-                                                    the auditor’s recommendations, we implemented several changes.<span
-                                                            class="Apple-converted-space">  </span>We intend to
-                                                    regularly audit our Partner VPN solution in the future.”</p>
-                                                <p class="p1">The testing sought to assess and identify privacy risks,
-                                                    software vulnerabilities, and logging that could compromise the
-                                                    confidentiality, integrity, and availability of the company’s VPN
-                                                    systems.* All services were examined to locate inadvertent logging
-                                                    of sensitive information.<span
-                                                            class="Apple-converted-space">  </span>This included
-                                                    gray-box security testing to gauge the threat of external attackers
-                                                    and application users gaining unauthorized access to the application
-                                                    and/or its data.<span class="Apple-converted-space">  </span>During
-                                                    the test there were no critical severity findings identified. Lesser
-                                                    severity findings were reviewed using a risk-based approach and, if
-                                                    appropriate, remediated and re-tested.</p>
-                                                <p class="p1">The auditors used a combination of tools and manual
-                                                    techniques during the testing. Industry best practices were followed
-                                                    to test 44+ Technologies’s various privacy controls and confirm 44+ Technologies does not
-                                                    collect activity logs or connection logs.</p>
-                                                <p class="p3"><em>* 44+ Technologies is not responsible for the data practices of
-                                                    any of our clients that integrate 44+ Technologies’s VPN solution into their
-                                                    services. Each client’s practices are subject to the client’s
-                                                    individual privacy policy and terms of service. Customers of 44+ Technologies’s
-                                                    clients should review the client’s privacy policy and terms of
-                                                    service to understand how that client uses their customer’s
-                                                    information collected through the client’s services.</em></p>
+                                                <p class="p1"><b>25 tháng 1, 2023.</b> Tháng 11 này, 44+ Technologies đã
+                                                    hợp tác với công ty bảo mật Aon Cyber Solutions để thực hiện đánh
+                                                    giá bảo mật tập trung vào quyền riêng tư đối với mã nguồn Catapult
+                                                    Hydra của công ty và nền tảng VPN Đối tác.</p>
+                                                <p class="p1">Thử nghiệm nhằm đánh giá và xác định các rủi ro về quyền
+                                                    riêng tư, lỗ hổng phần mềm và hoạt động ghi nhật ký có thể ảnh hưởng
+                                                    đến tính bảo mật, tính toàn vẹn và tính khả dụng của các hệ thống
+                                                    VPN của công ty.* Tất cả các dịch vụ đều được kiểm tra để xác định
+                                                    vị trí ghi nhật ký thông tin nhạy cảm do vô tình. Điều này bao gồm
+                                                    thử nghiệm bảo mật hộp xám để đánh giá mối đe dọa của những kẻ tấn
+                                                    công bên ngoài và người dùng ứng dụng giành được quyền truy cập trái
+                                                    phép vào ứng dụng và/hoặc dữ liệu của ứng dụng. Trong quá trình thử
+                                                    nghiệm, không có phát hiện nghiêm trọng nghiêm trọng nào được xác
+                                                    định. Các phát hiện về mức độ nghiêm trọng thấp hơn đã được xem xét
+                                                    bằng cách sử dụng phương pháp tiếp cận dựa trên rủi ro và, nếu thích
+                                                    hợp, sẽ được khắc phục và kiểm tra lại.</p>
+                                                <p class="p1">Các kiểm toán viên đã sử dụng kết hợp các công cụ và kỹ
+                                                    thuật thủ công trong quá trình thử nghiệm. Các phương pháp hay nhất
+                                                    trong ngành đã được áp dụng để kiểm tra các biện pháp kiểm soát
+                                                    quyền riêng tư khác nhau của 44+ Technologies và xác nhận rằng 44+
+                                                    Technologies không thu thập nhật ký hoạt động hoặc nhật ký kết
+                                                    nối.</p>
+                                                <p class="p3"><em>* 44+ Technologies không chịu trách nhiệm đối với các
+                                                    hoạt động dữ liệu của bất kỳ khách hàng nào của chúng tôi tích hợp
+                                                    giải pháp VPN của 44+ Technologies vào dịch vụ của họ. Các hoạt động
+                                                    của mỗi khách hàng đều tuân theo chính sách quyền riêng tư và điều
+                                                    khoản dịch vụ của từng khách hàng. Khách hàng của 44+ Khách hàng của
+                                                    Technologies nên xem lại chính sách quyền riêng tư và điều khoản
+                                                    dịch vụ của khách hàng để hiểu cách khách hàng đó sử dụng thông tin
+                                                    khách hàng của họ được thu thập thông qua các dịch vụ của khách
+                                                    hàng.</em></p>
                                             </div>
                                         </div>
                                     </section>
@@ -956,7 +913,7 @@
 
                 <div class='flex_column av_one_half  first el_before_av_one_half'>
                     <section id="media_image-3" class="widget clearfix widget_media_image"><a
-                            href="https://pango.co"><img width="300" height="300"
+                            href="index.html"><img width="300" height="300"
                                                          src="wp-content/uploads/2021/07/pangoLogoFooter.svg"
                                                          class="avia-img-lazy-loading-3744 image wp-image-3744 pangologofooter attachment-medium size-medium"
                                                          alt="" decoding="async" loading="lazy"
@@ -984,17 +941,17 @@
                         <div class="textwidget custom-html-widget">
                             <div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="home/">Home</a><br><br>
-                                    <a style="color:#141415;" href="about/">About</a><br><br>
-                                    <a style="color:#141415;" href="products/">Products</a>
+                                    <a style="color:#141415;" href="index.html">Trang chủ</a><br><br>
+                                    <a style="color:#141415;" href="about.html">Về chúng tôi</a><br><br>
+                                    <a style="color:#141415;" href="products.html">Sản phẩm</a>
 
                                 </div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="careers/">Careers</a><br><br>
-                                    <a style="color:#141415;" href="contact/">Contact</a>
+                                    <a style="color:#141415;" href="careers.html">Nghề nghiệp</a><br><br>
+                                    <a style="color:#141415;" href="contact.html">Liên hệ</a>
                                     <br><br>
-                                    <a style="color:#141415;" href="application-security-audit.html">Application Security
-                                        Audit</a>
+                                    <a style="color:#141415;" href="application-security-audit.html">Kiểm tra bảo mật
+                                        ứng dụng</a>
 
                                 </div>
                             </div>
@@ -1011,240 +968,25 @@
                 itemtype="https://schema.org/WPFooter">
             <div class='container'>
 
-                <span class='copyright'><div class=“legal”><a href="legal.html">Legal</a> | <a
-                        href="privacy-policy.html">Privacy Policy</a> |  © 44+ Inc</div></span>
+                <span class='copyright'><div class=“legal”><a href="legal.html">Pháp lý</a> | <a
+                        href="privacy-policy.html">Chính sách bảo mật</a> |  © 44+ Inc</div></span>
 
 
             </div>
-
-            <!-- ####### END SOCKET CONTAINER ####### -->
         </footer>
 
 
         <!-- end main -->
     </div>
 
-    <!-- end wrap_all --></div>
+</div>
 
 <a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon=''
    data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
 
 <div id="fb-root"></div>
 
-<div class="avia-cookie-consent-wrap" aria-hidden="true">
-    <div class='avia-cookie-consent cookiebar-hidden  avia-cookiemessage-bottom' aria-hidden='true'
-         data-contents='228864ac5ab74b528722e14fa69ce48a||v1.0'>
-        <div class="container"><p class='avia_cookie_text'>
-            <div class="cookie-infotext">
-                <div style="font-weight: 600;">We are using cookies to give you the best experience on our website.
-                </div>
-                <div style="font-weight: 200;">You can find out more about which cookies we are using <a
-                        style="color: rgba(255, 255, 255, 1.2)!important; text-decoration: underline;"
-                        href="privacy-policy/#pp4">here</a>.
-                </div>
-            </div>
-            </p><a href='#'
-                   class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-1  avia-cookie-close-bar '>Accept
-                & Close</a><a href='#'
-                              class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-2 av-extra-cookie-btn  avia-cookie-hide-notification'>Decline</a>
-        </div>
-    </div>
-    <div id='av-consent-extra-info' class='av-inline-modal main_color avia-hide-popup-close'>
-        <div style='padding-bottom:10px; margin: 10px 0 0 0;'
-             class='av-special-heading av-special-heading-h3  blockquote modern-quote  '><h3
-                class='av-special-heading-tag ' itemprop="headline">Cookie and Privacy Settings</h3>
-            <div class='special-heading-border'>
-                <div class='special-heading-inner-border'></div>
-            </div>
-        </div>
-        <br/>
-        <div style=' margin-top:0px; margin-bottom:0px;' class='hr hr-custom hr-left hr-icon-no  '><span
-                class='hr-inner  inner-border-av-border-thin' style=' width:100%;'><span class='hr-inner-style'></span></span>
-        </div>
-        <br/>
-        <div class="tabcontainer   sidebar_tab sidebar_tab_left noborder_tabs " role="tablist">
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-1-content" role="tab" tabindex="0" data-fake-id="#tab-id-1"
-                     class="tab active_tab">How we use cookies
-                </div>
-                <div id="tab-id-1-content" class="tab_content active_tab_content" aria-hidden="false">
-                    <div class="tab_inner_content invers-color">
-                        <p>We may request cookies to be set on your device. We use cookies to let us know when you visit
-                            our websites, how you interact with us, to enrich your user experience, and to customize
-                            your relationship with our website. </p>
-                        <p>Click on the different category headings to find out more. You can also change some of your
-                            preferences. Note that blocking some types of cookies may impact your experience on our
-                            websites and the services we are able to offer.</p>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-2-content" role="tab" tabindex="0" data-fake-id="#tab-id-2" class="tab ">
-                    Essential Website Cookies
-                </div>
-                <div id="tab-id-2-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>These cookies are strictly necessary to provide you with services available through our
-                            website and to use some of its features.</p>
-                        <p>Because these cookies are strictly necessary to deliver the website, refuseing them will have
-                            impact how our site functions. You always can block or delete cookies by changing your
-                            browser settings and force blocking all cookies on this website. But this will always prompt
-                            you to accept/refuse cookies when revisiting our site.</p>
-                        <p>We fully respect if you want to refuse cookies but to avoid asking you again and again kindly
-                            allow us to store a cookie for that. You are free to opt out any time or opt in for other
-                            cookies to get a better experience. If you refuse cookies we will remove all set cookies in
-                            our domain.</p>
-                        <p>We provide you with a list of stored cookies on your computer in our domain so you can check
-                            what we stored. Due to security reasons we are not able to show or modify cookies from other
-                            domains. You can check these in your browser security settings.</p>
-                        <div class="av-switch-aviaPrivacyRefuseCookiesHideBar av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyRefuseCookiesHideBar"
-                                          class="aviaPrivacyRefuseCookiesHideBar "
-                                          name="aviaPrivacyRefuseCookiesHideBar"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Check to enable permanent hiding of message bar and refuse all cookies if you do not opt in. We need 2 cookies to store this setting. Otherwise you will be prompted again when opening a new browser window or new a tab.</span></label>
-                        </div>
-                        <div class="av-switch-aviaPrivacyEssentialCookiesEnabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyEssentialCookiesEnabled"
-                                          class="aviaPrivacyEssentialCookiesEnabled "
-                                          name="aviaPrivacyEssentialCookiesEnabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable essential site cookies.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-3-content" role="tab" tabindex="0" data-fake-id="#tab-id-3" class="tab ">
-                    Other external services
-                </div>
-                <div id="tab-id-3-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>We also use different external services like Google Webfonts, Google Maps, and external Video
-                            providers. Since these providers may collect personal data like your IP address we allow you
-                            to block them here. Please be aware that this might heavily reduce the functionality and
-                            appearance of our site. Changes will take effect once you reload the page.</p>
-                        <p>Google Webfont Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleWebfontsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleWebfontsDisabled"
-                                          class="aviaPrivacyGoogleWebfontsDisabled "
-                                          name="aviaPrivacyGoogleWebfontsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google Webfonts.</span></label>
-                        </div>
-                        <p>Google Map Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleMapsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleMapsDisabled"
-                                          class="aviaPrivacyGoogleMapsDisabled "
-                                          name="aviaPrivacyGoogleMapsDisabled"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Click to enable/disable Google Maps.</span></label>
-                        </div>
-                        <p>Google reCaptcha Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleReCaptchaDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleReCaptchaDisabled"
-                                          class="aviaPrivacyGoogleReCaptchaDisabled "
-                                          name="aviaPrivacyGoogleReCaptchaDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google reCaptcha.</span></label>
-                        </div>
-                        <p>Vimeo and Youtube video embeds:</p>
-                        <div class="av-switch-aviaPrivacyVideoEmbedsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyVideoEmbedsDisabled"
-                                          class="aviaPrivacyVideoEmbedsDisabled " name="aviaPrivacyVideoEmbedsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable video embeds.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-4-content" role="tab" tabindex="0" data-fake-id="#tab-id-4" class="tab ">
-                    Privacy Policy
-                </div>
-                <div id="tab-id-4-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>You can read about our cookies and privacy settings in detail on our Privacy Policy
-                            Page. </p>
-
-
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="avia-cookie-consent-modal-buttons-wrap"><a href='#'
-                                                               class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-3  avia-cookie-close-bar avia-cookie-consent-modal-button'
-                                                               title="Allow to use cookies, you always can modify used cookies and services">Accept
-            settings</a><a href='#'
-                           class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-4 av-extra-cookie-btn avia-cookie-consent-modal-button avia-cookie-hide-notification'
-                           title="Do not allow to use cookies or services - some functionality on our site might not work as expected.">Hide
-            notification only</a></div>
-    </div>
-</div>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var avia_framework_globals = avia_framework_globals || {}
-    avia_framework_globals.frameworkUrl = 'wp-content/themes/enfold/framework/'
-    avia_framework_globals.installedAt = 'wp-content/themes/enfold/'
-    avia_framework_globals.ajaxurl = 'wp-admin/admin-ajax.php'
-    /* ]]> */
-</script>
-
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
-<script type='text/javascript' id='avia-cookie-js-js-extra'>
-    /* <![CDATA[ */
-    var AviaPrivacyCookieConsent = {
-        "?": "Usage unknown",
-        "aviaCookieConsent": "Use and storage of Cookies has been accepted - restrictions set in other cookies",
-        "aviaPrivacyRefuseCookiesHideBar": "Hide cookie message bar on following page loads and refuse cookies if not allowed - aviaPrivacyEssentialCookiesEnabled must be set",
-        "aviaPrivacyEssentialCookiesEnabled": "Allow storage of site essential cookies and other cookies and use of features if not opt out",
-        "aviaPrivacyVideoEmbedsDisabled": "Do not allow video embeds",
-        "aviaPrivacyGoogleTrackingDisabled": "Do not allow Google Analytics",
-        "aviaPrivacyGoogleWebfontsDisabled": "Do not allow Google Webfonts",
-        "aviaPrivacyGoogleMapsDisabled": "Do not allow Google Maps",
-        "aviaPrivacyGoogleReCaptchaDisabled": "Do not allow Google reCaptcha",
-        "aviaPrivacyMustOptInSetting": "Settings are for users that must opt in for cookies and services",
-        "PHPSESSID": "Operating site internal cookie - Keeps track of your session",
-        "XDEBUG_SESSION": "Operating site internal cookie - PHP Debugger session cookie",
-        "wp-settings*": "Operating site internal cookie",
-        "wordpress*": "Operating site internal cookie",
-        "tk_ai*": "Shop internal cookie",
-        "woocommerce*": "Shop internal cookie",
-        "wp_woocommerce*": "Shop internal cookie",
-        "wp-wpml*": "Needed to manage different languages"
-    }
-    var AviaPrivacyCookieAdditionalData = {
-        "cookie_refuse_button_alert": "When refusing all cookies this site might not be able to work as expected. Please check our settings page and opt out for cookies or functions you do not want to use and accept cookies. You will be shown this message every time you open a new window or a new tab.\\n\\nAre you sure you want to continue?",
-        "no_cookies_found": "No accessable cookies found in domain",
-        "admin_keep_cookies": ["PHPSESSID", "wp-*", "wordpress*", "XDEBUG*"],
-        "remove_custom_cookies": [],
-        "no_lightbox": "We need a lightbox to show the modal popup. Please enable the built in lightbox in Theme Options Tab or include your own modal window plugin.\\n\\nYou need to connect this plugin in JavaScript with callback wrapper functions - see avia_cookie_consent_modal_callback in file enfold\\js\\avia-snippet-cookieconsent.js "
-    }
-    /* ]]> */
-</script>
-<script type='text/javascript' id='avia_google_recaptcha_front_script-js-extra'>
-    /* <![CDATA[ */
-    var AviaReCAPTCHA_front = {
-        "version": "avia_recaptcha_v3",
-        "site_key2": "6Lfzwa4fAAAAADHOBXmdktHNblX0y83OTlvzicMP",
-        "site_key3": "6Lf4yq4fAAAAAI2UMj9XA4EfJ_X4jltX0hCs5DCW",
-        "api": "https:\/\/www.google.com\/recaptcha\/api.js",
-        "avia_api_script": "https:\/\/www.pango.co\/wp-content\/themes\/enfold\/framework\/js\/conditional_load\/avia_google_recaptcha_api.js",
-        "theme": "light",
-        "score": "0.5",
-        "verify_nonce": "2428fc61e7",
-        "cannot_use": "<h3 class=\"av-recaptcha-error-main\">Sorry, a problem occurred trying to communicate with Google reCAPTCHA API. You are currently not able to submit the contact form. Please try again later - reload the page and also check your internet connection.<\/h3>",
-        "init_error_msg": "Initial setting failed. Sitekey 2 and\/or sitekey 3 missing in frontend.",
-        "v3_timeout_pageload": "Timeout occurred connecting to V3 API on initial pageload",
-        "v3_timeout_verify": "Timeout occurred connecting to V3 API on verifying submit",
-        "v2_timeout_verify": "Timeout occurred connecting to V2 API on verifying you as human. Please try again and check your internet connection. It might be necessary to reload the page.",
-        "verify_msg": "Verify....",
-        "connection_error": "Could not connect to the internet. Please reload the page and try again.",
-        "validate_first": "Please validate that you are a human first",
-        "validate_submit": "Before submitting we validate that you are a human first.",
-        "no_token": "Missing internal token on valid submit - unable to proceed.",
-        "invalid_version": "Invalid reCAPTCHA version found.",
-        "api_load_error": "Google reCAPTCHA API could not be loaded."
-    }
-    /* ]]> */
-</script>
 <script type='text/javascript' id='avia-footer-scripts-js-extra'>
     /* <![CDATA[ */
     var AviaPrivacyCookieConsent = {
@@ -1282,7 +1024,7 @@
         "avia_api_script": "https:\/\/www.pango.co\/wp-content\/themes\/enfold\/framework\/js\/conditional_load\/avia_google_recaptcha_api.js",
         "theme": "light",
         "score": "0.5",
-        "verify_nonce": "2428fc61e7",
+        "verify_nonce": "39691fde10",
         "cannot_use": "<h3 class=\"av-recaptcha-error-main\">Sorry, a problem occurred trying to communicate with Google reCAPTCHA API. You are currently not able to submit the contact form. Please try again later - reload the page and also check your internet connection.<\/h3>",
         "init_error_msg": "Initial setting failed. Sitekey 2 and\/or sitekey 3 missing in frontend.",
         "v3_timeout_pageload": "Timeout occurred connecting to V3 API on initial pageload",
@@ -1301,75 +1043,5 @@
 <script type='text/javascript'
         src='wp-content/uploads/dynamic_avia/avia-footer-scripts-da18094d71d2a424d7daa12ad1bb3098---6450004fa6194.js'
         id='avia-footer-scripts-js'></script>
-<script type='text/javascript'>function av_privacy_cookie_setter(cookie_name) {
-    var cookie_check = jQuery('html').hasClass('av-cookies-needs-opt-in') || jQuery('html').hasClass('av-cookies-can-opt-out')
-    var toggle = jQuery('.' + cookie_name)
-    toggle.each(function () {
-        var container = jQuery(this).closest('.av-toggle-switch')
-        if (cookie_check && !document.cookie.match(/aviaCookieConsent/)) {
-            this.checked = container.hasClass('av-cookie-default-checked')
-        } else if (cookie_check && document.cookie.match(/aviaCookieConsent/) && !document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) && cookie_name != 'aviaPrivacyRefuseCookiesHideBar') {
-            if (cookie_name == 'aviaPrivacyEssentialCookiesEnabled') {
-                this.checked = false
-            } else {
-                this.checked = container.hasClass('av-cookie-default-checked')
-            }
-        } else {
-            if (container.hasClass('av-cookie-save-checked')) {
-                this.checked = document.cookie.match(cookie_name) ? true : false
-            } else {
-                this.checked = document.cookie.match(cookie_name) ? false : true
-            }
-        }
-    })
-    jQuery('.' + 'av-switch-' + cookie_name).addClass('active')
-    toggle.on('click', function () {/* sync if more checkboxes exist because user added them to normal page content */
-        var check = this.checked
-        jQuery('.' + cookie_name).each(function () {
-            this.checked = check
-        })
-        var silent_accept_cookie = jQuery('html').hasClass('av-cookies-user-silent-accept')
-        if (!silent_accept_cookie && cookie_check && !document.cookie.match(/aviaCookieConsent/) || sessionStorage.getItem('aviaCookieRefused')) {
-            return
-        }
-        var container = jQuery(this).closest('.av-toggle-switch')
-        var action = ''
-        if (container.hasClass('av-cookie-save-checked')) {
-            action = this.checked ? 'save' : 'remove'
-        } else {
-            action = this.checked ? 'remove' : 'save'
-        }
-        if ('remove' == action) {
-            document.cookie = cookie_name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'
-        } else {
-            var theDate = new Date()
-            var oneYearLater = new Date(theDate.getTime() + 31536000000)
-            document.cookie = cookie_name + '=true; Path=/; Expires=' + oneYearLater.toGMTString() + ';'
-        }
-    })
-}av_privacy_cookie_setter('aviaPrivacyRefuseCookiesHideBar')
-av_privacy_cookie_setter('aviaPrivacyEssentialCookiesEnabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleWebfontsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleMapsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleReCaptchaDisabled')
-av_privacy_cookie_setter('aviaPrivacyVideoEmbedsDisabled') </script>
 </body>
 </html>
-<!-- *´¨)
-     ¸.•´¸.•*´¨) ¸.•*¨)
-     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
-
-<!-- Cache File Version Salt:       n/a -->
-
-<!-- Cache File URL:                application-security-audit/ -->
-<!-- Cache File Path:               /cache/comet-cache/cache/https/www-pango-co/application-security-audit.html -->
-
-<!-- Cache File Generated Via:      HTTP request -->
-<!-- Cache File Generated On:       May 17th, 2023 @ 4:54 am UTC -->
-<!-- Cache File Generated In:       0.32238 seconds -->
-
-<!-- Cache File Expires On:         May 24th, 2023 @ 4:54 am UTC -->
-<!-- Cache File Auto-Rebuild On:    May 24th, 2023 @ 4:54 am UTC -->
-
-<!-- Loaded via Cache On:    May 21st, 2023 @ 10:13 am UTC -->
-<!-- Loaded via Cache In:    0.05188 seconds -->

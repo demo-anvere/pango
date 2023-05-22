@@ -3,66 +3,26 @@
       class="html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_left html_header_sidebar html_logo_left html_menu_right html_slim html_disabled html_mobile_menu_phone html_header_searchicon html_content_align_left html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_3953 av-cookies-consent-show-message-bar av-cookies-cookie-consent-enabled av-cookies-can-opt-out av-cookies-user-silent-accept avia-cookie-check-browser-settings av-no-preview html_text_menu_active ">
 <head>
     <meta charset="UTF-8"/>
-
-
     <!-- mobile setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Scripts/CSS and wp_head hook -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
-
-    <script type='text/javascript'>
-
-        function avia_cookie_check_sessionStorage() {
-            //	FF throws error when all cookies blocked !!
-            var sessionBlocked = false
-            try {
-                var test = sessionStorage.getItem('aviaCookieRefused') != null
-            } catch (e) {
-                sessionBlocked = true
-            }
-
-            var aviaCookieRefused = !sessionBlocked ? sessionStorage.getItem('aviaCookieRefused') : null
-
-            var html = document.getElementsByTagName('html')[0]
-
-            /**
-             * Set a class to avoid calls to sessionStorage
-             */
-            if (sessionBlocked || aviaCookieRefused) {
-                if (html.className.indexOf('av-cookies-session-refused') < 0) {
-                    html.className += ' av-cookies-session-refused'
-                }
-            }
-
-            if (sessionBlocked || aviaCookieRefused || document.cookie.match(/aviaCookieConsent/)) {
-                if (html.className.indexOf('av-cookies-user-silent-accept') >= 0) {
-                    html.className = html.className.replace(/\bav-cookies-user-silent-accept\b/g, '')
-                }
-            }
-        }
-
-        avia_cookie_check_sessionStorage()
-
-    </script>
-
     <!-- This site is optimized with the Yoast SEO plugin v20.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Terms of use | 44+ Technologies</title>
-    <link rel='stylesheet' id='avia-grid-css'
-          href='wp-content/themes/enfold/css/grid.css?ver=4.8.3'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-base-css'
-          href='wp-content/themes/enfold/css/base.css?ver=4.8.3'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-layout-css'
-          href='wp-content/themes/enfold/css/layout.css?ver=4.8.3'
-          type='text/css' media='all'/>
+    <title>44+ Technologies</title>
+    <meta name="description"
+          content="We build and acquire best-in-class brands, ensuring our customers continued security through a growing portfolio."/>
+    <link rel='stylesheet' id='avia-grid-css' href='wp-content/themes/enfold/css/grid.css?ver=4.8.3' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='avia-base-css' href='wp-content/themes/enfold/css/base.css?ver=4.8.3' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='avia-layout-css' href='wp-content/themes/enfold/css/layout.css?ver=4.8.3' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-audioplayer-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/audio-player/audio-player.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-blog-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-postslider-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=6.2'
           type='text/css' media='all'/>
@@ -112,11 +72,11 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-hr-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-icon-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-iconbox-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=6.2'
           type='text/css' media='all'/>
@@ -127,8 +87,8 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconlist/iconlist.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-image-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-hotspot-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.css?ver=6.2'
           type='text/css' media='all'/>
@@ -139,11 +99,10 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-siteloader-css'
-          href='wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=6.2' type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-menu-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-modfule-notification-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/notification/notification.css?ver=6.2'
           type='text/css' media='all'/>
@@ -187,14 +146,14 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tab_section/tab_section.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-table-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-tabs-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-team-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-testimonials-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=6.2'
           type='text/css' media='all'/>
@@ -205,14 +164,12 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-video-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=6.2'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='wp-block-library-css'
-          href='wp-includes/css/dist/block-library/style.min.css?ver=6.2'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='classic-theme-styles-css'
-          href='wp-includes/css/classic-themes.min.css?ver=6.2' type='text/css'
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=6.2' type='text/css'
           media='all'/>
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=6.2'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=6.2'
+          type='text/css' media='all'/>
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -552,43 +509,30 @@
         }
     </style>
     <link rel='stylesheet' id='bodhi-svgs-attachment-css'
-          href='wp-content/plugins/svg-support/css/svgs-attachment.css?ver=6.2'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-scs-css'
-          href='wp-content/themes/enfold/css/shortcodes.css?ver=4.8.3'
+          href='wp-content/plugins/svg-support/css/svgs-attachment.css?ver=6.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='avia-scs-css' href='wp-content/themes/enfold/css/shortcodes.css?ver=4.8.3'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-popup-css-css'
-          href='wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel='stylesheet' id='avia-lightbox-css'
-          href='wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel='stylesheet' id='avia-widget-css-css'
-          href='wp-content/themes/enfold/css/avia-snippet-widget.css?ver=4.8.3'
-          type='text/css' media='screen'/>
-    <link rel='stylesheet' id='avia-dynamic-css'
-          href='wp-content/uploads/dynamic_avia/enfold.css?ver=6450004d6c6a6'
+          href='wp-content/themes/enfold/css/avia-snippet-widget.css?ver=4.8.3' type='text/css' media='screen'/>
+    <link rel='stylesheet' id='avia-dynamic-css' href='wp-content/uploads/dynamic_avia/enfold.css?ver=6450004d6c6a6'
           type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-custom-css'
-          href='wp-content/themes/enfold/css/custom.css?ver=4.8.3'
-          type='text/css' media='all'/>
+    <link rel='stylesheet' id='avia-custom-css' href='wp-content/themes/enfold/css/custom.css?ver=4.8.3' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-cookie-css-css'
-          href='wp-content/themes/enfold/css/avia-snippet-cookieconsent.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/css/avia-snippet-cookieconsent.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel="apple-touch-icon" sizes="144x144" href="wp-content/uploads/fbrfg/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-          href="wp-content/uploads/fbrfg/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-          href="wp-content/uploads/fbrfg/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="wp-content/uploads/fbrfg/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="wp-content/uploads/fbrfg/favicon-16x16.png">
 
     <link rel="mask-icon" href="wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#2562FF">
     <link rel="shortcut icon" href="wp-content/uploads/fbrfg/favicon.ico">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="msapplication-config" content="wp-content/uploads/fbrfg/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <!--[if lt IE 9]>
-    <script src="wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
-
 
     <!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
     <script type="text/javascript">'use strict'
@@ -809,8 +753,8 @@
 
             <div class='container av-logo-container'>
                 <div class='inner-container'><span class='logo'><a href='index.html'><img
-                        src="wp-content/uploads/2021/07/pangoLogoFooter.svg"
-                        height="100" width="300" alt='logo' title=''/></a></span>
+                        src="wp-content/uploads/2021/07/pangoLogoFooter.svg" height="100" width="300" alt='logo'
+                        title=''/></a></span>
                     <nav class='main_menu' data-selectname='Select a page' role="navigation" itemscope="itemscope"
                          itemtype="https://schema.org/SiteNavigationElement">
                         <div class="avia-menu av-main-nav-wrap">
@@ -818,39 +762,39 @@
                                 <li id="menu-item-3352"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-1">
                                     <a href="about.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">About</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Về chúng tôi</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3395"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2">
                                     <a href="products.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Products</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Sản phẩm</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3424"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3">
                                     <a href="team.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Team</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Đội ngũ</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3474"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4">
                                     <a href="careers.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Nghề nghiệp</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3386"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-5">
                                     <a href="contact.html" itemprop="url"><span class="avia-bullet"></span><span
                                             class="avia-menu-text"><div class="contact-block"><div
-                                            class="top-img"></div><h3>Contact us</h3><p><em>to learn more about our M&#038;A program or to work with us.</em></p></div></span><span
+                                            class="top-img"></div><h3>Liên hệ</h3><p><em>để tìm hiểu thêm về chương trình M&#038;A của chúng tôi hoặc để làm việc với chúng tôi.</em></p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li id="menu-item-3583"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-6">
                                     <a target="_blank" href="https://www.aura.com" itemprop="url" rel="noopener"><span
                                             class="avia-bullet"></span><span class="avia-menu-text"><div
-                                            class="menutext"><p>44+ Technologies is owned and operated by <u>Aura</u>.</p></div></span><span
+                                            class="menutext"><p>44+ Technologies được sở hữu và vận hành bởi <u>Aura</u>.</p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li class="av-burger-menu-main menu-item-avia-special av-small-burger-icon">
@@ -895,7 +839,7 @@
                                     <div style='padding-bottom:0px; margin: 0px 0px 0px 0px;font-size:50px;'
                                          class='av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-3  avia-builder-el-no-sibling  av-inherit-size '>
                                         <h1 class='av-special-heading-tag ' itemprop="headline"><span
-                                                class="bluegradient">Website</span> Terms of Use</h1>
+                                                class="bluegradient">Điều khoản sử dụng</span></h1>
                                         <div class='special-heading-border'>
                                             <div class='special-heading-inner-border'></div>
                                         </div>
@@ -913,45 +857,45 @@
                                          itemtype="https://schema.org/CreativeWork">
                                     <div class='avia_textblock  ' itemprop="text"><h5
                                             style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                            href="#tos1">1. Intellectual Property Ownership</a></h5>
+                                            href="#tos1">1. Quyền sở hữu tài sản trí tuệ</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos2">2. Use of Aura Content</a></h5>
+                                                href="#tos2">2. Sử dụng nội dung Aura</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos3">3. Contributor Disclosure</a></h5>
+                                                href="#tos3">3. Tiết lộ cộng tác viên</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos4">4. User Submissions, Forums and Public Areas</a></h5>
+                                                href="#tos4">4. Nội dung gửi của người dùng, Diễn đàn và Khu vực công
+                                            cộng</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos5">5. License Grant</a></h5>
+                                                href="#tos5">5. Cấp giấy phép</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos6">6. Rules for Posting Questions and Comments in Forums and
-                                            Public Areas</a></h5>
+                                                href="#tos6">6. Quy tắc đăng câu hỏi và bình luận trong diễn đàn và khu
+                                            vực công cộng</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos7">7. Use of RSS and Comment Feeds</a></h5>
+                                                href="#tos7">7. Sử dụng nguồn cấp dữ liệu RSS và nhận xét</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos8">8. Enforcement of these Terms of Use</a></h5>
+                                                href="#tos8">8. Thực thi các Điều khoản sử dụng này</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos9">9. Disclaimer of Warranties</a></h5>
+                                                href="#tos9">9. Từ chối bảo hành</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos10">10. Indemnity and Limitation of Liability</a></h5>
+                                                href="#tos10">10. Bồi thường và Giới hạn trách nhiệm pháp lý</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos11">11. Passwords</a></h5>
+                                                href="#tos11">11. Mật khẩu</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos12">12. Privacy</a></h5>
+                                                href="#tos12">12. Sự riêng tư</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos13">13. Children and Teens</a></h5>
+                                                href="#tos13">13. Trẻ em và Thanh thiếu niên</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
                                                 href="#tos14">14. Links to External Sites</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos15">15. Procedure for Making a Claim of Copyright
-                                            Infringement</a></h5>
+                                                href="#tos15">15. Thủ tục Khiếu nại Vi phạm Bản quyền</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos16">16. Choice of Law</a></h5>
+                                                href="#tos16">16. Sự lựa chọn của pháp luật</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos17">17. Agreement to Arbitrate</a></h5>
+                                                href="#tos17">17. Thỏa thuận trọng tài</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos18">18. Amendment and Termination</a></h5>
+                                                href="#tos18">18. Sửa đổi và Chấm dứt</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#tos19">19. Contact Us</a></h5>
+                                                href="#tos19">19. Liên hệ chúng tôi</a></h5>
                                     </div>
                                 </section>
                             </div>
@@ -959,509 +903,544 @@
                                 <section class="av_textblock_section " itemscope="itemscope"
                                          itemtype="https://schema.org/CreativeWork">
                                     <div class='avia_textblock  ' itemprop="text"><h6
-                                            style="font-weight: 200; color: #888888;">Last Updated: September 8,
-                                        2020</h6>
-                                        <p>These Website Terms of Use (“<strong>Terms of Use</strong>”) apply to all
-                                            websites operated and controlled by Intersections LLC or 44+ Technologies LLC
-                                            (“<strong>Aura</strong>” which may be herein referred to either as “we”;
-                                            “us”; “Aura”; and/or “Intersections” or “44+ Technologies”.</p>
-                                        <p>These Terms of Use set forth legally binding terms that govern and restrict
-                                            your use of the Sites. NOTE THAT THESE TERMS OF USE APPLY ONLY TO YOUR USE
-                                            OF THE SITES AND DO NOT PERTAIN TO ANY PRODUCTS OR SERVICES OFFERED ON THE
-                                            SITES OR OTHERWISE OFFERED BY AURA. The Terms of Use regarding your service
-                                            is available on the Legal page on www.aura.com.</p>
-                                        <p>YOUR AFFIRMATIVE ACT OF USING AND/OR REGISTERING WITH THE SITES SIGNIFIES
-                                            THAT YOU AGREE TO THE FOLLOWING TERMS OF USE. IF YOU DO NOT AGREE, DO NOT
-                                            USE AND/OR REGISTER WITH THE SITES.</p>
-                                        <p>You understand and agree that the Sites are semi-public and provided to you
-                                            on an AS IS and AS AVAILABLE basis. We disclaim all responsibility and
-                                            liability for the availability, timeliness, security or reliability of the
-                                            Sites. The opinions expressed on the Sites are not necessarily the opinions
-                                            of us and may or may not be totally accurate. We also reserve the right to
-                                            modify, suspend or discontinue the Sites with or without notice at any time
-                                            and without any liability to you.</p>
-                                        <p>Please note the arbitration provision set forth below, which may require you
-                                            to arbitrate any claims you may have against Aura on an individual basis.
-                                            EXCEPT WHERE AND TO THE EXTENT PROHIBITED BY LAW, WHICH MAY INCLUDE THE
-                                            PROVINCE OF QUEBEC,  ARBITRATION ON AN INDIVIDUAL BASIS MEANS THAT YOU WILL
-                                            NOT HAVE, AND YOU WAIVE, THE RIGHT FOR A JUDGE OR JURY TO DECIDE</p>
-                                        <p>YOUR CLAIMS, AND THAT YOU MAY NOT PROCEED IN A CLASS, CONSOLIDATED, OR
-                                            REPRESENTATIVE CAPACITY.</p>
-                                        <h4 id="tos1">1. Intellectual Property Ownership</h4>
-                                        <p>The Sites contain copyrighted material, trademarks and other proprietary
-                                            information, including comments, articles, information, catalogs, brochures,
-                                            data, text, software, photos, logos, video and graphics
-                                            (“<strong>Content</strong>”). All Content and intellectual property rights
-                                            in such Content are the sole property of Aura and its licensors.</p>
-                                        <p>Additionally, the names, trademarks, service marks, and logos of Aura belong
-                                            exclusively to Aura and are protected from reproduction, imitation, dilution
-                                            or confusing or misleading uses under national and international trademark
-                                            and copyright laws. All other trademarks, service marks, and logos
-                                            (including third-party product names) are the property of their respective
-                                            owners. The use or misuse of these trademarks is expressly prohibited, and
-                                            nothing stated or implied on these Sites confers on you any license or right
-                                            under any patent or trademark of Aura or any third party.</p>
-                                        <h4 id="tos2">2. Use of Aura Content</h4>
-                                        <p>You may only use the Sites and the Content offered on the Sites only for
-                                            INTERNAL OR PERSONAL purposes, and not for any commercial purposes.  Aura
-                                            authorizes you to view or download a single copy of the material on the
-                                            Sites solely for your internal or personal use so long as you do not remove
-                                            the copyright and other proprietary rights notices that were contained in
-                                            the Content. You may not use the Sites to sell a product or service;
-                                            however, you may use them to obtain information about potentially engaging
-                                            in business with us.</p>
-                                        <p>You may not copy, modify, distribute, upload, publish, transmit, display,
-                                            reproduce, transfer, post, participate in the transfer or sale, create
-                                            derivative works, or in any way exploit the Content of the Sites or any
-                                            portion of such Content without prior written consent of Aura. You may not
-                                            use any data mining, robots, or similar data gathering and extraction tools
-                                            on the Content, frame any portion of the Sites or Content, or reproduce,
-                                            reprint, copy, store, publicly display, broadcast, transmit, modify,
-                                            translate, port, publish, sublicense, assign, transfer, sell, loan, or
-                                            otherwise distribute the Content without our prior written consent. You may
-                                            not circumvent any mechanisms included in the Content for preventing the
-                                            unauthorized reproduction or distribution of the Content.  You are
-                                            responsible for all activities that may arise or occur to your system or
-                                            your network during your visit to any Site.</p>
-                                        <p>Any use of the Content not expressly permitted by these Terms of Use is a
-                                            breach of these Terms of Use and may violate U.S. or international
-                                            copyright, trademark, and/or other laws.  You shall not use the Sites for
-                                            any illegal purpose and you shall abide by all applicable local, state,
-                                            provincial, territorial, national, and international laws and
-                                            regulations.</p>
-                                        <p>If you violate these Terms of Use, your permission to use the Content
-                                            automatically terminates and you must immediately destroy any copies you
-                                            have made of any portion of the Content.</p>
-                                        <h4 id="tos3">3. Contributor Disclosure</h4>
-                                        <p>Certain contributors on the Sites are compensated to provide content on
-                                            topics of interest to the Sites’ users. Contributions that contain
-                                            endorsements of Aura products or services and are made by individuals with
-                                            material connections to Aura will be identified as such. While such
-                                            contributors may receive compensation, the content is editorial and based on
-                                            their opinions, findings, beliefs, or experiences on those topics, services,
-                                            or products. The views and opinions expressed within Aura blogs belong
-                                            purely to the authors. Any product, claim, statistic, quote or other
-                                            representation about a product or service should be verified with the
-                                            manufacturer, provider, or party in question.</p>
-                                        <h4 id="tos4">4. User Submissions, Forums and Public Areas</h4>
-                                        <p>Certain places within the Sites, such as forums, blog pages or other public
-                                            areas, may allow users to post comments or communications that are publicly
-                                            accessible and non-confidential. The content and communications posted
-                                            within these areas is largely controlled by our users. Aura, or the party
-                                            hosting such a public area, has no control over such content and cannot
-                                            guarantee the accuracy or reliability of any such content or communications.
-                                            Thus, the responsibility for what is posted on these pages of the Sites lies
-                                            with each user — you alone are responsible for material you post.</p>
-                                        <p>Neither Aura nor any third-party host of such a public area claims ownership
-                                            of any of the information or material that you transmit, distribute, post,
-                                            communicate, or store on, to, or through the Sites. Therefore, by submitting
-                                            any such material or communication to the Sites, you warrant that you own or
-                                            otherwise control all the rights to any content or communications submitted
-                                            by you to the Sites and that you will not upload or transmit any
-                                            communications or content of any type that infringes upon or violates any
-                                            rights of any party. By submitting communications or content to any part of
-                                            the Sites, you agree that such submission is non-confidential and is not
-                                            otherwise protected by any other law, including privacy, publicity,
-                                            copyright or trademark law.</p>
-                                        <p>By submitting communications or content to a public area of the Sites, you
-                                            agree that such submission is non-confidential for all purposes. You agree
-                                            to allow Aura and all other persons or organizations involved in the
-                                            operation of the Sites the right to transmit, monitor, retrieve, store, and
-                                            use your information in connection with the operation of the Sites. Aura
-                                            and/or one of its agents or partners reserves the right, but shall have no
-                                            obligation, to investigate the Sites or your use of the Sites in order to
-                                            (a) determine whether a violation of these Terms of Use has occurred, (b)
-                                            comply with any applicable law, regulation, legal process or governmental
-                                            request, or to (c) remove any postings, profiles, and to terminate your
-                                            ability to post to the service at any time without notice, in its sole
-                                            discretion. Aura also reserves the right to disclose any information
-                                            necessary to satisfy any applicable law, regulation, legal process, or
-                                            governmental request, or to edit, refuse to post, or to remove any
-                                            information or materials in whole or in part. Any use of the Content not
-                                            expressly permitted by these Terms of Use is a breach of these Terms of Use
-                                            and may violate U.S. or international copyright, trademark, and/or other
-                                            laws.</p>
-                                        <h4 id="tos5">5. License Grant</h4>
-                                        <p>If you submit information to any forms on the Sites, you will provide
-                                            complete, accurate and current information. You may not impersonate any
-                                            person or entity, misrepresent your affiliation with a person or entity, or
-                                            misrepresent the origin of any content you submit to us through the
-                                            Sites.</p>
-                                        <p>If you make any submission to or communications on the Sites, you
-                                            automatically grant, or warrant that the owner of such content has expressly
-                                            granted Aura, a royalty-free, perpetual, irrevocable, worldwide, unlimited,
-                                            nonexclusive license to use, reproduce, create derivative works from,
-                                            modify, publish, edit, translate, distribute, perform, and display the
-                                            communication or content material in any media or medium, or any form,
-                                            format, or forum now known or hereafter developed. Aura may sublicense its
-                                            rights through multiple tiers of sublicenses.</p>
-                                        <h4 id="tos6">6. Rules for Posting Questions and Comments in Forums and Public
-                                            Areas</h4>
-                                        <p>Aura does not control the content or communications of any of the public
-                                            areas on the Sites. However, Aura does have the right, but not the
-                                            obligation, to monitor public areas to ensure the content and communications
-                                            in such areas are within the spirit of the purpose of the Sites and do not
-                                            otherwise violate these Terms of Use.</p>
-                                        <p>Specifically, the following actions will constitute a material breach of
-                                            these Terms of Use:</p>
+                                            style="font-weight: 200; color: #888888;">Cập nhật lần cuối: ngày 8 tháng 9
+                                        năm 2020</h6>
+                                        <p>Các Điều khoản Sử dụng Trang web này (“<strong>Điều khoản Sử dụng</strong>”)
+                                            áp dụng cho tất cả các trang web do Intersections LLC hoặc 44+ Technologies
+                                            LLC điều hành và kiểm soát
+                                            (“<strong>Aura</strong>” mà ở đây có thể được gọi là “chúng tôi”; "chúng
+                                            ta"; "Aura"; và/hoặc “Intersections” hoặc “44+ Technologies”.</p>
+                                        <p>Các Điều khoản sử dụng này đặt ra các điều khoản ràng buộc về mặt pháp lý chi
+                                            phối và hạn chế việc bạn sử dụng Trang web. LƯU Ý RẰNG CÁC ĐIỀU KHOẢN SỬ
+                                            DỤNG NÀY CHỈ ÁP DỤNG CHO VIỆC BẠN SỬ DỤNG CÁC TRANG WEB VÀ KHÔNG LIÊN QUAN
+                                            ĐẾN BẤT KỲ SẢN PHẨM HOẶC DỊCH VỤ NÀO ĐƯỢC CUNG CẤP TRÊN CÁC TRANG WEB HOẶC
+                                            ĐƯỢC AURA CUNG CẤP. Điều khoản Sử dụng liên quan đến dịch vụ của bạn hiện có
+                                            trên trang Pháp lý trên www.aura.com.</p>
+                                        <p>HÀNH ĐỘNG KHẲNG ĐỊNH CỦA BẠN VỀ VIỆC SỬ DỤNG VÀ/HOẶC ĐĂNG KÝ VỚI CÁC TRANG
+                                            WEB BIỂU TƯỢNG RẰNG BẠN ĐỒNG Ý VỚI CÁC ĐIỀU KHOẢN SỬ DỤNG SAU. NẾU BẠN KHÔNG
+                                            ĐỒNG Ý, KHÔNG SỬ DỤNG VÀ/HOẶC ĐĂNG KÝ VỚI CÁC TRANG WEB.</p>
+                                        <p>Bạn hiểu và đồng ý rằng các Trang web là bán công khai và được cung cấp cho
+                                            bạn trên cơ sở NGUYÊN TRẠNG và CÓ SẴN. Chúng tôi từ chối mọi trách nhiệm và
+                                            trách nhiệm pháp lý đối với tính khả dụng, kịp thời, bảo mật hoặc độ tin cậy
+                                            của Trang web. Các ý kiến ​​được trình bày trên Trang web không nhất thiết
+                                            là ý kiến ​​của chúng tôi và có thể hoàn toàn chính xác hoặc không hoàn
+                                            toàn. Chúng tôi cũng bảo lưu quyền sửa đổi, đình chỉ hoặc ngừng cung cấp
+                                            Trang web có hoặc không có thông báo vào bất kỳ lúc nào và không chịu bất kỳ
+                                            trách nhiệm pháp lý nào đối với bạn.</p>
+                                        <p>Vui lòng lưu ý điều khoản phân xử được nêu dưới đây, điều khoản này có thể
+                                            yêu cầu bạn phân xử bất kỳ khiếu nại nào mà bạn có thể có đối với Aura trên
+                                            cơ sở cá nhân. NGOẠI TRỪ Ở ĐÂU VÀ TRONG PHẠM VI BỊ PHÁP LUẬT CẤM, MÀ CÓ THỂ
+                                            BAO GỒM TỈNH QUEBEC, PHÉP TRỌNG TÀI TRÊN CƠ SỞ CÁ NHÂN CÓ NGHĨA LÀ BẠN SẼ
+                                            KHÔNG CÓ VÀ BẠN TỪ BỎ QUYỀN ĐỂ THẨM PHÁN HOẶC BỒI THẨM QUYỀN QUYẾT ĐỊNH</p>
+                                        <p>KHIẾU NẠI CỦA BẠN, VÀ RẰNG BẠN KHÔNG ĐƯỢC TIẾP TỤC TRONG LỚP HỌC, HỢP NHẤT
+                                            HOẶC NĂNG LỰC ĐẠI DIỆN.</p>
+                                        <h4 id="tos1">1. Quyền sở hữu tài sản trí tuệ</h4>
+                                        <p>Trang web chứa tài liệu có bản quyền, thương hiệu và thông tin độc quyền
+                                            khác, bao gồm nhận xét, bài viết, thông tin, danh mục, tài liệu quảng cáo,
+                                            dữ liệu, văn bản, phần mềm, ảnh, logo, video và đồ họa
+                                            (“<strong>Nội dung</strong>”). Tất cả Nội dung và quyền sở hữu trí tuệ trong
+                                            Nội dung đó là tài sản duy nhất của Aura và người cấp phép cho Aura.</p>
+                                        <p>Ngoài ra, tên, thương hiệu, nhãn hiệu dịch vụ và logo của Aura hoàn toàn
+                                            thuộc về Aura và được bảo vệ khỏi việc sao chép, bắt chước, pha loãng hoặc
+                                            sử dụng gây nhầm lẫn hoặc gây nhầm lẫn theo luật bản quyền và thương hiệu
+                                            quốc gia và quốc tế. Tất cả các nhãn hiệu, nhãn hiệu dịch vụ và biểu tượng
+                                            khác (bao gồm tên sản phẩm của bên thứ ba) là tài sản của chủ sở hữu tương
+                                            ứng. Việc sử dụng hoặc lạm dụng các nhãn hiệu này bị nghiêm cấm rõ ràng và
+                                            không có nội dung nào được nêu hoặc ngụ ý trên các Trang web này trao cho
+                                            bạn bất kỳ giấy phép hoặc quyền nào theo bất kỳ bằng sáng chế hoặc nhãn hiệu
+                                            nào của Aura hoặc bất kỳ bên thứ ba nào.</p>
+                                        <h4 id="tos2">2. Sử dụng nội dung Aura</h4>
+                                        <p>Bạn chỉ có thể sử dụng Trang web và Nội dung được cung cấp trên Trang web chỉ
+                                            cho mục đích NỘI BỘ HOẶC CÁ NHÂN chứ không phải cho bất kỳ mục đích thương
+                                            mại nào. Aura cho phép bạn xem hoặc tải xuống một bản sao duy nhất của tài
+                                            liệu trên Trang web chỉ dành cho mục đích sử dụng nội bộ hoặc cá nhân của
+                                            bạn miễn là bạn không xóa bản quyền và các thông báo quyền sở hữu khác có
+                                            trong Nội dung. Bạn không được sử dụng Trang web để bán sản phẩm hoặc dịch
+                                            vụ; tuy nhiên, bạn có thể sử dụng chúng để lấy thông tin về khả năng tham
+                                            gia kinh doanh với chúng tôi.</p>
+                                        <p>Bạn không được sao chép, sửa đổi, phân phối, tải lên, xuất bản, truyền tải,
+                                            hiển thị, sao chép, chuyển nhượng, đăng tải, tham gia vào việc chuyển nhượng
+                                            hoặc bán, tạo các tác phẩm phái sinh hoặc khai thác Nội dung của Trang web
+                                            hoặc bất kỳ phần nào của Nội dung đó theo bất kỳ cách nào mà không có sự
+                                            đồng ý trước bằng văn bản của Aura. Bạn không được sử dụng bất kỳ công cụ
+                                            khai thác dữ liệu, rô bốt hoặc công cụ trích xuất và thu thập dữ liệu tương
+                                            tự nào trên Nội dung, tạo khung cho bất kỳ phần nào của Trang web hoặc Nội
+                                            dung hoặc sao chép, in lại, sao chép, lưu trữ, hiển thị công khai, phát
+                                            sóng, truyền tải, sửa đổi, dịch, cổng, xuất bản, cấp phép lại, chuyển
+                                            nhượng, chuyển nhượng, bán, cho mượn hoặc phân phối Nội dung mà không có sự
+                                            đồng ý trước bằng văn bản của chúng tôi. Bạn không được phá vỡ bất kỳ cơ chế
+                                            nào có trong Nội dung để ngăn chặn việc sao chép hoặc phân phối trái phép
+                                            Nội dung. Bạn chịu trách nhiệm cho tất cả các hoạt động có thể phát sinh
+                                            hoặc xảy ra với hệ thống hoặc mạng của bạn trong khi bạn truy cập vào bất kỳ
+                                            Trang web nào.</p>
+                                        <p>Bất kỳ việc sử dụng Nội dung nào không được các Điều khoản Sử dụng này cho
+                                            phép rõ ràng là vi phạm các Điều khoản Sử dụng này và có thể vi phạm bản
+                                            quyền, nhãn hiệu và/hoặc các luật khác của Hoa Kỳ hoặc quốc tế. Bạn không
+                                            được sử dụng Trang web cho bất kỳ mục đích bất hợp pháp nào và bạn phải tuân
+                                            thủ tất cả các luật và quy định hiện hành của địa phương, tiểu bang, tỉnh,
+                                            lãnh thổ, quốc gia và quốc tế.</p>
+                                        <p>Nếu bạn vi phạm các Điều khoản Sử dụng này, quyền sử dụng Nội dung của bạn sẽ
+                                            tự động chấm dứt và bạn phải hủy ngay lập tức mọi bản sao mà bạn đã tạo từ
+                                            bất kỳ phần nào của Nội dung.</p>
+                                        <h4 id="tos3">3. Tiết lộ cộng tác viên</h4>
+                                        <p>Một số người đóng góp trên Trang web được trả thù lao để cung cấp nội dung về
+                                            các chủ đề mà người dùng Trang web quan tâm. Những đóng góp có chứa sự chứng
+                                            thực cho các sản phẩm hoặc dịch vụ của Aura và được thực hiện bởi các cá
+                                            nhân có mối liên hệ quan trọng với Aura sẽ được xác định như vậy. Mặc dù
+                                            những người đóng góp như vậy có thể nhận được thù lao nhưng nội dung là do
+                                            biên tập và dựa trên ý kiến, phát hiện, niềm tin hoặc kinh nghiệm của họ về
+                                            các chủ đề, dịch vụ hoặc sản phẩm đó. Các quan điểm và ý kiến thể hiện trong
+                                            các blog của Aura hoàn toàn thuộc về các tác giả. Mọi sản phẩm, tuyên bố,
+                                            thống kê, trích dẫn hoặc đại diện khác về sản phẩm hoặc dịch vụ phải được
+                                            xác minh với nhà sản xuất, nhà cung cấp hoặc bên liên quan.</p>
+                                        <h4 id="tos4">4. Nội dung gửi của người dùng, Diễn đàn và Khu vực công cộng</h4>
+                                        <p>Một số nơi trong Trang web, chẳng hạn như diễn đàn, trang blog hoặc các khu
+                                            vực công cộng khác, có thể cho phép người dùng đăng nhận xét hoặc thông tin
+                                            liên lạc có thể truy cập công khai và không bảo mật. Nội dung và thông tin
+                                            liên lạc được đăng trong các khu vực này phần lớn do người dùng của chúng
+                                            tôi kiểm soát. Aura, hoặc bên tổ chức khu vực công cộng như vậy, không có
+                                            quyền kiểm soát nội dung đó và không thể đảm bảo tính chính xác hoặc độ tin
+                                            cậy của bất kỳ nội dung hoặc thông tin liên lạc nào như vậy. Do đó, trách
+                                            nhiệm đối với những gì được đăng trên các trang này của Trang web thuộc về
+                                            mỗi người dùng — một mình bạn chịu trách nhiệm về tài liệu bạn đăng.</p>
+                                        <p>Cả Aura và bất kỳ máy chủ lưu trữ bên thứ ba nào của khu vực công cộng như
+                                            vậy đều không yêu cầu quyền sở hữu đối với bất kỳ thông tin hoặc tài liệu
+                                            nào mà bạn truyền tải, phân phối, đăng, liên lạc hoặc lưu trữ trên, tới hoặc
+                                            thông qua Trang web. Do đó, bằng cách gửi bất kỳ tài liệu hoặc thông tin
+                                            liên lạc nào như vậy đến Trang web, bạn đảm bảo rằng bạn sở hữu hoặc kiểm
+                                            soát tất cả các quyền đối với bất kỳ nội dung hoặc thông tin liên lạc nào do
+                                            bạn gửi đến Trang web và bạn sẽ không tải lên hoặc truyền tải bất kỳ thông
+                                            tin liên lạc hoặc nội dung nào thuộc bất kỳ loại nào. xâm phạm hoặc vi phạm
+                                            bất kỳ quyền nào của bất kỳ bên nào. Bằng cách gửi thông tin liên lạc hoặc
+                                            nội dung tới bất kỳ phần nào của Trang web, bạn đồng ý rằng việc gửi đó là
+                                            không bí mật và không được bảo vệ bởi bất kỳ luật nào khác, bao gồm luật
+                                            riêng tư, công khai, bản quyền hoặc nhãn hiệu.</p>
+                                        <p>Bằng cách gửi thông tin liên lạc hoặc nội dung đến một khu vực công cộng của
+                                            Trang web, bạn đồng ý rằng việc gửi đó là không bí mật cho mọi mục đích. Bạn
+                                            đồng ý cho phép Aura và tất cả những người hoặc tổ chức khác tham gia vào
+                                            hoạt động của Trang web có quyền truyền tải, giám sát, truy xuất, lưu trữ và
+                                            sử dụng thông tin của bạn liên quan đến hoạt động của Trang web. Aura
+                                            và/hoặc một trong các đại lý hoặc đối tác của Aura bảo lưu quyền, nhưng
+                                            không có nghĩa vụ, điều tra Trang web hoặc việc bạn sử dụng Trang web để (a)
+                                            xác định xem có vi phạm Điều khoản sử dụng này hay không, (b ) tuân thủ mọi
+                                            luật, quy định, quy trình pháp lý hiện hành hoặc yêu cầu của chính phủ hoặc
+                                            để (c) xóa mọi bài đăng, hồ sơ và chấm dứt khả năng đăng lên dịch vụ của bạn
+                                            bất cứ lúc nào mà không cần thông báo, theo quyết định riêng của mình. Aura
+                                            cũng có quyền tiết lộ bất kỳ thông tin cần thiết nào để đáp ứng bất kỳ luật,
+                                            quy định, quy trình pháp lý hoặc yêu cầu nào của chính phủ hiện hành, hoặc
+                                            quyền chỉnh sửa, từ chối đăng hoặc loại bỏ toàn bộ hoặc một phần bất kỳ
+                                            thông tin hoặc tài liệu nào. Bất kỳ việc sử dụng Nội dung nào không được các
+                                            Điều khoản Sử dụng này cho phép rõ ràng là vi phạm các Điều khoản Sử dụng
+                                            này và có thể vi phạm bản quyền, nhãn hiệu và/hoặc các luật khác của Hoa Kỳ
+                                            hoặc quốc tế.</p>
+                                        <h4 id="tos5">5. Cấp giấy phép</h4>
+                                        <p>Nếu bạn gửi thông tin cho bất kỳ biểu mẫu nào trên Trang web, bạn sẽ cung cấp
+                                            thông tin đầy đủ, chính xác và hiện tại. Bạn không được mạo danh bất kỳ cá
+                                            nhân hoặc tổ chức nào, xuyên tạc mối quan hệ của bạn với một cá nhân hoặc tổ
+                                            chức hoặc xuyên tạc nguồn gốc của bất kỳ nội dung nào bạn gửi cho chúng tôi
+                                            thông qua Trang web.</p>
+                                        <p>Nếu bạn gửi bất kỳ nội dung nào tới hoặc liên lạc trên Trang web, bạn sẽ tự
+                                            động cấp hoặc đảm bảo rằng chủ sở hữu nội dung đó đã cấp cho Aura một cách
+                                            rõ ràng, giấy phép miễn phí bản quyền, vĩnh viễn, không thể thu hồi, trên
+                                            toàn thế giới, không giới hạn, không độc quyền để sử dụng, sao chép, tạo các
+                                            sản phẩm phái sinh từ, sửa đổi, xuất bản, chỉnh sửa, dịch, phân phối, thực
+                                            hiện và hiển thị tài liệu truyền thông hoặc nội dung trong bất kỳ phương
+                                            tiện hoặc phương tiện nào, hoặc bất kỳ hình thức, định dạng hoặc diễn đàn
+                                            nào hiện được biết đến hoặc sau này được phát triển. Aura có thể cấp phép
+                                            lại các quyền của mình thông qua nhiều cấp phép phụ.</p>
+                                        <h4 id="tos6">6. Quy tắc đăng câu hỏi và bình luận trong diễn đàn và khu vực
+                                            công cộng</h4>
+                                        <p>Aura không kiểm soát nội dung hoặc thông tin liên lạc của bất kỳ khu vực công
+                                            cộng nào trên Trang web. Tuy nhiên, Aura có quyền, nhưng không có nghĩa vụ,
+                                            giám sát các khu vực công cộng để đảm bảo nội dung và thông tin liên lạc ở
+                                            những khu vực đó phù hợp với mục đích của Trang web và không vi phạm các
+                                            Điều khoản Sử dụng này.</p>
+                                        <p>Cụ thể, các hành động sau đây sẽ cấu thành vi phạm nghiêm trọng các Điều
+                                            khoản sử dụng này:</p>
                                         <ul role="list">
-                                            <li>Posts that contain your full name(s), or any other confidential
-                                                identifiable information of yourself or others;
+                                            <li>Các bài đăng chứa (các) tên đầy đủ của bạn hoặc bất kỳ thông tin nhận
+                                                dạng bí mật nào khác của bạn hoặc của người khác;
                                             </li>
-                                            <li>Using a public area for any purpose in violation of local, state,
-                                                federal, or international laws;
+                                            <li>Sử dụng khu vực công cộng cho bất kỳ mục đích nào vi phạm luật pháp địa
+                                                phương, tiểu bang, liên bang hoặc quốc tế;
                                             </li>
-                                            <li>Posting material that infringes on the rights of others, including
-                                                copyrights, trademarks, trade secrets, publicity or privacy rights;
+                                            <li>Đăng tài liệu vi phạm quyền của người khác, bao gồm bản quyền, thương
+                                                hiệu, bí mật thương mại, quyền công khai hoặc quyền riêng tư;
                                             </li>
-                                            <li>Posting material that is unlawful, obscene,derogatory, defamatory,
-                                                threatening, harassing, abusive, slanderous, hateful, or embarrassing to
-                                                any other person or entity as determined by Aura in its sole discretion;
+                                            <li>Đăng tài liệu bất hợp pháp, tục tĩu, xúc phạm, phỉ báng, đe dọa, quấy
+                                                rối, lạm dụng, vu khống, thù hận hoặc gây xấu hổ cho bất kỳ cá nhân hoặc
+                                                tổ chức nào khác theo quyết định riêng của Aura;
                                             </li>
-                                            <li>Posting advertisements, solicitations or spam links to other websites or
-                                                individuals, without prior written permission from Aura;
+                                            <li>Đăng quảng cáo, chào mời hoặc liên kết spam đến các trang web hoặc cá
+                                                nhân khác mà không có sự cho phép trước bằng văn bản của Aura;
                                             </li>
-                                            <li>Posting chain letters or pyramid schemes;</li>
-                                            <li>Impersonating another business, person or entity, including Aura, its
-                                                related entities, employees and agents;
+                                            <li>Đăng chuỗi thư hoặc sơ đồ kim tự tháp;</li>
+                                            <li>Mạo danh một doanh nghiệp, cá nhân hoặc tổ chức khác, bao gồm Aura, các
+                                                tổ chức, nhân viên và đại lý có liên quan của Aura;
                                             </li>
-                                            <li>Registering under more than one name and/or e-mail address;</li>
-                                            <li>Distributing viruses or other harmful computer code;</li>
-                                            <li>Harvesting or otherwise collecting information about others, including
-                                                email addresses, without their consent;
+                                            <li>Đăng ký dưới nhiều tên và/hoặc địa chỉ email;</li>
+                                            <li>Phát tán vi-rút hoặc mã máy tính có hại khác;</li>
+                                            <li>Thu thập hoặc thu thập thông tin về người khác, bao gồm cả địa chỉ
+                                                email, mà không có sự đồng ý của họ;
                                             </li>
-                                            <li>Allowing any other person or entity to use your identification for
-                                                posting or viewing comments;
+                                            <li>Cho phép bất kỳ cá nhân hoặc tổ chức nào khác sử dụng thông tin nhận
+                                                dạng của bạn để đăng hoặc xem bình luận;
                                             </li>
-                                            <li>Posting any communications that victimizes, harasses, degrades, or
-                                                intimidates an individual or group of individuals on the basis of
-                                                religion, gender, sexual orientation, race, ethnicity, age or
-                                                disability;
+                                            <li>Đăng bất kỳ thông tin liên lạc nào làm nạn nhân, quấy rối, hạ thấp phẩm
+                                                giá hoặc đe dọa một cá nhân hoặc một nhóm cá nhân trên cơ sở tôn giáo,
+                                                giới tính, khuynh hướng tình dục, chủng tộc, dân tộc, tuổi tác hoặc
+                                                khuyết tật;
                                             </li>
-                                            <li>Engaging in any other conduct that restricts or inhibits any other
-                                                person from using or enjoying the public area or the Sites, or which, in
-                                                the judgment of Aura, exposes Aura or any of its customers, partners or
-                                                suppliers to any liability or detriment of any type; and/or
+                                            <li>Tham gia vào bất kỳ hành vi nào khác hạn chế hoặc ngăn cản bất kỳ người
+                                                nào khác sử dụng hoặc tận hưởng khu vực công cộng hoặc Trang web, hoặc
+                                                theo đánh giá của Aura, khiến Aura hoặc bất kỳ khách hàng, đối tác hoặc
+                                                nhà cung cấp nào của Aura phải chịu bất kỳ trách nhiệm pháp lý hoặc
+                                                phương hại nào kiểu; và/hoặc
                                             </li>
-                                            <li>After receiving a warning, continuing to disrupt the normal flow of
-                                                dialogue, or posting comments that are not related to the topic being
-                                                discussed (unless it is clear the discussion is free-form).
+                                            <li>Sau khi nhận được cảnh báo, tiếp tục làm gián đoạn luồng đối thoại bình
+                                                thường hoặc đăng nhận xét không liên quan đến chủ đề đang được thảo luận
+                                                (trừ khi rõ ràng cuộc thảo luận là ở dạng tự do).
                                             </li>
                                         </ul>
-                                        <p>Users who violate these provisions shall be liable for any claim, action,
-                                            damage or harm caused to Aura, the user and any other injured party.
-                                            Furthermore, Aura may terminate the account of any person who violates these
-                                            Terms of Use and the rules provided above. Alternatively, we shall have the
-                                            right in our sole discretion to edit or remove any material submitted to the
-                                            Sites for any reason, including material that we, in our sole discretion,
-                                            find to be in violation of the provisions hereof, or otherwise objectionable
-                                            or stale.</p>
-                                        <p>Notwithstanding this right of ours, users shall remain solely responsible for
-                                            the content of their messages. You acknowledge and agree that neither us nor
-                                            any of our affiliates shall assume or have any liability for any action or
-                                            inaction by us with respect to any conduct by users within the Sites or any
-                                            communication or posting on the Sites.</p>
-                                        <h4 id="tos7">7. Use of RSS and Comment Feeds</h4>
-                                        <p>BY DOWNLOADING, USING, OR SUBSCRIBING TO AN RSS FEED OR COMMENT FEED
+                                        <p>Người dùng vi phạm các điều khoản này sẽ phải chịu trách nhiệm pháp lý đối
+                                            với bất kỳ khiếu nại, hành động, thiệt hại hoặc tổn hại nào gây ra cho Aura,
+                                            người dùng và bất kỳ bên bị thương nào khác. Hơn nữa, Aura có thể chấm dứt
+                                            tài khoản của bất kỳ người nào vi phạm các Điều khoản sử dụng này và các quy
+                                            tắc được cung cấp ở trên. Ngoài ra, chúng tôi có quyền tùy ý chỉnh sửa hoặc
+                                            xóa bất kỳ tài liệu nào được gửi đến Trang web vì bất kỳ lý do gì, kể cả tài
+                                            liệu mà chúng tôi, theo quyết định riêng của chúng tôi, thấy là vi phạm các
+                                            quy định của tài liệu này hoặc có thể bị phản đối hoặc cũ .</p>
+                                        <p>Bất kể quyền này của chúng tôi, người dùng sẽ vẫn tự chịu trách nhiệm về nội
+                                            dung tin nhắn của họ. Bạn thừa nhận và đồng ý rằng cả chúng tôi và bất kỳ
+                                            chi nhánh nào của chúng tôi đều không đảm nhận hoặc có bất kỳ trách nhiệm
+                                            pháp lý nào đối với bất kỳ hành động hoặc không hành động nào của chúng tôi
+                                            đối với bất kỳ hành vi nào của người dùng trong Trang web hoặc bất kỳ thông
+                                            tin liên lạc hoặc đăng tải nào trên Trang web.</p>
+                                        <h4 id="tos7">7. Sử dụng nguồn cấp dữ liệu RSS và nhận xét</h4>
+                                        <p>BẰNG CÁCH TẢI XUỐNG, SỬ DỤNG HOẶC ĐĂNG KÝ ĐẾN MỘT RSS Feed HOẶC COMMENT Feed
                                             (“<strong>FEEDS</strong>”) FROM THE SITES, YOU AGREE THAT YOUR USE OF THE
                                             FEEDS WILL BE GOVERNED BY THESE TERMS OF USE. PLEASE REVIEW THIS SECTION
                                             BEFORE USING, DOWNLOADING, OR SUBSCRIBING TO A FEED.</p>
-                                        <p>Aura grants you a non-transferable, non-sublicensable, royalty free
-                                            non-exclusive license to display on your website or in your newsreader
-                                            platform the headlines, active links, and other information or materials
-                                            that you specifically select to receive via the Feeds. The Feeds are
-                                            protected by U.S. and international copyright laws. All rights in and to
-                                            these Feeds, including the content and technology, are reserved to Aura
-                                            and/or Intersections LLC.</p>
-                                        <p>The Feeds may be used only with those platforms and newsreaders from which a
-                                            functional link is made available that, when accessed, takes the viewer
-                                            directly to the display of the full article on one of the Sites. You
-                                            understand and agree that the Feeds that are provided may include footers to
-                                            assure proper attribution for the content.</p>
-                                        <p>By using the Feeds, you agree not to:</p>
+                                        <p>Aura cấp cho bạn giấy phép không độc quyền, không thể chuyển nhượng, không
+                                            thể cấp phép lại, miễn phí tiền bản quyền để hiển thị trên trang web của bạn
+                                            hoặc trong nền tảng trình đọc tin tức của bạn các tiêu đề, liên kết hoạt
+                                            động và thông tin hoặc tài liệu khác mà bạn chọn cụ thể để nhận qua Nguồn
+                                            cấp dữ liệu. Nguồn cấp dữ liệu được bảo vệ bởi luật bản quyền của Hoa Kỳ và
+                                            quốc tế. Tất cả các quyền trong và đối với các Nguồn cấp dữ liệu này, bao
+                                            gồm cả nội dung và công nghệ, đều thuộc về Aura và/hoặc Intersections
+                                            LLC.</p>
+                                        <p>Nguồn cấp dữ liệu chỉ có thể được sử dụng với những nền tảng và trình đọc tin
+                                            tức có sẵn một liên kết chức năng mà khi được truy cập, sẽ đưa người xem
+                                            trực tiếp đến phần hiển thị toàn bộ bài báo trên một trong các Trang web.
+                                            Bạn hiểu và đồng ý rằng Nguồn cấp dữ liệu được cung cấp có thể bao gồm phần
+                                            chân trang để đảm bảo ghi công phù hợp cho nội dung.</p>
+                                        <p>Bằng cách sử dụng Nguồn cấp dữ liệu, bạn đồng ý không:</p>
                                         <ul role="list">
-                                            <li>Display the Feeds in a manner that does not permit successful linking to
-                                                or direction to our Sites;
+                                            <li>Hiển thị Nguồn cấp dữ liệu theo cách không cho phép liên kết thành công
+                                                hoặc hướng đến Trang web của chúng tôi;
                                             </li>
-                                            <li>Insert any intermediate page or other content between the link displayed
-                                                on your website and the landing page for the content on our Sites;
+                                            <li>Chèn bất kỳ trang trung gian nào hoặc nội dung khác giữa liên kết được
+                                                hiển thị trên trang web của bạn và trang đích cho nội dung trên Trang
+                                                web của chúng tôi;
                                             </li>
-                                            <li>Edit, modify, alter, or create derivative works of the text, content or
-                                                links supplied by us;
+                                            <li>Chỉnh sửa, sửa đổi, thay đổi hoặc tạo các tác phẩm phái sinh từ văn bản,
+                                                nội dung hoặc liên kết do chúng tôi cung cấp;
                                             </li>
-                                            <li>Use any robot, spider, other device or manual process to monitor or copy
-                                                any content from the Feeds;
+                                            <li>Sử dụng bất kỳ rô-bốt, nhện, thiết bị khác hoặc quy trình thủ công nào
+                                                để giám sát hoặc sao chép bất kỳ nội dung nào từ Nguồn cấp dữ liệu;
                                             </li>
-                                            <li>Sell, retransmit, or commercially exploit the Feeds, headlines or
-                                                content in any manner except as expressly permitted by us in writing;
+                                            <li>Bán, truyền lại hoặc khai thác thương mại Nguồn cấp dữ liệu, tiêu đề
+                                                hoặc nội dung theo bất kỳ cách nào trừ khi được chúng tôi cho phép rõ
+                                                ràng bằng văn bản;
                                             </li>
-                                            <li>Incorporate advertising into the Feeds as displayed on your site; or Use
-                                                the Feeds for any unlawful purpose or in violation of the rights of
-                                                others.
+                                            <li>Kết hợp quảng cáo vào Nguồn cấp dữ liệu như được hiển thị trên trang web
+                                                của bạn; hoặc Sử dụng Nguồn cấp dữ liệu cho bất kỳ mục đích bất hợp pháp
+                                                nào hoặc vi phạm quyền của người khác.
                                             </li>
                                         </ul>
-                                        <p>By using the Feeds, you also agree not to use the Feeds on the following
-                                            categories of websites:</p>
+                                        <p>Bằng cách sử dụng Nguồn cấp dữ liệu, bạn cũng đồng ý không sử dụng Nguồn cấp
+                                            dữ liệu trên các danh mục trang web sau:</p>
                                         <ul role="list">
-                                            <li>Sites that incite hatred whether based on race, religion, gender,
-                                                sexuality, or otherwise;
+                                            <li>Các trang web kích động hận thù cho dù dựa trên chủng tộc, tôn giáo,
+                                                giới tính, tình dục hay các yếu tố khác;
                                             </li>
-                                            <li>Sites that promote, encourage or facilitate violence;</li>
-                                            <li>Sites that discriminate against any specific social group;</li>
-                                            <li>Sites that promote, facilitate, or encourage illegal activity; or</li>
-                                            <li>Sites which are misleading, pornographic, defamatory or that contain
-                                                illegal or otherwise actionable content under applicable law.
+                                            <li>Các trang web quảng bá, khuyến khích hoặc tạo điều kiện cho bạo lực;
+                                            </li>
+                                            <li>Các trang web phân biệt đối xử với bất kỳ nhóm xã hội cụ thể nào;</li>
+                                            <li>Các trang web quảng bá, tạo điều kiện hoặc khuyến khích hoạt động bất
+                                                hợp pháp; hoặc
+                                            </li>
+                                            <li>Các trang web gây hiểu nhầm, khiêu dâm, phỉ báng hoặc chứa nội dung bất
+                                                hợp pháp hoặc có thể bị kiện theo luật hiện hành.
                                             </li>
                                         </ul>
-                                        <p>We may restrict, suspend, or terminate the Feeds, the license granted above,
-                                            or your access to the Feeds at any time for any reason including, without
-                                            limitation, your violation of any provision of these Terms of Use without
-                                            liability. You agree to destroy all copies of the Feeds (including removing
-                                            all content supplied by the Feeds from any website) upon receiving notice of
-                                            termination from us.</p>
-                                        <h4 id="tos8">8. Enforcement of these Terms of Use</h4>
-                                        <p>In the event that any of the terms of these Terms of Use have been breached
-                                            or any rule stated above violated, Aura reserves the right (but is not
-                                            obligated) to do any or all of the following:</p>
+                                        <p>Chúng tôi có thể hạn chế, đình chỉ hoặc chấm dứt Nguồn cấp dữ liệu, giấy phép
+                                            được cấp ở trên hoặc quyền truy cập của bạn vào Nguồn cấp dữ liệu bất kỳ lúc
+                                            nào vì bất kỳ lý do nào, bao gồm nhưng không giới hạn ở việc bạn vi phạm bất
+                                            kỳ điều khoản nào trong Điều khoản sử dụng này mà không phải chịu trách
+                                            nhiệm pháp lý. Bạn đồng ý hủy tất cả các bản sao của Nguồn cấp dữ liệu (bao
+                                            gồm xóa tất cả nội dung do Nguồn cấp dữ liệu cung cấp khỏi bất kỳ trang web
+                                            nào) khi nhận được thông báo chấm dứt từ chúng tôi.</p>
+                                        <h4 id="tos8">8. Thực thi các Điều khoản sử dụng này</h4>
+                                        <p>Trong trường hợp bất kỳ điều khoản nào trong Điều khoản sử dụng này bị vi
+                                            phạm hoặc bất kỳ quy tắc nào nêu trên bị vi phạm, Aura bảo lưu quyền (nhưng
+                                            không bắt buộc) thực hiện bất kỳ hoặc tất cả những điều sau:</p>
                                         <ul role="list">
-                                            <li>Record the dialogue in public areas on the Sites.</li>
-                                            <li>Investigate an allegation that a communication does not conform to these
-                                                Terms of Use and determine in its sole discretion to remove or request
-                                                the removal of the communication.
+                                            <li>Ghi lại cuộc đối thoại ở các khu vực công cộng trên Trang web.</li>
+                                            <li>Điều tra cáo buộc rằng một thông tin liên lạc không tuân thủ các Điều
+                                                khoản sử dụng này và xác định theo quyết định riêng của mình để xóa hoặc
+                                                yêu cầu xóa thông tin liên lạc.
                                             </li>
-                                            <li>Remove communications that it determines, in its sole discretion, to be
-                                                abusive, illegal, or disruptive, or that otherwise fail to conform to
-                                                these Terms of Use.
+                                            <li>Xóa các thông tin liên lạc mà nó xác định, theo quyết định riêng của
+                                                mình, là lạm dụng, bất hợp pháp hoặc gây rối hoặc không tuân thủ các
+                                                Điều khoản sử dụng này.
                                             </li>
-                                            <li>Terminate a user’s access to any portions or pages of the Sites.</li>
-                                            <li>Monitor, edit, or disclose any communication made on or through the
-                                                Sites.
+                                            <li>Chấm dứt quyền truy cập của người dùng vào bất kỳ phần hoặc trang nào
+                                                của Trang web.
                                             </li>
-                                            <li>Edit or delete any communication posted on the Sites, regardless of
-                                                whether such communication violates these Terms of Use.
+                                            <li>Giám sát, chỉnh sửa hoặc tiết lộ bất kỳ thông tin liên lạc nào được thực
+                                                hiện trên hoặc thông qua Trang web.
+                                            </li>
+                                            <li>Chỉnh sửa hoặc xóa bất kỳ thông tin liên lạc nào được đăng trên Trang
+                                                web, bất kể thông tin liên lạc đó có vi phạm các Điều khoản Sử dụng này
+                                                hay không.
                                             </li>
                                         </ul>
-                                        <p>Aura reserves the right to take any other action it deems necessary to
-                                            protect the personal safety of our guests, visitors, or the public.</p>
-                                        <h4 id="tos9">9. Disclaimer of Warranties</h4>
-                                        <p>EXCEPT WHERE AND TO THE EXTENT PROHIBITED BY LAW, THE SITES ARE PROVIDED “AS
-                                            IS”. AURA MAKES NO REPRESENTATION OR WARRANTY OF ANY KIND WHATSOEVER TO YOU
-                                            OR ANY OTHER PERSON RELATING IN ANY WAY TO THE SITES, OR ANY WEBSITE OR THAT
-                                            MAY BE ACCESSIBLE DIRECTLY OR INDIRECTLY THROUGH THE SITES, TO THE EXTENT
-                                            PERMITTED BY LAW. AURA DISCLAIMS IMPLIED WARRANTIES THAT THE SITES ARE
-                                            MERCHANTABLE, OF SATISFACTORY QUALITY, ACCURATE, TIMELY, FIT FOR A
-                                            PARTICULAR PURPOSE OR NEED, OR NON-INFRINGING. NO ORAL OR WRITTEN
-                                            INFORMATION OR ADVICE GIVEN BY AURA OR A REPRESENTATIVE SHALL CREATE A
-                                            WARRANTY. AURA MAY MAKE CHANGES OR IMPROVEMENTS TO THE CONTENT AND
-                                            FUNCTIONALITY OF THE SITES AT ANY TIME, WITHOUT PRIOR NOTICE TO YOU.</p>
-                                        <p>When using the Sites, information will be transmitted over a medium which is
-                                            beyond the control and jurisdiction of Aura, its partners, advertisers, and
-                                            sponsors. Accordingly, Aura assumes no liability for or relating to the
-                                            delay, failure, interruption, or corruption of any data or other information
-                                            transmitted in connection with use of the Sites. WE DO NOT GUARANTEE THAT
-                                            THE SITES WILL MEET YOUR REQUIREMENTS, OR THAT THEY ARE ERROR-FREE,
-                                            RELIABLE, WITHOUT INTERRUPTION OR AVAILABLE AT ALL TIMES. WE DO NOT
-                                            GUARANTEE THAT YOU WILL BE ABLE TO ACCESS OR USE THE SITES (EITHER DIRECTLY
-                                            OR THROUGH THIRD-PARTY NETWORKS) AT ALL TIMES OR LOCATIONS OF YOUR
-                                            CHOOSING.</p>
-                                        <p>FURTHER, AURA DOES NOT ENDORSE AND MAKES NO WARRANTY REGARDING THE ACCURACY
-                                            OR RELIABILITY OF ANY OPINION, INFORMATION, ADVICE OR STATEMENT ON THE
-                                            SITES. IT IS YOUR RESPONSIBILITY TO EVALUATE THE ACCURACY, COMPLETENESS OR
-                                            USEFULNESS OF ANY INFORMATION, OPINION, ADVICE OR OTHER CONTENT AVAILABLE
-                                            THROUGH THE SITES. PLEASE SEEK THE ADVICE OF PROFESSIONALS, AS APPROPRIATE,
-                                            REGARDING THE EVALUATION OF ANY SPECIFIC INFORMATION, OPINION, ADVICE OR
-                                            OTHER CONTENT ON THE SITES.</p>
-                                        <h4 id="tos10">10. Indemnity and Limitation of Liability</h4>
-                                        <p>You indemnify and hold Aura and its affiliates, officers, directors,
-                                            employees, and agents harmless from any claim or demand, including, without
-                                            limitation, reasonable legal fees, made by any third party due to or arising
-                                            out of your breach of these Terms of Use, or your breach of any law or the
-                                            rights of a third party. Aura may, at your expense, assume the exclusive
-                                            defense and control of any matter for which you are required to indemnify
-                                            Aura, and you agree to cooperate with Aura&#8217;s defense of these claims.
-                                            Aura will use reasonable efforts to notify you of any such claim, action, or
-                                            proceeding upon becoming aware of it.</p>
-                                        <p>Except where and to the extent prohibited by law, in no event shall Aura, its
-                                            partners, sponsors, advertisers, agents or licensors, or any third parties
-                                            mentioned on the Sites be liable for any damages (including, without
-                                            limitation, incidental, consequential or other indirect damages, personal
-                                            injury/wrongful death, lost profits, or damages resulting from lost data or
-                                            business interruption) resulting from the use or inability to use the Sites,
-                                            whether based on warranty, contract, tort, or any other legal theory, and
-                                            whether or not Aura is advised of the possibility of such damages. Except
-                                            where and to the extent prohibited by law, Aura is not liable for any
-                                            personal injury, including death, caused by your use or misuse of the Sites
-                                            or public areas.</p>
-                                        <p>YOUR SOLE AND EXCLUSIVE REMEDY FOR ANY DISPUTE WITH AURA IS TO DISCONTINUE
-                                            YOUR USE OF THE SITES. IN NO EVENT SHALL AURA BE LIABLE FOR ANY INDIRECT,
-                                            INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES OF ANY KIND,
-                                            INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM LOSS OF USE, DATA,
-                                            REVENUES, OR PROFITS, WHETHER OR NOT AURA HAS BEEN ADVISED OF THE
-                                            POSSIBILITY OF SUCH DAMAGES OR LOSSES, ON ANY THEORY OF LIABILITY, ARISING
-                                            OUT OF OR IN CONNECTION WITH ACCESS TO, USE, OR PERFORMANCE OF THE SITES,
-                                            FAILURE OF THE SITES TO OPERATE, OR ANY CONTENT OR OTHER INFORMATION
-                                            PROVIDED IN CONNECTION WITH THE SITES. THESE LIMITATIONS SHALL APPLY
-                                            NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. IN
-                                            NO EVENT WILL THE TOTAL LIABILITY OF AURA OR ITS AFFILIATES, CONTRACTORS,
-                                            EMPLOYEES, AGENTS, OR THIRD PARTY PARTNERS, LICENSORS, OR SUPPLIERS TO YOU
-                                            FOR ALL DAMAGES, LOSSES, CLAIMS, AND CAUSES OF ACTION ARISING OUT OF OR
-                                            RELATING TO THESE TERMS OF USE OR YOUR USE OF THE SITES EXCEED TWENTY FIVE
-                                            DOLLARS. YOUR ACCEPTANCE OF THIS LIMITATION OF LIABILITY IS AN ESSENTIAL
-                                            TERM OF THESE TERMS OF USE.</p>
-                                        <h4 id="tos11">11. Passwords</h4>
-                                        <p>Registration as a user or subscriber with the Sites may require both a user
-                                            name and a password, and certain portions of the Sites may require use of
-                                            multiple one time or persistent passwords. You should consider your
-                                            usernames and passwords as confidential information. Anyone with knowledge
-                                            of both your user name and password can gain access to the restricted
-                                            portions of the Sites and to your account. You must keep your user name and
-                                            password confidential. You shall immediately notify us if you become aware
-                                            of any loss or theft of your password or any unauthorized use of your user
-                                            name and password. WE SHALL NOT BE LIABLE FOR ANY LOSS OR DAMAGE ARISING
-                                            FROM YOUR FAILURE TO COMPLY WITH THESE OBLIGATIONS. We reserve the right to
-                                            delete or change a user name or password at any time and for any reason.</p>
-                                        <h4 id="tos12">12. Privacy</h4>
-                                        <p>We collect personal information on the Sites, which is subject to the terms
-                                            of our <a href="privacy-policy">Privacy Policy.</a></p>
-                                        <h4 id="tos13">13. Children and Teens</h4>
-                                        <p>The Sites are not intended for use by children.  By submitting information to
-                                            the Sites, you warrant that you are above the age of majority.</p>
-                                        <h4 id="tos14">14. Links to External Sites</h4>
-                                        <p>The Sites may contain links to third party websites or resources. Aura does
-                                            not control these other websites and resources and is not responsible for
-                                            their availability, content, or delivery of services. Aura makes no
-                                            representations whatsoever about such other websites or resources. The
-                                            inclusion of any link to a website does not imply endorsement by Aura of
-                                            that website or its entities, products or services. All warranties,
-                                            conditions, or other terms, express or implied, as to any such linked
-                                            website, including, without limitation, as to the accuracy, ownership,
-                                            validity, or legality of any content of a linked website, are hereby
-                                            excluded. It is your sole responsibility to take any precautions to ensure
-                                            that whatever you select for your use is free of items such as viruses,
-                                            worms, trojan horses, and other items of a malicious nature.</p>
-                                        <h4 id="tos15">15. Procedure for Making a Claim of Copyright Infringement</h4>
-                                        <p>We respect the intellectual property of others. If you believe that your work
-                                            has been copied and is accessible on the Sites in a way that constitutes
-                                            copyright infringement, please follow the instructions below on how to
-                                            contact us to report possible copyright infringement.</p>
-                                        <p>Please email <a
-                                                href="cdn-cgi/l/email-protection#4f232a282e2321203b262c2a3c0f2e3a3d2e612c2022"
-                                                target="_blank" rel="noopener"><span class="__cf_email__"
-                                                                                     data-cfemail="82eee7e5e3eeecedf6ebe1e7f1c2e3f7f0e3ace1edef">[email&#160;protected]</span></a> and
-                                            provide the following information:</p>
+                                        <p>Aura bảo lưu quyền thực hiện bất kỳ hành động nào khác mà họ cho là cần thiết
+                                            để bảo vệ sự an toàn cá nhân của khách, khách truy cập hoặc công chúng.</p>
+                                        <h4 id="tos9">9. Từ chối bảo hành</h4>
+                                        <p>NGOẠI TRỪ Ở ĐÂU VÀ TRONG PHẠM VI BỊ PHÁP LUẬT CẤM, CÁC TRANG WEB ĐƯỢC CUNG
+                                            CẤP “NGUYÊN TRẠNG”. AURA KHÔNG TUYÊN BỐ HOẶC BẢO ĐẢM BẤT KỲ HÌNH THỨC NÀO
+                                            ĐỐI VỚI BẠN HOẶC BẤT KỲ NGƯỜI KHÁC NÀO CÓ LIÊN QUAN ĐẾN CÁC TRANG WEB, HOẶC
+                                            BẤT KỲ TRANG WEB NÀO HOẶC CÓ THỂ TRUY CẬP TRỰC TIẾP HOẶC GIÁN TIẾP QUA CÁC
+                                            TRANG WEB, TRONG PHẠM VI LUẬT PHÁP CHO PHÉP. AURA TUYÊN BỐ TỪ CHỐI TRÁCH
+                                            NHIỆM BẢO ĐẢM NGỤ Ý RẰNG CÁC TRANG WEB CÓ THỂ BÁN ĐƯỢC, CÓ CHẤT LƯỢNG ĐẠT
+                                            ĐÚNG, CHÍNH XÁC, KỊP THỜI, PHÙ HỢP CHO MỘT MỤC ĐÍCH HOẶC NHU CẦU CỤ THỂ HOẶC
+                                            KHÔNG VI PHẠM. KHÔNG CÓ THÔNG TIN BẰNG LỜI HOẶC VĂN BẢN HOẶC LỜI KHUYÊN NÀO
+                                            BỞI AURA HAY NGƯỜI ĐẠI DIỆN SẼ TẠO RA BẢO HÀNH. AURA CÓ THỂ THAY ĐỔI HOẶC
+                                            CẢI THIỆN NỘI DUNG VÀ CHỨC NĂNG CỦA CÁC TRANG WEB BẤT CỨ LÚC NÀO MÀ KHÔNG
+                                            THÔNG BÁO TRƯỚC CHO BẠN.</p>
+                                        <p>Khi sử dụng Trang web, thông tin sẽ được truyền qua một phương tiện nằm ngoài
+                                            tầm kiểm soát và quyền tài phán của Aura, các đối tác, nhà quảng cáo và nhà
+                                            tài trợ của Aura. Theo đó, Aura không chịu trách nhiệm pháp lý đối với hoặc
+                                            liên quan đến sự chậm trễ, lỗi, gián đoạn hoặc hỏng bất kỳ dữ liệu hoặc
+                                            thông tin nào khác được truyền liên quan đến việc sử dụng Trang web. CHÚNG
+                                            TÔI KHÔNG ĐẢM BẢO RẰNG CÁC TRANG WEB SẼ ĐÁP ỨNG YÊU CẦU CỦA BẠN HOẶC CÁC
+                                            TRANG WEB KHÔNG CÓ LỖI, ĐÁNG TIN CẬY, KHÔNG BỊ GIÁN ĐOẠN HOẶC LUÔN CÓ SẴN.
+                                            CHÚNG TÔI KHÔNG ĐẢM BẢO RẰNG BẠN SẼ CÓ THỂ TRUY CẬP HOẶC SỬ DỤNG CÁC TRANG
+                                            WEB (TRỰC TIẾP HOẶC QUA MẠNG CỦA BÊN THỨ BA) BẤT CỨ LÚC NÀO HOẶC ĐỊA ĐIỂM
+                                            BẠN CHỌN.</p>
+                                        <p>HƠN NỮA, AURA KHÔNG XÁC NHẬN VÀ KHÔNG ĐẢM BẢO VỀ TÍNH CHÍNH XÁC HOẶC ĐỘ TIN
+                                            CẬY CỦA BẤT KỲ Ý KIẾN, THÔNG TIN, LỜI KHUYÊN HOẶC TUYÊN BỐ NÀO TRÊN CÁC
+                                            TRANG WEB. BẠN CÓ TRÁCH NHIỆM LÀ ĐÁNH GIÁ TÍNH CHÍNH XÁC, ĐẦY ĐỦ HOẶC TÍNH
+                                            HỮU ÍCH CỦA BẤT KỲ THÔNG TIN, Ý KIẾN, LỜI KHUYÊN HOẶC NỘI DUNG KHÁC CÓ SẴN
+                                            QUA TRANG WEB. VUI LÒNG TÌM KIẾM LỜI KHUYÊN CỦA CÁC CHUYÊN GIA, NHƯ PHÙ HỢP,
+                                            VỀ VIỆC ĐÁNH GIÁ BẤT KỲ THÔNG TIN CỤ THỂ, Ý KIẾN, LỜI KHUYÊN HOẶC NỘI DUNG
+                                            KHÁC TRÊN CÁC TRANG WEB.</p>
+                                        <h4 id="tos10">10. Bồi thường và Giới hạn trách nhiệm pháp lý</h4>
+                                        <p>Bạn bồi thường và giữ cho Aura và các chi nhánh, cán bộ, giám đốc, nhân viên
+                                            và đại lý của Aura không bị tổn hại trước bất kỳ khiếu nại hoặc yêu cầu nào,
+                                            bao gồm nhưng không giới hạn ở các khoản phí pháp lý hợp lý do bất kỳ bên
+                                            thứ ba nào đưa ra do hoặc phát sinh từ việc bạn vi phạm các Điều khoản sử
+                                            dụng này. Sử dụng hoặc vi phạm bất kỳ luật nào hoặc quyền của bên thứ ba.
+                                            Aura có thể, bằng chi phí của bạn, đảm nhận việc bảo vệ và kiểm soát độc
+                                            quyền bất kỳ vấn đề nào mà bạn được yêu cầu phải bồi thường cho Aura và bạn
+                                            đồng ý hợp tác với việc bảo vệ những khiếu nại này của Aura. Aura sẽ sử dụng
+                                            những nỗ lực hợp lý để thông báo cho bạn về bất kỳ khiếu nại, hành động hoặc
+                                            thủ tục nào như vậy khi biết về nó.</p>
+                                        <p>Trừ khi và trong phạm vi bị pháp luật cấm, trong mọi trường hợp, Aura, các
+                                            đối tác, nhà tài trợ, nhà quảng cáo, đại lý hoặc người cấp phép hoặc bất kỳ
+                                            bên thứ ba nào được đề cập trên Trang web sẽ không chịu trách nhiệm pháp lý
+                                            cho bất kỳ thiệt hại nào (bao gồm nhưng không giới hạn, ngẫu nhiên, do hậu
+                                            quả hoặc thiệt hại gián tiếp khác, thương tích cá nhân/cái chết oan uổng,
+                                            lợi nhuận bị mất hoặc thiệt hại do mất dữ liệu hoặc gián đoạn kinh doanh) do
+                                            việc sử dụng hoặc không thể sử dụng Trang web, cho dù dựa trên bảo hành, hợp
+                                            đồng, sai lầm cá nhân hoặc bất kỳ lý thuyết pháp lý nào khác, và Aura có
+                                            được thông báo về khả năng xảy ra những thiệt hại đó hay không. Trừ khi và
+                                            trong phạm vi bị pháp luật cấm, Aura không chịu trách nhiệm pháp lý đối với
+                                            bất kỳ thương tích cá nhân nào, kể cả tử vong, do bạn sử dụng hoặc sử dụng
+                                            sai Trang web hoặc các khu vực công cộng.</p>
+                                        <p>BIỆN PHÁP GIẢI PHÁP DUY NHẤT VÀ ĐỘC QUYỀN CỦA BẠN ĐỐI VỚI BẤT KỲ TRANH CHẤP
+                                            NÀO VỚI AURA LÀ NGỪNG SỬ DỤNG CÁC TRANG WEB. Trong mọi trường hợp, AURA SẼ
+                                            KHÔNG CHỊU TRÁCH NHIỆM PHÁP LÝ VỀ BẤT KỲ THIỆT HẠI NÀO GIÁN TIẾP, NGẪU
+                                            NHIÊN, ĐẶC BIỆT, DO HẬU QUẢ, HOẶC TRÁCH NHIỆM DƯỚI BẤT KỲ HÌNH THỨC NÀO, BAO
+                                            GỒM KHÔNG GIỚI HẠN, NHỮNG THIỆT HẠI DO MẤT SỬ DỤNG, DỮ LIỆU, DOANH THU HOẶC
+                                            LỢI NHUẬN, DÙ AURA CÓ ĐƯỢC TƯ VẤN HAY KHÔNG VỀ KHẢ NĂNG XẢY RA NHỮNG THIỆT
+                                            HẠI HOẶC TỔN THẤT ĐÓ, TRÊN BẤT KỲ LÝ THUYẾT VỀ TRÁCH NHIỆM PHÁP LÝ NÀO PHÁT
+                                            SINH NGOÀI hoặc LIÊN QUAN ĐẾN VIỆC TRUY CẬP, SỬ DỤNG HOẶC HIỆU SUẤT CỦA CÁC
+                                            TRANG WEB, LỖI HOẠT ĐỘNG CỦA CÁC TRANG WEB HOẶC BẤT KỲ NỘI DUNG HAY THÔNG
+                                            TIN KHÁC ĐƯỢC CUNG CẤP LIÊN QUAN ĐẾN CÁC TRANG WEB. NHỮNG GIỚI HẠN NÀY SẼ ÁP
+                                            DỤNG BẤT KỲ THẤT BẠI NÀO VỀ MỤC ĐÍCH THIẾT YẾU CỦA BẤT KỲ BIỆN PHÁP KHẮC
+                                            PHỤC CÓ GIỚI HẠN NÀO. TRONG MỌI TRƯỜNG HỢP SẼ KHÔNG CHỊU TRÁCH NHIỆM PHÁP LÝ
+                                            TỔNG THỂ CỦA AURA HOẶC CÁC CÔNG TY LIÊN KẾT, NHÀ THẦU, NHÂN VIÊN, ĐẠI LÝ
+                                            HOẶC ĐỐI TÁC BÊN THỨ BA, NGƯỜI CẤP PHÉP HOẶC NHÀ CUNG CẤP CHO BẠN VỀ MỌI
+                                            THIỆT HẠI, TỔN THẤT, KHIẾU NẠI VÀ NGUYÊN NHÂN HÀNH ĐỘNG PHÁT SINH NGOÀI HOẶC
+                                            LIÊN QUAN ĐẾN CÁC ĐIỀU KHOẢN NÀY SỬ DỤNG HOẶC BẠN SỬ DỤNG CÁC TRANG WEB VƯỢT
+                                            QUÁ HAI MƯƠI Lăm ĐÔ LA. SỰ CHẤP NHẬN CỦA BẠN VỀ GIỚI HẠN TRÁCH NHIỆM PHÁP LÝ
+                                            NÀY LÀ MỘT ĐIỀU KHOẢN CẦN THIẾT CỦA CÁC ĐIỀU KHOẢN SỬ DỤNG NÀY.</p>
+                                        <h4 id="tos11">11. Mật khẩu</h4>
+                                        <p>Đăng ký với tư cách là người dùng hoặc người đăng ký với Trang web có thể yêu
+                                            cầu cả tên người dùng và mật khẩu và một số phần nhất định của Trang web có
+                                            thể yêu cầu sử dụng nhiều mật khẩu một lần hoặc mật khẩu liên tục. Bạn nên
+                                            coi tên người dùng và mật khẩu của mình là thông tin bí mật. Bất kỳ ai biết
+                                            cả tên người dùng và mật khẩu của bạn đều có thể có quyền truy cập vào các
+                                            phần bị hạn chế của Trang web và tài khoản của bạn. Bạn phải giữ bí mật tên
+                                            người dùng và mật khẩu của mình. Bạn phải thông báo ngay cho chúng tôi nếu
+                                            bạn biết về bất kỳ sự mất mát hoặc đánh cắp mật khẩu nào hoặc bất kỳ việc sử
+                                            dụng trái phép tên người dùng và mật khẩu của bạn. CHÚNG TÔI SẼ KHÔNG CHỊU
+                                            TRÁCH NHIỆM PHÁP LÝ ĐỐI VỚI BẤT KỲ TỔN THẤT HOẶC THIỆT HẠI NÀO PHÁT SINH DO
+                                            BẠN KHÔNG TUÂN THỦ NHỮNG NGHĨA VỤ NÀY. Chúng tôi có quyền xóa hoặc thay đổi
+                                            tên người dùng hoặc mật khẩu bất cứ lúc nào và vì bất kỳ lý do gì.</p>
+                                        <h4 id="tos12">12. Sự riêng tư</h4>
+                                        <p>WChúng tôi thu thập thông tin cá nhân trên Trang web, tuân theo các điều
+                                            khoản trong <a
+                                                    href="privacy-policy.html">Chính sách bảo mật</a> của chúng tôi</p>
+                                        <h4 id="tos13">13. Trẻ em và Thanh thiếu niên</h4>
+                                        <p>Trang web không dành cho trẻ em sử dụng. Bằng cách gửi thông tin đến Trang
+                                            web, bạn đảm bảo rằng bạn trên độ tuổi trưởng thành.</p>
+                                        <h4 id="tos14">14. Liên kết đến các trang web bên ngoài</h4>
+                                        <p>Trang web có thể chứa các liên kết đến các trang web hoặc tài nguyên của bên
+                                            thứ ba. Aura không kiểm soát các trang web và tài nguyên khác này và không
+                                            chịu trách nhiệm về tính khả dụng, nội dung hoặc việc cung cấp dịch vụ của
+                                            chúng. Aura không đại diện cho bất kỳ điều gì về các trang web hoặc tài
+                                            nguyên khác như vậy. Việc bao gồm bất kỳ liên kết nào đến một trang web
+                                            không có nghĩa là Aura xác nhận trang web đó hoặc các tổ chức, sản phẩm hoặc
+                                            dịch vụ của trang web đó. Tất cả các bảo đảm, điều kiện hoặc các điều khoản
+                                            khác, rõ ràng hay ngụ ý, đối với bất kỳ trang web được liên kết nào như vậy,
+                                            bao gồm nhưng không giới hạn ở tính chính xác, quyền sở hữu, hiệu lực hoặc
+                                            tính hợp pháp của bất kỳ nội dung nào của trang web được liên kết, đều bị
+                                            loại trừ. Bạn có trách nhiệm thực hiện bất kỳ biện pháp phòng ngừa nào để
+                                            đảm bảo rằng bất kỳ thứ gì bạn chọn để sử dụng đều không có các mục như
+                                            vi-rút, sâu, ngựa trojan và các mục khác có bản chất độc hại.</p>
+                                        <h4 id="tos15">15. Thủ tục Khiếu nại Vi phạm Bản quyền</h4>
+                                        <p>Chúng tôi tôn trọng sở hữu trí tuệ của người khác. Nếu bạn cho rằng tác phẩm
+                                            của mình đã bị sao chép và có thể truy cập được trên Trang web theo cách cấu
+                                            thành hành vi vi phạm bản quyền, vui lòng làm theo hướng dẫn bên dưới về
+                                            cách liên hệ với chúng tôi để báo cáo hành vi vi phạm bản quyền có thể xảy
+                                            ra.</p>
+                                        <p>Vui lòng gửi email <a
+                                                href="mailto:contact@44.plus"><span
+                                                class="__cf_email__"
+                                                data-cfemail="ea9a98839c8b8993aa9a8b848d85c48985">contact@44.plus</span></a>
+                                            và cung cấp các thông tin sau:</p>
                                         <ul role="list">
-                                            <li>an electronic or physical signature of the person authorized to act on
-                                                behalf of the owner of the copyright interest;
+                                            <li>chữ ký điện tử hoặc vật lý của người được ủy quyền hành động thay mặt
+                                                chủ sở hữu quyền lợi bản quyền;
                                             </li>
-                                            <li>a description of the copyrighted work that you claim has been
-                                                infringed;
+                                            <li>mô tả về tác phẩm có bản quyền mà bạn cho là đã bị vi phạm;
                                             </li>
-                                            <li>a description of where the material that you claim is infringing is
-                                                located on the Sites;
+                                            <li>mô tả về vị trí của tài liệu mà bạn cho là vi phạm trên Trang web;
                                             </li>
-                                            <li>your address, telephone number, and email address;</li>
-                                            <li>a statement by you that you have a good faith belief that the disputed
-                                                use is not authorized by the copyright owner, its agent, or the law; and
+                                            <li>địa chỉ, số điện thoại và địa chỉ email của bạn;một tuyên bố của bạn
+                                                rằng bạn thực sự tin rằng việc sử dụng đang tranh chấp không được chủ sở
+                                                hữu bản quyền, đại lý của chủ sở hữu bản quyền hoặc luật pháp cho phép;
+                                                và
                                             </li>
-                                            <li>a statement by you, made under penalty of perjury, that the above
-                                                information in your Notice is accurate and that you are the copyright
-                                                owner or authorized to act on the copyright owner’s behalf.
+                                            <li>tuyên bố của bạn, được đưa ra theo hình phạt nếu khai man, rằng thông
+                                                tin trên trong Thông báo của bạn là chính xác và bạn là chủ sở hữu bản
+                                                quyền hoặc được ủy quyền hành động thay mặt cho chủ sở hữu bản quyền.
                                             </li>
                                         </ul>
-                                        <h4 id="tos16">16. Choice of Law</h4>
-                                        <p>These Terms of Use are governed by the laws of the Commonwealth of Virginia,
-                                            USA, exclusive of its choice of law principles.</p>
-                                        <p>PLEASE NOTE THAT BY AGREEING TO THESE TERMS OF USE, YOU ARE: (1) WAIVING
-                                            CLAIMS THAT YOU MIGHT OTHERWISE HAVE AGAINST US BASED ON THE LAWS OF OTHER
-                                            JURISDICTIONS, INCLUDING YOUR OWN; (2) IRREVOCABLY CONSENTING TO THE
-                                            EXCLUSIVE JURISDICTION OF, AND VENUE IN, STATE OR FEDERAL COURTS IN THE
-                                            COMMONWEALTH OF VIRGINIA OVER ANY DISPUTES OR CLAIMS YOU HAVE WITH US; AND
-                                            (3) SUBMITTING YOURSELF TO THE PERSONAL JURISDICTION OF COURTS LOCATED IN
-                                            THE COMMONWEALTH OF VIRGINIA FOR THE PURPOSE OF RESOLVING ANY SUCH DISPUTES
-                                            OR CLAIMS, ALL SUBJECT TO THE ARBITRATION AGREEMENT SET FORTH BELOW.</p>
-                                        <h4 id="tos17">17. Agreement to Arbitrate</h4>
-                                        <p>Except where and to the extent prohibited by law,  Aura and/or You may elect
-                                            to resolve any and all claims and disputes relating in any way to the Sites
-                                            and these Terms of Use or any of our dealings with one another (“<strong>Claims</strong>”),
-                                            except for Claims concerning the validity, scope or enforceability of this
-                                            Arbitration Agreement (“<strong>Arbitration Agreement</strong>”), through
-                                            BINDING INDIVIDUAL ARBITRATION.  This Arbitration Agreement involves
-                                            interstate commerce and shall be governed by the Federal Arbitration Act, 9
-                                            U.S.C. §§ 1-16 (“<strong>FAA</strong>”), and not by state law. If you or we
-                                            elect to resolve a dispute by arbitration, neither you nor we will be able
-                                            to have a court or jury trial or participate in a class action or class
-                                            arbitration. Other rights that you and we would have if you or we went to
-                                            court will not be available or will be more limited in arbitration,
-                                            including discovery and appeal rights. You and we each understand and agree
-                                            that by allowing each other to elect to resolve any dispute through
-                                            individual arbitration, WE ARE EACH WAIVING THE RIGHT TO A COURT OR JURY
-                                            TRIAL. IF ANY PARTY ELECTS ARBITRATION, THAT DISPUTE SHALL BE ARBITRATED ON
-                                            AN INDIVIDUAL BASIS, AND NOT AS A CLASS ACTION, REPRESENTATIVE ACTION, CLASS
-                                            ARBITRATION OR ANY SIMILAR PROCEEDING. The arbitrator(s) may not consolidate
-                                            the claims of multiple parties. Arbitrations shall be administered by the
-                                            JAMS (“<strong>JAMS</strong>”) pursuant to the applicable JAMS rules in
-                                            effect at the time the arbitration is initiated. You may obtain information
-                                            about arbitration, arbitration procedures and fees from JAMS by calling
-                                            800-352-5267 or visiting <a href="http://www.jamsadr.com/" target="_blank"
-                                                                        rel="noopener">http://www.jamsadr.com</a>.  If
-                                            JAMS is unable or unwilling to arbitrate a dispute, then the dispute may be
-                                            referred to any other arbitration organization or arbitrator we both agree
-                                            upon in writing or that is appointed pursuant to section 5 of the FAA. The
-                                            arbitration shall take place at a location that is reasonably convenient for
-                                            you. The arbitrator shall be authorized to award any relief that would have
-                                            been available in court, provided that the arbitrator’s authority is limited
-                                            to you and us alone, except as otherwise specifically stated herein. No
-                                            arbitration decision will have any preclusive effect as to non-parties. The
-                                            arbitrator’s decision shall be final and binding. You and we agree that this
-                                            Arbitration Agreement extends to any other parties involved in any Claims,
-                                            including but not limited to affiliated companies and vendors. This
-                                            Arbitration Agreement shall take precedence over the rules of the
-                                            arbitration organization or arbitrator in the event of any conflict. We will
-                                            be responsible for paying all arbitration fees other than the lower amount
-                                            of filing fees you would have incurred in a state or federal court.
-                                            Notwithstanding any other provision herein, you or we may seek relief in a
-                                            small claims court for Claims within its jurisdiction. In addition, you and
-                                            we each may exercise any lawful rights to seek provisional remedies or
-                                            self-help, without waiving the right to arbitrate by doing so.
-                                            Notwithstanding any other provision of this Agreement, if the foregoing
-                                            class action waiver and prohibition against class arbitration is determined
-                                            to be invalid or unenforceable, then this entire Arbitration Agreement shall
-                                            be void. If any portion of this Arbitration Agreement other than the class
-                                            action waiver and prohibition against class arbitration is deemed invalid or
-                                            unenforceable, it shall not invalidate the remaining portions of this
-                                            Arbitration Agreement. This Arbitration Agreement will survive the
-                                            termination of these Terms of Use, your fulfillment or default of your
-                                            obligations under these Terms of Use, and/or your or our bankruptcy or
-                                            insolvency (to the extent permitted by applicable law). YOU HAVE THE RIGHT
-                                            TO REJECT THIS ARBITRATION AGREEMENT, BUT YOU MUST EXERCISE THIS RIGHT
-                                            PROMPTLY. If you do not wish to be bound by this agreement to arbitrate, you
-                                            must notify us in writing within sixty (60) days after the date you agree to
-                                            these Terms of Use, including this Agreement. You must send your request to:
-                                            Customer Service, P.O. Box 222455, Chantilly, VA 20153-2455. The request
-                                            must include your full name, address, account number, and the statement “I
-                                            reject the Arbitration Agreement contained in the Website Terms of Use.” If
-                                            you exercise your right to reject arbitration, the other terms of these
-                                            Terms of Use shall remain in full force and effect as if you had not
-                                            rejected arbitration.</p>
-                                        <h4 id="tos18">18. Amendment and Termination</h4>
-                                        <p>These Terms of Use are subject to change by Aura at any time in its sole
-                                            discretion. Changes to these Terms of Use will be posted by Aura and your
-                                            continued use of the Sites following such changes constitutes your agreement
-                                            to be bound by such changes.</p>
-                                        <p>We shall have the right to immediately terminate these Terms of Use with
-                                            respect to any user which we, in our sole discretion, consider to be
-                                            unacceptable, or in the event of any breach by you of these Terms of Use.
-                                            The provisions of Sections 1, 2, 3, 5, 9, 10, 11, 16, 17, and 18 shall
-                                            survive termination of this agreement.</p>
-                                        <h4 id="tos19">19. Contact Us</h4>
-                                        <p>If you have any questions about these Terms of Use, please contact us at <a
-                                                href="cdn-cgi/l/email-protection#d0a3a5a0a0bfa2a490b1a5a2b1feb3bfbd"
-                                                target="_blank" rel="noopener"><span class="__cf_email__"
-                                                                                     data-cfemail="1b686e6b6b74696f5b7a6e697a35787476">[email&#160;protected]</span></a> or
-                                            contact us at:</p>
-                                        <p>Customer Service<br/>
-                                            P.O. Box 222455<br/>
-                                            Chantilly, VA 20153-2455</p>
+                                        <h4 id="tos16">16. Sự lựa chọn của pháp luật</h4>
+                                        <p>Các Điều khoản Sử dụng này được điều chỉnh bởi luật pháp của Khối thịnh vượng
+                                            chung Virginia, Hoa Kỳ, không bao gồm sự lựa chọn các nguyên tắc luật
+                                            pháp.</p>
+                                        <p>XIN LƯU Ý RẰNG BẰNG VIỆC ĐỒNG Ý VỚI CÁC ĐIỀU KHOẢN SỬ DỤNG NÀY, BẠN SẼ: (1)
+                                            TỪ BỎ KHIẾU NẠI RẰNG BẠN CÓ THỂ CHỐNG LẠI CHÚNG TÔI DỰA TRÊN LUẬT CỦA CÁC
+                                            KHU VỰC KHÁC, BAO GỒM CỦA CHÍNH BẠN; (2) ƯU ĐÃI TUYỆT ĐỐI VỚI KHU VỰC THẨM
+                                            QUYỀN ĐỘC QUYỀN CỦA VÀ TÒA ÁN TẠI TÒA ÁN BANG HOẶC LIÊN BANG TRONG KHOẢNG SỞ
+                                            HỮU THÔNG THƯỜNG CỦA VIRGINIA VỀ BẤT KỲ TRANH CHẤP HOẶC KHIẾU NẠI NÀO BẠN CÓ
+                                            VỚI CHÚNG TÔI; VÀ (3) BẢN THÂN MÌNH TỚI TÒA ÁN THẨM QUYỀN CÁ NHÂN CỦA TÒA ÁN
+                                            NẰM TRONG KHOẢN SỞ HỮU CỘNG ĐỒNG CỦA VIRGINIA VỚI MỤC ĐÍCH GIẢI QUYẾT BẤT KỲ
+                                            TRANH CHẤP HOẶC KHIẾU NẠI NÀO ĐÓ, TẤT CẢ ĐỀU ĐỀU THEO THỎA THUẬN TRỌNG TÀI
+                                            QUY ĐỊNH DƯỚI ĐÂY.</p>
+                                        <h4 id="tos17">17. Thỏa thuận trọng tài</h4>
+                                        <p>Trừ khi và trong phạm vi bị pháp luật cấm, Aura và/hoặc Bạn có thể chọn giải
+                                            quyết bất kỳ và tất cả các khiếu nại và tranh chấp liên quan theo bất kỳ
+                                            cách nào đến Trang web và các Điều khoản sử dụng này hoặc bất kỳ giao dịch
+                                            nào của chúng tôi với nhau (“<strong>Khiếu nại</strong>”),
+                                            ngoại trừ các Khiếu nại liên quan đến hiệu lực, phạm vi hoặc khả năng thực
+                                            thi của Thỏa thuận Trọng tài này (“<strong>Thỏa thuận trọng tài</strong>”),
+                                            thông qua TRỌNG TÀI CÁ NHÂN RÀNG BUỘC. Thỏa thuận Trọng tài này liên quan
+                                            đến thương mại giữa các tiểu bang và sẽ được điều chỉnh bởi Đạo luật Trọng
+                                            tài Liên bang, 9 U.S.C. §§ 1-16 (“<strong>FAA</strong>”), và không
+                                            theo luật tiểu bang. Nếu bạn hoặc chúng tôi chọn giải quyết tranh chấp bằng
+                                            trọng tài, cả bạn và chúng tôi sẽ không thể có một phiên tòa xét xử tại tòa
+                                            án hoặc bồi thẩm đoàn hoặc tham gia vào một vụ kiện tập thể hoặc trọng tài
+                                            tập thể. Các quyền khác mà bạn và chúng tôi sẽ có nếu bạn hoặc chúng tôi ra
+                                            tòa sẽ không có sẵn hoặc sẽ bị hạn chế hơn trong quá trình phân xử trọng
+                                            tài, bao gồm quyền khám phá và kháng cáo. Bạn và chúng tôi đều hiểu và đồng
+                                            ý rằng bằng cách cho phép nhau lựa chọn giải quyết bất kỳ tranh chấp nào
+                                            thông qua trọng tài cá nhân, MỖI CHÚNG TÔI SẼ TỪ BỎ QUYỀN YÊU CẦU XỬ TRÍ CỦA
+                                            TÒA ÁN HOẶC Bồi thẩm đoàn. NẾU BÊN BẤT KỲ BẦU CHỌN TRỌNG TÀI, TRANH CHẤP ĐÓ
+                                            SẼ ĐƯỢC GIẢI QUYẾT TRÊN CƠ SỞ CÁ NHÂN, VÀ KHÔNG PHẢI LÀ MỘT VỤ KIỆN TẬP THỂ,
+                                            HÀNH ĐỘNG ĐẠI DIỆN, TRỌNG TÀI TẬP THỂ HOẶC BẤT KỲ TỐ TỤNG TƯƠNG TỰ NÀO.
+                                            (Các) trọng tài viên không được hợp nhất các khiếu nại của nhiều bên. Trọng
+                                            tài sẽ được quản lý bởi JAMS (“<strong>JAMS</strong>”) theo các quy tắc JAMS
+                                            hiện hành có hiệu lực tại thời điểm phân xử trọng tài được bắt đầu. Bạn có
+                                            thể lấy thông tin về trọng tài, thủ tục trọng tài và phí từ JAMS bằng cách
+                                            gọi 800-352-5267 hoặc truy cập <a href="http://www.jamsadr.com/"
+                                                                              target="_blank"
+                                                                              rel="noopener">http://www.jamsadr.com</a>.
+                                            Nếu JAMS không thể hoặc không sẵn sàng phân xử tranh chấp thì tranh chấp đó
+                                            có thể được chuyển đến bất kỳ tổ chức trọng tài hoặc trọng tài viên nào khác
+                                            mà cả hai chúng ta đều đồng ý bằng văn bản hoặc được chỉ định theo mục 5 của
+                                            FAA. Trọng tài sẽ diễn ra tại một địa điểm thuận tiện hợp lý cho bạn. Trọng
+                                            tài viên sẽ được ủy quyền đưa ra bất kỳ biện pháp cứu trợ nào có sẵn tại tòa
+                                            án, với điều kiện là thẩm quyền của trọng tài viên chỉ giới hạn ở bạn và
+                                            chúng tôi, trừ khi có quy định cụ thể khác ở đây. Không có quyết định trọng
+                                            tài nào có hiệu lực loại trừ đối với các bên không tham gia. Quyết định của
+                                            trọng tài sẽ là quyết định cuối cùng và ràng buộc. Bạn và chúng tôi đồng ý
+                                            rằng Thỏa thuận Trọng tài này mở rộng cho bất kỳ bên nào khác có liên quan
+                                            đến bất kỳ Khiếu nại nào, bao gồm nhưng không giới hạn ở các công ty và nhà
+                                            cung cấp trực thuộc. Thỏa thuận Trọng tài này sẽ được ưu tiên hơn các quy
+                                            tắc của tổ chức trọng tài hoặc trọng tài viên trong trường hợp có bất kỳ
+                                            xung đột nào. Chúng tôi sẽ chịu trách nhiệm thanh toán tất cả các khoản phí
+                                            phân xử ngoài khoản phí nộp đơn thấp hơn mà bạn phải trả tại tòa án tiểu
+                                            bang hoặc liên bang. Bất kể điều khoản nào khác trong tài liệu này, bạn hoặc
+                                            chúng tôi có thể tìm kiếm sự trợ giúp tại một tòa án khiếu nại nhỏ đối với
+                                            Khiếu nại trong phạm vi quyền hạn của mình. Ngoài ra, bạn và chúng tôi mỗi
+                                            người có thể thực hiện bất kỳ quyền hợp pháp nào để tìm kiếm các biện pháp
+                                            khắc phục tạm thời hoặc tự trợ giúp mà không từ bỏ quyền phân xử bằng cách
+                                            làm như vậy. Bất kể bất kỳ điều khoản nào khác của Thỏa thuận này, nếu việc
+                                            từ bỏ hành động tập thể nói trên và cấm đối với trọng tài tập thể được xác
+                                            định là không hợp lệ hoặc không thể thi hành, thì toàn bộ Thỏa thuận trọng
+                                            tài này sẽ vô hiệu. Nếu bất kỳ phần nào của Thỏa thuận Trọng tài này ngoài
+                                            phần miễn trừ khởi kiện tập thể và cấm phân xử tập thể được coi là không hợp
+                                            lệ hoặc không thể thi hành, thì phần đó sẽ không làm mất hiệu lực các phần
+                                            còn lại của Thỏa thuận Trọng tài này. Thỏa thuận Trọng tài này sẽ tồn tại
+                                            sau khi chấm dứt các Điều khoản Sử dụng này, việc bạn thực hiện hoặc không
+                                            thực hiện các nghĩa vụ của mình theo các Điều khoản Sử dụng này và/hoặc tình
+                                            trạng phá sản hoặc mất khả năng thanh toán của bạn hoặc của chúng tôi (trong
+                                            phạm vi được luật hiện hành cho phép). BẠN CÓ QUYỀN TỪ CHỐI THỎA THUẬN TRỌNG
+                                            TÀI NÀY, NHƯNG BẠN PHẢI THỰC HIỆN QUYỀN NÀY NGAY LẬP TỨC. Nếu bạn không muốn
+                                            bị ràng buộc bởi thỏa thuận phân xử này, bạn phải thông báo cho chúng tôi
+                                            bằng văn bản trong vòng sáu mươi (60) ngày sau ngày bạn đồng ý với các Điều
+                                            khoản sử dụng này, bao gồm cả Thỏa thuận này. Bạn phải gửi yêu cầu của mình
+                                            tới: Dịch vụ khách hàng, P.O. Hộp 222455, Chantilly, VA 20153-2455. Yêu cầu
+                                            phải bao gồm tên đầy đủ, địa chỉ, số tài khoản của bạn và tuyên bố “Tôi từ
+                                            chối Thỏa thuận trọng tài có trong Điều khoản sử dụng trang web”. Nếu bạn
+                                            thực hiện quyền từ chối trọng tài, các điều khoản khác của Điều khoản sử
+                                            dụng này sẽ vẫn có hiệu lực đầy đủ như thể bạn đã không từ chối trọng tài.
+                                        </p>
+                                        <h4 id="tos18">18. Sửa đổi và Chấm dứt</h4>
+                                        <p>Các Điều khoản Sử dụng này có thể được Aura thay đổi bất kỳ lúc nào theo
+                                            quyết định riêng của mình. Các thay đổi đối với Điều khoản sử dụng này sẽ
+                                            được Aura đăng tải và việc bạn tiếp tục sử dụng Trang web sau những thay đổi
+                                            đó sẽ cấu thành sự đồng ý của bạn với những thay đổi đó.</p>
+                                        <p>Chúng tôi có quyền chấm dứt ngay các Điều khoản sử dụng này đối với bất kỳ
+                                            người dùng nào mà chúng tôi, theo quyết định riêng của chúng tôi, coi là
+                                            không thể chấp nhận được hoặc trong trường hợp bạn vi phạm các Điều khoản sử
+                                            dụng này. Các điều khoản của Mục 1, 2, 3, 5, 9, 10, 11, 16, 17 và 18 sẽ tiếp
+                                            tục có hiệu lực sau khi thỏa thuận này chấm dứt.</p>
+                                        <h4 id="tos19">19. Liên hệ chúng tôi</h4>
+                                        <p>Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản sử dụng này, vui lòng liên hệ
+                                            với chúng tôi tại email <a
+                                                    href="mailto:contact@44.plus"><span
+                                                    class="__cf_email__"
+                                                    data-cfemail="ea9a98839c8b8993aa9a8b848d85c48985">contact@44.plus</span></a>
+                                        </p>
+
                                     </div>
                                 </section>
                             </div>
@@ -1475,7 +1454,7 @@
 
                 <div class='flex_column av_one_half  first el_before_av_one_half'>
                     <section id="media_image-3" class="widget clearfix widget_media_image"><a
-                            href="https://pango.co"><img width="300" height="300"
+                            href="index.html"><img width="300" height="300"
                                                          src="wp-content/uploads/2021/07/pangoLogoFooter.svg"
                                                          class="avia-img-lazy-loading-3744 image wp-image-3744 pangologofooter attachment-medium size-medium"
                                                          alt="" decoding="async" loading="lazy"
@@ -1503,18 +1482,17 @@
                         <div class="textwidget custom-html-widget">
                             <div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="index.html">Home</a><br><br>
-                                    <a style="color:#141415;" href="about.html">About</a><br><br>
-                                    <a style="color:#141415;" href="products.html">Products</a>
+                                    <a style="color:#141415;" href="index.html">Trang chủ</a><br><br>
+                                    <a style="color:#141415;" href="about.html">Về chúng tôi</a><br><br>
+                                    <a style="color:#141415;" href="products.html">Sản phẩm</a>
 
                                 </div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="careers.html">Careers</a><br><br>
-                                    <a style="color:#141415;" href="contact.html">Contact</a>
+                                    <a style="color:#141415;" href="careers.html">Nghề nghiệp</a><br><br>
+                                    <a style="color:#141415;" href="contact.html">Liên hệ</a>
                                     <br><br>
-                                    <a style="color:#141415;" href="application-security-audit.html">Application
-                                        Security
-                                        Audit</a>
+                                    <a style="color:#141415;" href="application-security-audit.html">Kiểm tra bảo mật
+                                        ứng dụng</a>
 
                                 </div>
                             </div>
@@ -1531,244 +1509,25 @@
                 itemtype="https://schema.org/WPFooter">
             <div class='container'>
 
-                <span class='copyright'><div class=“legal”><a href="legal.html">Legal</a> | <a
-                        href="privacy-policy.html">Privacy Policy</a> |  © 2023 44+ Inc</div></span>
+                <span class='copyright'><div class=“legal”><a href="legal.html">Pháp lý</a> | <a
+                        href="privacy-policy.html">Chính sách bảo mật</a> |  © 44+ Inc</div></span>
 
 
             </div>
-
-            <!-- ####### END SOCKET CONTAINER ####### -->
         </footer>
 
 
         <!-- end main -->
     </div>
 
-    <!-- end wrap_all --></div>
+</div>
 
 <a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon=''
    data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
 
 <div id="fb-root"></div>
 
-<div class="avia-cookie-consent-wrap" aria-hidden="true">
-    <div class='avia-cookie-consent cookiebar-hidden  avia-cookiemessage-bottom' aria-hidden='true'
-         data-contents='228864ac5ab74b528722e14fa69ce48a||v1.0'>
-        <div class="container"><p class='avia_cookie_text'>
-            <div class="cookie-infotext">
-                <div style="font-weight: 600;">We are using cookies to give you the best experience on our website.
-                </div>
-                <div style="font-weight: 200;">You can find out more about which cookies we are using <a
-                        style="color: rgba(255, 255, 255, 1.2)!important; text-decoration: underline;"
-                        href="privacy-policy/#pp4">here</a>.
-                </div>
-            </div>
-            </p><a href='#'
-                   class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-1  avia-cookie-close-bar '>Accept
-                & Close</a><a href='#'
-                              class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-2 av-extra-cookie-btn  avia-cookie-hide-notification'>Decline</a>
-        </div>
-    </div>
-    <div id='av-consent-extra-info' class='av-inline-modal main_color avia-hide-popup-close'>
-        <div style='padding-bottom:10px; margin: 10px 0 0 0;'
-             class='av-special-heading av-special-heading-h3  blockquote modern-quote  '><h3
-                class='av-special-heading-tag ' itemprop="headline">Cookie and Privacy Settings</h3>
-            <div class='special-heading-border'>
-                <div class='special-heading-inner-border'></div>
-            </div>
-        </div>
-        <br/>
-        <div style=' margin-top:0px; margin-bottom:0px;' class='hr hr-custom hr-left hr-icon-no  '><span
-                class='hr-inner  inner-border-av-border-thin' style=' width:100%;'><span class='hr-inner-style'></span></span>
-        </div>
-        <br/>
-        <div class="tabcontainer   sidebar_tab sidebar_tab_left noborder_tabs " role="tablist">
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-1-content" role="tab" tabindex="0" data-fake-id="#tab-id-1"
-                     class="tab active_tab">How we use cookies
-                </div>
-                <div id="tab-id-1-content" class="tab_content active_tab_content" aria-hidden="false">
-                    <div class="tab_inner_content invers-color">
-                        <p>We may request cookies to be set on your device. We use cookies to let us know when you visit
-                            our websites, how you interact with us, to enrich your user experience, and to customize
-                            your relationship with our website. </p>
-                        <p>Click on the different category headings to find out more. You can also change some of your
-                            preferences. Note that blocking some types of cookies may impact your experience on our
-                            websites and the services we are able to offer.</p>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-2-content" role="tab" tabindex="0" data-fake-id="#tab-id-2" class="tab ">
-                    Essential Website Cookies
-                </div>
-                <div id="tab-id-2-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>These cookies are strictly necessary to provide you with services available through our
-                            website and to use some of its features.</p>
-                        <p>Because these cookies are strictly necessary to deliver the website, refuseing them will have
-                            impact how our site functions. You always can block or delete cookies by changing your
-                            browser settings and force blocking all cookies on this website. But this will always prompt
-                            you to accept/refuse cookies when revisiting our site.</p>
-                        <p>We fully respect if you want to refuse cookies but to avoid asking you again and again kindly
-                            allow us to store a cookie for that. You are free to opt out any time or opt in for other
-                            cookies to get a better experience. If you refuse cookies we will remove all set cookies in
-                            our domain.</p>
-                        <p>We provide you with a list of stored cookies on your computer in our domain so you can check
-                            what we stored. Due to security reasons we are not able to show or modify cookies from other
-                            domains. You can check these in your browser security settings.</p>
-                        <div class="av-switch-aviaPrivacyRefuseCookiesHideBar av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyRefuseCookiesHideBar"
-                                          class="aviaPrivacyRefuseCookiesHideBar "
-                                          name="aviaPrivacyRefuseCookiesHideBar"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Check to enable permanent hiding of message bar and refuse all cookies if you do not opt in. We need 2 cookies to store this setting. Otherwise you will be prompted again when opening a new browser window or new a tab.</span></label>
-                        </div>
-                        <div class="av-switch-aviaPrivacyEssentialCookiesEnabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyEssentialCookiesEnabled"
-                                          class="aviaPrivacyEssentialCookiesEnabled "
-                                          name="aviaPrivacyEssentialCookiesEnabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable essential site cookies.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-3-content" role="tab" tabindex="0" data-fake-id="#tab-id-3" class="tab ">
-                    Other external services
-                </div>
-                <div id="tab-id-3-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>We also use different external services like Google Webfonts, Google Maps, and external Video
-                            providers. Since these providers may collect personal data like your IP address we allow you
-                            to block them here. Please be aware that this might heavily reduce the functionality and
-                            appearance of our site. Changes will take effect once you reload the page.</p>
-                        <p>Google Webfont Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleWebfontsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleWebfontsDisabled"
-                                          class="aviaPrivacyGoogleWebfontsDisabled "
-                                          name="aviaPrivacyGoogleWebfontsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google Webfonts.</span></label>
-                        </div>
-                        <p>Google Map Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleMapsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleMapsDisabled"
-                                          class="aviaPrivacyGoogleMapsDisabled "
-                                          name="aviaPrivacyGoogleMapsDisabled"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Click to enable/disable Google Maps.</span></label>
-                        </div>
-                        <p>Google reCaptcha Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleReCaptchaDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleReCaptchaDisabled"
-                                          class="aviaPrivacyGoogleReCaptchaDisabled "
-                                          name="aviaPrivacyGoogleReCaptchaDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google reCaptcha.</span></label>
-                        </div>
-                        <p>Vimeo and Youtube video embeds:</p>
-                        <div class="av-switch-aviaPrivacyVideoEmbedsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyVideoEmbedsDisabled"
-                                          class="aviaPrivacyVideoEmbedsDisabled " name="aviaPrivacyVideoEmbedsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable video embeds.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-4-content" role="tab" tabindex="0" data-fake-id="#tab-id-4" class="tab ">
-                    Privacy Policy
-                </div>
-                <div id="tab-id-4-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>You can read about our cookies and privacy settings in detail on our Privacy Policy
-                            Page. </p>
-
-
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="avia-cookie-consent-modal-buttons-wrap"><a href='#'
-                                                               class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-3  avia-cookie-close-bar avia-cookie-consent-modal-button'
-                                                               title="Allow to use cookies, you always can modify used cookies and services">Accept
-            settings</a><a href='#'
-                           class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-4 av-extra-cookie-btn avia-cookie-consent-modal-button avia-cookie-hide-notification'
-                           title="Do not allow to use cookies or services - some functionality on our site might not work as expected.">Hide
-            notification only</a></div>
-    </div>
-</div>
-<script data-cfasync="false"
-        src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var avia_framework_globals = avia_framework_globals || {}
-    avia_framework_globals.frameworkUrl = 'wp-content/themes/enfold/framework/'
-    avia_framework_globals.installedAt = 'wp-content/themes/enfold/'
-    avia_framework_globals.ajaxurl = 'wp-admin/admin-ajax.php'
-    /* ]]> */
-</script>
-
-<script type='text/javascript'
-        src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3'
-        id='jquery-core-js'></script>
-<script type='text/javascript' id='avia-cookie-js-js-extra'>
-    /* <![CDATA[ */
-    var AviaPrivacyCookieConsent = {
-        "?": "Usage unknown",
-        "aviaCookieConsent": "Use and storage of Cookies has been accepted - restrictions set in other cookies",
-        "aviaPrivacyRefuseCookiesHideBar": "Hide cookie message bar on following page loads and refuse cookies if not allowed - aviaPrivacyEssentialCookiesEnabled must be set",
-        "aviaPrivacyEssentialCookiesEnabled": "Allow storage of site essential cookies and other cookies and use of features if not opt out",
-        "aviaPrivacyVideoEmbedsDisabled": "Do not allow video embeds",
-        "aviaPrivacyGoogleTrackingDisabled": "Do not allow Google Analytics",
-        "aviaPrivacyGoogleWebfontsDisabled": "Do not allow Google Webfonts",
-        "aviaPrivacyGoogleMapsDisabled": "Do not allow Google Maps",
-        "aviaPrivacyGoogleReCaptchaDisabled": "Do not allow Google reCaptcha",
-        "aviaPrivacyMustOptInSetting": "Settings are for users that must opt in for cookies and services",
-        "PHPSESSID": "Operating site internal cookie - Keeps track of your session",
-        "XDEBUG_SESSION": "Operating site internal cookie - PHP Debugger session cookie",
-        "wp-settings*": "Operating site internal cookie",
-        "wordpress*": "Operating site internal cookie",
-        "tk_ai*": "Shop internal cookie",
-        "woocommerce*": "Shop internal cookie",
-        "wp_woocommerce*": "Shop internal cookie",
-        "wp-wpml*": "Needed to manage different languages"
-    }
-    var AviaPrivacyCookieAdditionalData = {
-        "cookie_refuse_button_alert": "When refusing all cookies this site might not be able to work as expected. Please check our settings page and opt out for cookies or functions you do not want to use and accept cookies. You will be shown this message every time you open a new window or a new tab.\\n\\nAre you sure you want to continue?",
-        "no_cookies_found": "No accessable cookies found in domain",
-        "admin_keep_cookies": ["PHPSESSID", "wp-*", "wordpress*", "XDEBUG*"],
-        "remove_custom_cookies": [],
-        "no_lightbox": "We need a lightbox to show the modal popup. Please enable the built in lightbox in Theme Options Tab or include your own modal window plugin.\\n\\nYou need to connect this plugin in JavaScript with callback wrapper functions - see avia_cookie_consent_modal_callback in file enfold\\js\\avia-snippet-cookieconsent.js "
-    }
-    /* ]]> */
-</script>
-<script type='text/javascript' id='avia_google_recaptcha_front_script-js-extra'>
-    /* <![CDATA[ */
-    var AviaReCAPTCHA_front = {
-        "version": "avia_recaptcha_v3",
-        "site_key2": "6Lfzwa4fAAAAADHOBXmdktHNblX0y83OTlvzicMP",
-        "site_key3": "6Lf4yq4fAAAAAI2UMj9XA4EfJ_X4jltX0hCs5DCW",
-        "api": "https:\/\/www.google.com\/recaptcha\/api.js",
-        "avia_api_script": "https:\/\/www.pango.co\/wp-content\/themes\/enfold\/framework\/js\/conditional_load\/avia_google_recaptcha_api.js",
-        "theme": "light",
-        "score": "0.5",
-        "verify_nonce": "2428fc61e7",
-        "cannot_use": "<h3 class=\"av-recaptcha-error-main\">Sorry, a problem occurred trying to communicate with Google reCAPTCHA API. You are currently not able to submit the contact form. Please try again later - reload the page and also check your internet connection.<\/h3>",
-        "init_error_msg": "Initial setting failed. Sitekey 2 and\/or sitekey 3 missing in frontend.",
-        "v3_timeout_pageload": "Timeout occurred connecting to V3 API on initial pageload",
-        "v3_timeout_verify": "Timeout occurred connecting to V3 API on verifying submit",
-        "v2_timeout_verify": "Timeout occurred connecting to V2 API on verifying you as human. Please try again and check your internet connection. It might be necessary to reload the page.",
-        "verify_msg": "Verify....",
-        "connection_error": "Could not connect to the internet. Please reload the page and try again.",
-        "validate_first": "Please validate that you are a human first",
-        "validate_submit": "Before submitting we validate that you are a human first.",
-        "no_token": "Missing internal token on valid submit - unable to proceed.",
-        "invalid_version": "Invalid reCAPTCHA version found.",
-        "api_load_error": "Google reCAPTCHA API could not be loaded."
-    }
-    /* ]]> */
-</script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
 <script type='text/javascript' id='avia-footer-scripts-js-extra'>
     /* <![CDATA[ */
     var AviaPrivacyCookieConsent = {
@@ -1806,7 +1565,7 @@
         "avia_api_script": "https:\/\/www.pango.co\/wp-content\/themes\/enfold\/framework\/js\/conditional_load\/avia_google_recaptcha_api.js",
         "theme": "light",
         "score": "0.5",
-        "verify_nonce": "2428fc61e7",
+        "verify_nonce": "39691fde10",
         "cannot_use": "<h3 class=\"av-recaptcha-error-main\">Sorry, a problem occurred trying to communicate with Google reCAPTCHA API. You are currently not able to submit the contact form. Please try again later - reload the page and also check your internet connection.<\/h3>",
         "init_error_msg": "Initial setting failed. Sitekey 2 and\/or sitekey 3 missing in frontend.",
         "v3_timeout_pageload": "Timeout occurred connecting to V3 API on initial pageload",
@@ -1825,77 +1584,5 @@
 <script type='text/javascript'
         src='wp-content/uploads/dynamic_avia/avia-footer-scripts-da18094d71d2a424d7daa12ad1bb3098---6450004fa6194.js'
         id='avia-footer-scripts-js'></script>
-<script type='text/javascript'>function av_privacy_cookie_setter(cookie_name) {
-    var cookie_check = jQuery('html').hasClass('av-cookies-needs-opt-in') || jQuery('html').hasClass('av-cookies-can-opt-out')
-    var toggle = jQuery('.' + cookie_name)
-    toggle.each(function () {
-        var container = jQuery(this).closest('.av-toggle-switch')
-        if (cookie_check && !document.cookie.match(/aviaCookieConsent/)) {
-            this.checked = container.hasClass('av-cookie-default-checked')
-        } else if (cookie_check && document.cookie.match(/aviaCookieConsent/) && !document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) && cookie_name != 'aviaPrivacyRefuseCookiesHideBar') {
-            if (cookie_name == 'aviaPrivacyEssentialCookiesEnabled') {
-                this.checked = false
-            } else {
-                this.checked = container.hasClass('av-cookie-default-checked')
-            }
-        } else {
-            if (container.hasClass('av-cookie-save-checked')) {
-                this.checked = document.cookie.match(cookie_name) ? true : false
-            } else {
-                this.checked = document.cookie.match(cookie_name) ? false : true
-            }
-        }
-    })
-    jQuery('.' + 'av-switch-' + cookie_name).addClass('active')
-    toggle.on('click', function () {/* sync if more checkboxes exist because user added them to normal page content */
-        var check = this.checked
-        jQuery('.' + cookie_name).each(function () {
-            this.checked = check
-        })
-        var silent_accept_cookie = jQuery('html').hasClass('av-cookies-user-silent-accept')
-        if (!silent_accept_cookie && cookie_check && !document.cookie.match(/aviaCookieConsent/) || sessionStorage.getItem('aviaCookieRefused')) {
-            return
-        }
-        var container = jQuery(this).closest('.av-toggle-switch')
-        var action = ''
-        if (container.hasClass('av-cookie-save-checked')) {
-            action = this.checked ? 'save' : 'remove'
-        } else {
-            action = this.checked ? 'remove' : 'save'
-        }
-        if ('remove' == action) {
-            document.cookie = cookie_name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'
-        } else {
-            var theDate = new Date()
-            var oneYearLater = new Date(theDate.getTime() + 31536000000)
-            document.cookie = cookie_name + '=true; Path=/; Expires=' + oneYearLater.toGMTString() + ';'
-        }
-    })
-}
-
-av_privacy_cookie_setter('aviaPrivacyRefuseCookiesHideBar')
-av_privacy_cookie_setter('aviaPrivacyEssentialCookiesEnabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleWebfontsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleMapsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleReCaptchaDisabled')
-av_privacy_cookie_setter('aviaPrivacyVideoEmbedsDisabled') </script>
 </body>
 </html>
-<!-- *´¨)
-     ¸.•´¸.•*´¨) ¸.•*¨)
-     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
-
-<!-- Cache File Version Salt:       n/a -->
-
-<!-- Cache File URL:                website-terms-of-use/ -->
-<!-- Cache File Path:               /cache/comet-cache/cache/https/www-pango-co/website-terms-of-use.html -->
-
-<!-- Cache File Generated Via:      HTTP request -->
-<!-- Cache File Generated On:       May 17th, 2023 @ 7:28 am UTC -->
-<!-- Cache File Generated In:       0.17556 seconds -->
-
-<!-- Cache File Expires On:         May 24th, 2023 @ 7:28 am UTC -->
-<!-- Cache File Auto-Rebuild On:    May 24th, 2023 @ 7:28 am UTC -->
-
-<!-- Loaded via Cache On:    May 22nd, 2023 @ 5:08 am UTC -->
-<!-- Loaded via Cache In:    0.04338 seconds -->

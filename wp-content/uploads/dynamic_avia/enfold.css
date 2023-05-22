@@ -628,6 +628,10 @@ section.slide-entry.flex_column.post-entry.slide-entry-overview.slide-loop-2.sli
     padding-top: 10%;
     padding-left: 1%;
 }
+
+#footer .pangologofooter{
+    width: 150px;
+}
 .widget ul.social_bookmarks {
     display: inline-flex;
 }

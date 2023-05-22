@@ -3,66 +3,26 @@
       class="html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_left html_header_sidebar html_logo_left html_menu_right html_slim html_disabled html_mobile_menu_phone html_header_searchicon html_content_align_left html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_3963 av-cookies-consent-show-message-bar av-cookies-cookie-consent-enabled av-cookies-can-opt-out av-cookies-user-silent-accept avia-cookie-check-browser-settings av-no-preview html_text_menu_active ">
 <head>
     <meta charset="UTF-8"/>
-
-
     <!-- mobile setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Scripts/CSS and wp_head hook -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
-
-    <script type='text/javascript'>
-
-        function avia_cookie_check_sessionStorage() {
-            //	FF throws error when all cookies blocked !!
-            var sessionBlocked = false
-            try {
-                var test = sessionStorage.getItem('aviaCookieRefused') != null
-            } catch (e) {
-                sessionBlocked = true
-            }
-
-            var aviaCookieRefused = !sessionBlocked ? sessionStorage.getItem('aviaCookieRefused') : null
-
-            var html = document.getElementsByTagName('html')[0]
-
-            /**
-             * Set a class to avoid calls to sessionStorage
-             */
-            if (sessionBlocked || aviaCookieRefused) {
-                if (html.className.indexOf('av-cookies-session-refused') < 0) {
-                    html.className += ' av-cookies-session-refused'
-                }
-            }
-
-            if (sessionBlocked || aviaCookieRefused || document.cookie.match(/aviaCookieConsent/)) {
-                if (html.className.indexOf('av-cookies-user-silent-accept') >= 0) {
-                    html.className = html.className.replace(/\bav-cookies-user-silent-accept\b/g, '')
-                }
-            }
-        }
-
-        avia_cookie_check_sessionStorage()
-
-    </script>
-
     <!-- This site is optimized with the Yoast SEO plugin v20.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Privacy Policy | 44+ Technologies</title>
-    <link rel='stylesheet' id='avia-grid-css'
-          href='wp-content/themes/enfold/css/grid.css?ver=4.8.3'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-base-css'
-          href='wp-content/themes/enfold/css/base.css?ver=4.8.3'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-layout-css'
-          href='wp-content/themes/enfold/css/layout.css?ver=4.8.3'
-          type='text/css' media='all'/>
+    <title>44+ Technologies</title>
+    <meta name="description"
+          content="We build and acquire best-in-class brands, ensuring our customers continued security through a growing portfolio."/>
+    <link rel='stylesheet' id='avia-grid-css' href='wp-content/themes/enfold/css/grid.css?ver=4.8.3' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='avia-base-css' href='wp-content/themes/enfold/css/base.css?ver=4.8.3' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='avia-layout-css' href='wp-content/themes/enfold/css/layout.css?ver=4.8.3' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-audioplayer-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/audio-player/audio-player.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-blog-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-postslider-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=6.2'
           type='text/css' media='all'/>
@@ -112,11 +72,11 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-hr-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-icon-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-iconbox-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=6.2'
           type='text/css' media='all'/>
@@ -127,8 +87,8 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconlist/iconlist.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-image-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-hotspot-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.css?ver=6.2'
           type='text/css' media='all'/>
@@ -139,11 +99,10 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-siteloader-css'
-          href='wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=6.2' type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-menu-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-modfule-notification-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/notification/notification.css?ver=6.2'
           type='text/css' media='all'/>
@@ -187,14 +146,14 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tab_section/tab_section.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-table-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-tabs-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-team-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=6.2'
-          type='text/css' media='all'/>
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=6.2' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-module-testimonials-css'
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=6.2'
           type='text/css' media='all'/>
@@ -205,13 +164,11 @@
           href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=6.2'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-module-video-css'
-          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=6.2'
+          href='wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=6.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=6.2'
           type='text/css' media='all'/>
-    <link rel='stylesheet' id='wp-block-library-css'
-          href='wp-includes/css/dist/block-library/style.min.css?ver=6.2'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='classic-theme-styles-css'
-          href='wp-includes/css/classic-themes.min.css?ver=6.2'
+    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=6.2'
           type='text/css' media='all'/>
     <style id='global-styles-inline-css' type='text/css'>
         body {
@@ -552,43 +509,30 @@
         }
     </style>
     <link rel='stylesheet' id='bodhi-svgs-attachment-css'
-          href='wp-content/plugins/svg-support/css/svgs-attachment.css?ver=6.2'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-scs-css'
-          href='wp-content/themes/enfold/css/shortcodes.css?ver=4.8.3'
+          href='wp-content/plugins/svg-support/css/svgs-attachment.css?ver=6.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='avia-scs-css' href='wp-content/themes/enfold/css/shortcodes.css?ver=4.8.3'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='avia-popup-css-css'
-          href='wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel='stylesheet' id='avia-lightbox-css'
-          href='wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel='stylesheet' id='avia-widget-css-css'
-          href='wp-content/themes/enfold/css/avia-snippet-widget.css?ver=4.8.3'
-          type='text/css' media='screen'/>
-    <link rel='stylesheet' id='avia-dynamic-css'
-          href='wp-content/uploads/dynamic_avia/enfold.css?ver=6450004d6c6a6'
+          href='wp-content/themes/enfold/css/avia-snippet-widget.css?ver=4.8.3' type='text/css' media='screen'/>
+    <link rel='stylesheet' id='avia-dynamic-css' href='wp-content/uploads/dynamic_avia/enfold.css?ver=6450004d6c6a6'
           type='text/css' media='all'/>
-    <link rel='stylesheet' id='avia-custom-css'
-          href='wp-content/themes/enfold/css/custom.css?ver=4.8.3'
-          type='text/css' media='all'/>
+    <link rel='stylesheet' id='avia-custom-css' href='wp-content/themes/enfold/css/custom.css?ver=4.8.3' type='text/css'
+          media='all'/>
     <link rel='stylesheet' id='avia-cookie-css-css'
-          href='wp-content/themes/enfold/css/avia-snippet-cookieconsent.css?ver=4.8.3'
-          type='text/css' media='screen'/>
+          href='wp-content/themes/enfold/css/avia-snippet-cookieconsent.css?ver=4.8.3' type='text/css' media='screen'/>
     <link rel="apple-touch-icon" sizes="144x144" href="wp-content/uploads/fbrfg/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-          href="wp-content/uploads/fbrfg/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-          href="wp-content/uploads/fbrfg/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="wp-content/uploads/fbrfg/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="wp-content/uploads/fbrfg/favicon-16x16.png">
 
     <link rel="mask-icon" href="wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#2562FF">
     <link rel="shortcut icon" href="wp-content/uploads/fbrfg/favicon.ico">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="msapplication-config" content="wp-content/uploads/fbrfg/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <!--[if lt IE 9]>
-    <script src="wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
-
 
     <!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
     <script type="text/javascript">'use strict'
@@ -809,8 +753,8 @@
 
             <div class='container av-logo-container'>
                 <div class='inner-container'><span class='logo'><a href='index.html'><img
-                        src="wp-content/uploads/2021/07/pangoLogoFooter.svg"
-                        height="100" width="300" alt='logo' title=''/></a></span>
+                        src="wp-content/uploads/2021/07/pangoLogoFooter.svg" height="100" width="300" alt='logo'
+                        title=''/></a></span>
                     <nav class='main_menu' data-selectname='Select a page' role="navigation" itemscope="itemscope"
                          itemtype="https://schema.org/SiteNavigationElement">
                         <div class="avia-menu av-main-nav-wrap">
@@ -818,39 +762,39 @@
                                 <li id="menu-item-3352"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-1">
                                     <a href="about.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">About</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Về chúng tôi</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3395"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2">
                                     <a href="products.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Products</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Sản phẩm</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3424"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3">
                                     <a href="team.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Team</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Đội ngũ</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3474"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4">
                                     <a href="careers.html" itemprop="url"><span class="avia-bullet"></span><span
-                                            class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span
+                                            class="avia-menu-text">Nghề nghiệp</span><span class="avia-menu-fx"><span
                                             class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
                                 </li>
                                 <li id="menu-item-3386"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-5">
                                     <a href="contact.html" itemprop="url"><span class="avia-bullet"></span><span
                                             class="avia-menu-text"><div class="contact-block"><div
-                                            class="top-img"></div><h3>Contact us</h3><p><em>to learn more about our M&#038;A program or to work with us.</em></p></div></span><span
+                                            class="top-img"></div><h3>Liên hệ</h3><p><em>để tìm hiểu thêm về chương trình M&#038;A của chúng tôi hoặc để làm việc với chúng tôi.</em></p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li id="menu-item-3583"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-6">
                                     <a target="_blank" href="https://www.aura.com" itemprop="url" rel="noopener"><span
                                             class="avia-bullet"></span><span class="avia-menu-text"><div
-                                            class="menutext"><p>44+ Technologies is owned and operated by <u>Aura</u>.</p></div></span><span
+                                            class="menutext"><p>44+ Technologies được sở hữu và vận hành bởi <u>Aura</u>.</p></div></span><span
                                             class="avia-menu-fx"><span class="avia-arrow-wrap"><span
                                             class="avia-arrow"></span></span></span></a></li>
                                 <li class="av-burger-menu-main menu-item-avia-special av-small-burger-icon">
@@ -894,8 +838,8 @@
                                      style='border-radius:0px; '>
                                     <div style='padding-bottom:0px; margin: 0px 0px 0px 0px;font-size:50px;'
                                          class='av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-3  avia-builder-el-no-sibling  av-inherit-size '>
-                                        <h1 class='av-special-heading-tag ' itemprop="headline"><span
-                                                class="bluegradient">Privacy</span> Policy</h1>
+                                        <h1 class='av-special-heading-tag ' itemprop="headline">Chính sách <span
+                                                class="bluegradient">bảo mật</span></h1>
                                         <div class='special-heading-border'>
                                             <div class='special-heading-inner-border'></div>
                                         </div>
@@ -912,37 +856,41 @@
                                 <section class="av_textblock_section " itemscope="itemscope"
                                          itemtype="https://schema.org/CreativeWork">
                                     <div class='avia_textblock  ' itemprop="text"><h5
-                                            style="margin-bottom: 20px; line-height: 25px; text-align: left;">44+ Technologies
-                                        Privacy Introduction</h5>
+                                            style="margin-bottom: 20px; line-height: 25px; text-align: left;">44+
+                                        Technologies
+                                        giới thiệu quyền riêng tư</h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#ppbusiness">Business Customers</a></h5>
+                                                href="#ppbusiness">Khách hàng doanh nghiệp</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp1">1. What Information Do We Collect About You?</a></h5>
+                                                href="#pp1">1. Chúng tôi thu thập các thông tin nào về bạn?</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp2">2. How Do We Use Your Information?</a></h5>
-                                        <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp3">3. Who Do We Share Your Information With and Why?</a></h5>
-                                        <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp4">4. Use of Advertising Services With Free VPN Products</a>
+                                                href="#pp2">2. Làm thế nào để chúng tôi sử dụng thông tin của bạn?</a>
                                         </h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp5">5. Security</a></h5>
+                                                href="#pp3">3. Chúng tôi chia sẻ thông tin của bạn với ai và tại
+                                            sao?</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp6">6. International Data Transfers</a></h5>
+                                                href="#pp4">4. Sử dụng dịch vụ quảng cáo với các sản phẩm VPN miễn
+                                            phí</a>
+                                        </h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp7">7. Data Retention</a></h5>
+                                                href="#pp5">5. Bảo vệ</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp8">8. Your Rights</a></h5>
+                                                href="#pp6">6. Truyền dữ liệu quốc tế</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp9">9. Your California Privacy Rights</a></h5>
+                                                href="#pp7">7. Lưu trữ dữ liệu</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp10">10. Technology Licensing</a></h5>
+                                                href="#pp8">8. Quyền lợi của bạn</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp11">11. Age Restrictions</a></h5>
+                                                href="#pp9">9. Quyền riêng tư tại California của bạn</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp12">12. Privacy Policy Updates</a></h5>
+                                                href="#pp10">10. Cấp phép công nghệ</a></h5>
                                         <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
-                                                href="#pp13">13. Contact Us</a></h5>
+                                                href="#pp11">11. Hạn chế độ tuổi</a></h5>
+                                        <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
+                                                href="#pp12">12. Cập nhật chính sách bảo mật</a></h5>
+                                        <h5 style="margin-bottom: 20px; line-height: 25px; text-align: left;"><a
+                                                href="#pp13">13. Liên hệ chúng tôi</a></h5>
                                     </div>
                                 </section>
                             </div>
@@ -950,475 +898,523 @@
                                 <section class="av_textblock_section " itemscope="itemscope"
                                          itemtype="https://schema.org/CreativeWork">
                                     <div class='avia_textblock  ' itemprop="text"><h6
-                                            style="font-weight: 200; color: #888888;">Last Updated: September 29,
-                                        2022</h6>
-                                        <p>At LLC dba 44+ Technologies (&#8220;44+ Technologies&#8221;), we believe it’s important that
-                                            everyone, regardless of their situation, can obtain secure and private
-                                            access to the internet. We always aim to provide this access without
-                                            compromising the privacy of our customers. 44+ Technologies is a division of
-                                            Intersections, LLC or 44+ Technologies GmbH, d/ba/ 44+ Technologies (“44+ Technologies”, “we”, “us”, or
-                                            “our”).</p>
-                                        <p>This Privacy Policy describes 44+ Technologies’s privacy practices across all of our
-                                            products, services, apps, and websites that link to this policy (we refer to
-                                            these collectively as our “services”).</p>
-                                        <p>See the Contact Us section below for more information about 44+ Technologies and contact
-                                            details.</p>
-                                        <h4 id="ppbusiness">Business Customers</h4>
-                                        <p>Some of 44+ Technologies’s services are offered to businesses. For those services, our
-                                            customer is a business or other organization who may authorize individual
-                                            end users to use the services that it has purchased from us. Where an
-                                            organization is our customer, it may maintain accounts with 44+ Technologies through
-                                            which it and its users may submit information (“Customer Data”). That
-                                            organization typically controls those accounts and may receive some Customer
-                                            Data in order to maintain the account. In this case, 44+ Technologies is generally a
-                                            processor of Customer Data and the organization is the controller. See the
-                                            <em>‘How do we share information’</em> section below for additional details.
+                                            style="font-weight: 200; color: #888888;">Cập nhật lần cuối: ngày 29 tháng 9
+                                        năm 2022</h6>
+                                        <p>Tại LLC dba 44+ Technologies (“Công nghệ 44+”), chúng tôi tin rằng điều quan
+                                            trọng là mọi người, bất kể hoàn cảnh của họ, đều có thể truy cập Internet an
+                                            toàn và riêng tư. Chúng tôi luôn mong muốn cung cấp quyền truy cập này mà
+                                            không ảnh hưởng đến quyền riêng tư của khách hàng. 44+ Technologies là một
+                                            bộ phận của Intersections, LLC hoặc 44+ Technologies GmbH, d/ba/ 44+
+                                            Technologies (“44+ Technologies”, “chúng tôi”, “chúng tôi” hoặc “của chúng
+                                            tôi”).</p>
+                                        <p>Chính sách quyền riêng tư này mô tả các thực tiễn quyền riêng tư của 44+
+                                            Technologies trên tất cả các sản phẩm, dịch vụ, ứng dụng và trang web của
+                                            chúng tôi có liên kết với chính sách này (chúng tôi gọi chung những điều này
+                                            là “dịch vụ” của chúng tôi).</p>
+                                        <p>Xem phần Liên hệ với chúng tôi bên dưới để biết thêm thông tin về 44+ Công
+                                            nghệ và chi tiết liên hệ.</p>
+                                        <h4 id="ppbusiness">Khách hàng doanh nghiệp</h4>
+                                        <p>Một số dịch vụ của 44+ Technologies được cung cấp cho các doanh nghiệp. Đối
+                                            với các dịch vụ đó, khách hàng của chúng tôi là một doanh nghiệp hoặc tổ
+                                            chức khác có thể ủy quyền cho người dùng cuối cá nhân sử dụng các dịch vụ mà
+                                            họ đã mua từ chúng tôi. Khi một tổ chức là khách hàng của chúng tôi, tổ chức
+                                            đó có thể duy trì tài khoản với 44+ Công nghệ mà thông qua đó tổ chức và
+                                            người dùng của tổ chức có thể gửi thông tin (“Dữ liệu khách hàng”). Tổ chức
+                                            đó thường kiểm soát các tài khoản đó và có thể nhận một số Dữ liệu khách
+                                            hàng để duy trì tài khoản. Trong trường hợp này, 44+ Technologies thường là
+                                            bên xử lý Dữ liệu khách hàng và tổ chức là bên kiểm soát. Xem phần
+                                            <em>‘Làm thế nào để chúng tôi chia sẻ thông tin’</em> bên dưới để biết thêm
+                                            chi tiết.
                                         </p>
-                                        <h4 id="pp1" style="padding-bottom: 10px;">1. What Information Do We Collect
-                                            About You?</h4>
+                                        <h4 id="pp1" style="padding-bottom: 10px;">1. Chúng tôi thu thập các thông tin
+                                            nào về bạn?</h4>
                                         <ul>
-                                            <li>This section describes the various types of personal data (aka ‘personal
-                                                information’) we collect from and about you. This information is not
-                                                collected in all situations, but only in specific product-specific
-                                                situations. For example, as noted in our <a
-                                                        href="vpn-products-privacy-notice/">VPN Products Privacy
-                                                    Notice</a>, our VPN services only collect a limited amount of
-                                                personal data, and specifies that the collection of any websites or apps
-                                                visited during a VPN session are not connected to any individual user,
-                                                and therefore can not be used for advertising or marketing purposes.
+                                            <li>Phần này mô tả các loại dữ liệu cá nhân khác nhau (còn gọi là 'thông tin
+                                                cá nhân') mà chúng tôi thu thập từ và về bạn. Thông tin này không được
+                                                thu thập trong mọi tình huống mà chỉ trong các tình huống cụ thể dành
+                                                cho sản phẩm cụ thể. Ví dụ: như đã lưu ý trong <a
+                                                        href="vpn-products-privacy-notice/">Thông báo về Quyền riêng tư
+                                                    của Sản phẩm VPN</a>, các dịch vụ VPN của chúng tôi chỉ thu thập một
+                                                lượng dữ liệu cá nhân hạn chế và chỉ định rằng việc thu thập bất kỳ
+                                                trang web hoặc ứng dụng nào được truy cập trong phiên VPN không được kết
+                                                nối với bất kỳ người dùng cá nhân nào và do đó không thể được sử dụng
+                                                cho mục đích quảng cáo hoặc tiếp thị.
                                             </li>
                                         </ul>
-                                        <p><strong>1.1. Information You Provide to Us</strong></p>
+                                        <p><strong>1.1. Thông tin bạn cung cấp cho chúng tôi</strong></p>
                                         <ul>
-                                            <li>Account Information. Some services require or allow you to create an
-                                                account before you can access them. As part of registering for an
-                                                account, we may collect information such as your name, username, email
-                                                address, and password.
+                                            <li>Thông tin tài khoản. Một số dịch vụ yêu cầu hoặc cho phép bạn tạo một
+                                                tài khoản trước khi bạn có thể truy cập chúng. Là một phần của việc đăng
+                                                ký tài khoản, chúng tôi có thể thu thập thông tin như tên, tên người
+                                                dùng, địa chỉ email và mật khẩu của bạn.
                                             </li>
-                                            <li>Billing and Payment Information. In order to purchase a service, you may
-                                                need to provide us with details such as billing name, billing contact
-                                                details (street addresses, email addresses), and payment instrument
-                                                details.
+                                            <li>Thông tin thanh toán và thanh toán. Để mua dịch vụ, bạn có thể cần cung
+                                                cấp cho chúng tôi các chi tiết như tên thanh toán, chi tiết liên hệ
+                                                thanh toán (địa chỉ đường phố, địa chỉ email) và chi tiết phương thức
+                                                thanh toán.
                                             </li>
-                                            <li>Identity or Account Verification Information. Some services, such as
-                                                Identity Defense, may require you to verify your identity as part of
-                                                creating an account to access them. Information collected during this
-                                                process may include;
+                                            <li>Thông tin xác minh danh tính hoặc tài khoản. Một số dịch vụ, chẳng hạn
+                                                như Bảo vệ danh tính, có thể yêu cầu bạn xác minh danh tính của mình như
+                                                một phần của việc tạo tài khoản để truy cập chúng. Thông tin được thu
+                                                thập trong quá trình này có thể bao gồm;
                                             </li>
                                             <li style="list-style-type: none;">
                                                 <ul>
-                                                    <li>Date of Birth</li>
-                                                    <li>Social Security Number</li>
-                                                    <li>Questions and answers presented by our verification partners,
-                                                        which may include information about your prior residences or
-                                                        accounts. 44+ Technologies does not receive copies or records associated
-                                                        with these partners questions and answers.
+                                                    <li>Ngày sinh</li>
+                                                    <li>Số an sinh xã hội</li>
+                                                    <li>Các câu hỏi và câu trả lời do các đối tác xác minh của chúng tôi
+                                                        trình bày, có thể bao gồm thông tin về nơi cư trú hoặc tài khoản
+                                                        trước đây của bạn. 44+ Technologies không nhận bản sao hoặc hồ
+                                                        sơ liên quan đến các câu hỏi và câu trả lời của các đối tác này.
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>Communications and Submissions. You may choose to provide us with
-                                                information when you communicate with us (e.g. via email, phone, or chat
-                                                for support or to inquire about our services), including when you fill
-                                                out an online form, respond to surveys, provide feedback, post comments
-                                                to our website, participate in promotions, or submit information through
-                                                our services. If you contact us by phone, we may record the
-                                                conversation, transcribe it, and store the transcription and the
-                                                recording. Similarly, if you contact us via e-mail or chat we may record
-                                                and store those chats or e-mails.
+                                            <li>Truyền thông và đệ trình. Bạn có thể chọn cung cấp cho chúng tôi thông
+                                                tin khi bạn liên lạc với chúng tôi (ví dụ: qua email, điện thoại hoặc
+                                                trò chuyện để được hỗ trợ hoặc hỏi về các dịch vụ của chúng tôi), kể cả
+                                                khi bạn điền vào biểu mẫu trực tuyến, trả lời khảo sát, cung cấp phản
+                                                hồi, đăng nhận xét vào trang web của chúng tôi, tham gia các chương
+                                                trình khuyến mãi hoặc gửi thông tin thông qua các dịch vụ của chúng tôi.
+                                                Nếu bạn liên hệ với chúng tôi qua điện thoại, chúng tôi có thể ghi lại
+                                                cuộc trò chuyện, phiên âm và lưu trữ phiên âm cũng như đoạn ghi âm.
+                                                Tương tự, nếu bạn liên hệ với chúng tôi qua e-mail hoặc trò chuyện,
+                                                chúng tôi có thể ghi lại và lưu trữ những cuộc trò chuyện hoặc e-mail
+                                                đó.
                                             </li>
                                         </ul>
-                                        <p><strong>1.2. Information collected when you use our services</strong></p>
+                                        <p><strong>1.2. Thông tin được thu thập khi bạn sử dụng dịch vụ của chúng
+                                            tôi</strong></p>
                                         <ul>
-                                            <li>Usage information. We collect information about how you interact with
-                                                our services, including when you visit and use our websites or apps,
-                                                including which 44+ Technologies web pages or app features are used , and when and
-                                                for how long you use our services. We may use cookies and/or other
-                                                technologies to collect this information. See below for more
-                                                information.
+                                            <li>Thông tin sử dụng. Chúng tôi thu thập thông tin về cách bạn tương tác
+                                                với các dịch vụ của chúng tôi, bao gồm cả thời điểm bạn truy cập và sử
+                                                dụng các trang web hoặc ứng dụng của chúng tôi, bao gồm cả những trang
+                                                web hoặc tính năng ứng dụng của 44+ Technologies được sử dụng cũng như
+                                                thời gian và khoảng thời gian bạn sử dụng dịch vụ của chúng tôi. Chúng
+                                                tôi có thể sử dụng cookie và/hoặc các công nghệ khác để thu thập thông
+                                                tin này. Xem bên dưới để biết thêm thông tin.
                                             </li>
-                                            <li>Device information. We collect information from and about the device you
-                                                use to access our services, including about the browsers and 44+ Technologies apps
-                                                you use to access our services. For example, we may collect device or
-                                                mobile advertising identifiers, browser types, device types and
-                                                settings, operating system versions, mobile, wireless, and other network
-                                                information (such as internet service provider name, carrier name and
-                                                signal strength), and application version numbers.We may use cookies and
-                                                other technologies to collect this information. See below for more
-                                                information.
+                                            <li>Thông tin thiết bị. Chúng tôi thu thập thông tin từ và về thiết bị bạn
+                                                sử dụng để truy cập các dịch vụ của chúng tôi, bao gồm thông tin về
+                                                trình duyệt và hơn 44 ứng dụng Công nghệ mà bạn sử dụng để truy cập các
+                                                dịch vụ của chúng tôi. Ví dụ: chúng tôi có thể thu thập số nhận dạng
+                                                quảng cáo trên thiết bị hoặc thiết bị di động, loại trình duyệt, loại và
+                                                cài đặt thiết bị, phiên bản hệ điều hành, thông tin di động, không dây
+                                                và mạng khác (chẳng hạn như tên nhà cung cấp dịch vụ internet, tên nhà
+                                                cung cấp dịch vụ và cường độ tín hiệu) và phiên bản ứng dụng số. Chúng
+                                                tôi có thể sử dụng cookie và các công nghệ khác để thu thập thông tin
+                                                này. Xem bên dưới để biết thêm thông tin.
                                             </li>
-                                            <li>Diagnostic information. We may collect information about the nature of
-                                                the requests that you make to our servers,such as what is being
-                                                requested, information about the device and app used to make the
-                                                request, timestamps, and referring URLs. Location information. Unless
-                                                otherwise expressly stated or with your consent, we do not collect your
-                                                location information based on your device’s GPS or other device sensor
-                                                data. However, we may collect your approximate location by calculating
-                                                an imprecise latitude and longitude based on your IP address to provide
-                                                you with better service (e.g. to connect you to the nearest and fastest
-                                                VPN server).
+                                            <li>Thông tin chuẩn đoán. Chúng tôi có thể thu thập thông tin về bản chất
+                                                của các yêu cầu mà bạn thực hiện với máy chủ của chúng tôi, chẳng hạn
+                                                như nội dung đang được yêu cầu, thông tin về thiết bị và ứng dụng được
+                                                sử dụng để thực hiện yêu cầu, dấu thời gian và URL giới thiệu. Thông tin
+                                                địa điểm. Trừ khi có quy định rõ ràng khác hoặc được sự đồng ý của bạn,
+                                                chúng tôi không thu thập thông tin vị trí của bạn dựa trên GPS trên
+                                                thiết bị của bạn hoặc dữ liệu cảm biến thiết bị khác. Tuy nhiên, chúng
+                                                tôi có thể thu thập vị trí gần đúng của bạn bằng cách tính toán kinh độ
+                                                và vĩ độ không chính xác dựa trên địa chỉ IP của bạn để cung cấp cho bạn
+                                                dịch vụ tốt hơn (ví dụ: để kết nối bạn với máy chủ VPN gần nhất và nhanh
+                                                nhất).
                                             </li>
-                                            <li>VPN-Specific Information. Our VPN products do not log any information
-                                                that associates your account credentials or identity with your VPN
-                                                session activity. We do not maintain any records that show what websites
-                                                you were browsing or apps accessed through a VPN connection. However, we
-                                                will;
+                                            <li>Thông tin dành riêng cho VPN. Các sản phẩm VPN của chúng tôi không ghi
+                                                nhật ký bất kỳ thông tin nào liên kết thông tin xác thực hoặc danh tính
+                                                tài khoản của bạn với hoạt động phiên VPN của bạn. Chúng tôi không lưu
+                                                giữ bất kỳ bản ghi nào hiển thị những trang web bạn đang duyệt hoặc ứng
+                                                dụng được truy cập thông qua kết nối VPN. Tuy nhiên, chúng tôi sẽ;
                                                 <ul>
-                                                    <li>Record the amount of bandwidth used in a VPN session</li>
-                                                    <li>Identify the locations of the VPN servers utilized</li>
-                                                    <li>Collect similar diagnostic information as referenced above.</li>
-                                                    <li>Ask you to rate your connection and provide some more detailed
-                                                        survey information if you are not satisfied with the service.
-                                                        This information is not tied to a specific user.
+                                                    <li>Ghi lại lượng băng thông được sử dụng trong phiên VPN</li>
+                                                    <li>Xác định vị trí của các máy chủ VPN được sử dụng</li>
+                                                    <li>Thu thập thông tin chẩn đoán tương tự như được tham chiếu ở
+                                                        trên.
                                                     </li>
-                                                    <li>We may also assign your device a ‘hash’, which is a random ID
-                                                        generated when you first launch one of our VPN apps. Device
-                                                        hashes are not linked to VPN browsing activity or user identity,
-                                                        but may be used to measure individual user activity.
+                                                    <li>Yêu cầu bạn đánh giá kết nối của bạn và cung cấp một số thông
+                                                        tin khảo sát chi tiết hơn nếu bạn không hài lòng với dịch vụ.
+                                                        Thông tin này không bị ràng buộc với một người dùng cụ thể.
+                                                    </li>
+                                                    <li>Chúng tôi cũng có thể gán cho thiết bị của bạn một 'băm', đây là
+                                                        một ID ngẫu nhiên được tạo khi bạn khởi chạy một trong các ứng
+                                                        dụng VPN của chúng tôi lần đầu tiên. Băm thiết bị không được
+                                                        liên kết với hoạt động duyệt VPN hoặc danh tính người dùng,
+                                                        nhưng có thể được sử dụng để đo lường hoạt động của từng người
+                                                        dùng.
                                                     </li>
                                                 </ul>
-                                                <p>See the <a href="vpn-products-privacy-notice/">VPN Products Privacy
-                                                    Notice</a> for more information.</p>
-                                                <p><strong>1.3. Information Provided to Us by Third Parties</strong></p>
+                                                <p>Xem <a href="vpn-products-privacy-notice/">Thông báo về Quyền riêng
+                                                    tư của Sản phẩm VPN</a> để biết thêm thông tin.</p>
+                                                <p><strong>1.3. Thông tin do bên thứ ba cung cấp cho chúng tôi</strong>
+                                                </p>
                                                 <ul>
-                                                    <li>If you are invited to use a 44+ Technologies service, the person who
-                                                        invited you may submit your personal data, such as your email
-                                                        address or other contact information.
+                                                    <li>Nếu bạn được mời sử dụng dịch vụ 44+ Technologies, người mời bạn
+                                                        có thể gửi dữ liệu cá nhân của bạn, chẳng hạn như địa chỉ email
+                                                        hoặc thông tin liên hệ khác.
                                                     </li>
-                                                    <li>Third Party Partners or Services. In order to facilitate certain
-                                                        products, such as with identity or credit monitoring, we may
-                                                        receive information from third parties such as credit bureaus.
+                                                    <li>Đối tác hoặc Dịch vụ của bên thứ ba. Để tạo điều kiện thuận lợi
+                                                        cho một số sản phẩm, chẳng hạn như theo dõi danh tính hoặc tín
+                                                        dụng, chúng tôi có thể nhận thông tin từ các bên thứ ba, chẳng
+                                                        hạn như văn phòng tín dụng.
                                                     </li>
-                                                    <li>Third Party Accounts. Some services may allow you to register an
-                                                        account using a third party account (such as a Google or
-                                                        Microsoft account). If you do so, that third party may send us
-                                                        some information about you that they have. You may be able to
-                                                        control what information they send us via your privacy settings
-                                                        for that third party account.
+                                                    <li>Tài khoản bên thứ ba. Một số dịch vụ có thể cho phép bạn đăng ký
+                                                        tài khoản bằng tài khoản của bên thứ ba (chẳng hạn như tài khoản
+                                                        Google hoặc Microsoft). Nếu bạn làm như vậy, bên thứ ba đó có
+                                                        thể gửi cho chúng tôi một số thông tin về bạn mà họ có. Bạn có
+                                                        thể kiểm soát thông tin họ gửi cho chúng tôi thông qua cài đặt
+                                                        quyền riêng tư của bạn cho tài khoản bên thứ ba đó.
                                                     </li>
-                                                    <li>Threat Information. We receive information from reputable
-                                                        members of the security industry who provide information to help
-                                                        us to provide, develop, test, and improve our services (for
-                                                        example, lists of malicious URLs, spam blacklists, phone number
-                                                        blacklists, and sample malware). Some of this information may
-                                                        contain personal data on an incidental basis.
+                                                    <li>Thông tin mối đe dọa. Chúng tôi nhận thông tin từ các thành viên
+                                                        có uy tín trong ngành bảo mật, những người cung cấp thông tin để
+                                                        giúp chúng tôi cung cấp, phát triển, thử nghiệm và cải thiện
+                                                        dịch vụ của mình (ví dụ: danh sách các URL độc hại, danh sách
+                                                        đen spam, danh sách đen số điện thoại và phần mềm độc hại mẫu).
+                                                        Một số thông tin này có thể chứa dữ liệu cá nhân trên cơ sở ngẫu
+                                                        nhiên.
                                                     </li>
-                                                    <li>Business Customers. Organizations that use our business and
-                                                        enterprise products may submit personal data to facilitate
-                                                        account management and invite individuals to use those products.
+                                                    <li>Khách hàng doanh nghiệp. Các tổ chức sử dụng các sản phẩm dành
+                                                        cho doanh nghiệp và doanh nghiệp của chúng tôi có thể gửi dữ
+                                                        liệu cá nhân để tạo điều kiện quản lý tài khoản và mời các cá
+                                                        nhân sử dụng các sản phẩm đó.
                                                     </li>
                                                 </ul>
-                                                <h4 id="pp2" style="padding-top: 20px;">2. How Do We Use Your
-                                                    Information?</h4>
-                                                <p>We use the information we collect for various purposes described
-                                                    below. For visitors from the European Economic Area (EEA) or U.K.,
-                                                    please also note our lawful basis for each processing activity
-                                                    below;</p>
+                                                <h4 id="pp2" style="padding-top: 20px;">2. Làm thế nào để chúng tôi sử
+                                                    dụng thông tin của bạn?</h4>
+                                                <p>Chúng tôi sử dụng thông tin chúng tôi thu thập cho các mục đích khác
+                                                    nhau được mô tả bên dưới. Đối với khách truy cập từ Khu vực Kinh tế
+                                                    Châu Âu (EEA) hoặc Vương quốc Anh, vui lòng lưu ý cơ sở hợp pháp của
+                                                    chúng tôi đối với từng hoạt động xử lý bên dưới;</p>
                                                 <ul>
-                                                    <li>To provide, maintain, troubleshoot, and support our services. We
-                                                        use your information for this purpose on the basis that it is
-                                                        required to fulfill our contractual obligations to you. Examples
-                                                        include;
+                                                    <li>Để cung cấp, duy trì, khắc phục sự cố và hỗ trợ các dịch vụ của
+                                                        chúng tôi. Chúng tôi sử dụng thông tin của bạn cho mục đích này
+                                                        trên cơ sở nó được yêu cầu thực hiện các nghĩa vụ theo hợp đồng
+                                                        của chúng tôi đối với bạn. Những ví dụ bao gồm;
                                                         <ul>
-                                                            <li>For our VPN products, using information about how much
-                                                                bandwidth you use and how long you use our services in
-                                                                order to provide the services in accordance with a plan
-                                                                to which you have subscribed;
+                                                            <li>Đối với các sản phẩm VPN của chúng tôi, sử dụng thông
+                                                                tin về lượng băng thông bạn sử dụng và thời gian bạn sử
+                                                                dụng dịch vụ của chúng tôi để cung cấp dịch vụ theo gói
+                                                                mà bạn đã đăng ký;
                                                             </li>
-                                                            <li>For our digital threat platform; using threat and device
-                                                                information to determine whether certain items pose a
-                                                                potential security threat; and
+                                                            <li>Đối với nền tảng mối đe dọa kỹ thuật số của chúng tôi;
+                                                                sử dụng thông tin về mối đe dọa và thiết bị để xác định
+                                                                xem một số mặt hàng nhất định có gây ra mối đe dọa bảo
+                                                                mật tiềm ẩn hay không; và
                                                             </li>
-                                                            <li>For our identity or credit monitoring services,
-                                                                providing you with alerts and reports as received from
-                                                                our Partners and Service Providers;
+                                                            <li>Đối với các dịch vụ giám sát danh tính hoặc tín dụng của
+                                                                chúng tôi, cung cấp cho bạn các cảnh báo và báo cáo nhận
+                                                                được từ các Đối tác và Nhà cung cấp dịch vụ của chúng
+                                                                tôi;
                                                             </li>
-                                                            <li>Generally to ensure the proper functioning of our
-                                                                services.
+                                                            <li>Nói chung để đảm bảo các dịch vụ của chúng tôi hoạt động
+                                                                bình thường.
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li>For billing and payment purposes. We use your information in
-                                                        order to perform billing administration activities and process
-                                                        payments, which are required to fulfill our contractual
-                                                        obligations.
+                                                    <li>Đối với mục đích lập hóa đơn và thanh toán. Chúng tôi sử dụng
+                                                        thông tin của bạn để thực hiện các hoạt động quản lý thanh toán
+                                                        và xử lý các khoản thanh toán, những hoạt động này được yêu cầu
+                                                        để thực hiện các nghĩa vụ theo hợp đồng của chúng tôi.
                                                     </li>
-                                                    <li>To communicate with users and prospective users. We use your
-                                                        information to communicate with you, including by responding to
-                                                        your requests, and sending you information and updates about our
-                                                        services. We may do this in order to fulfill our contract with
-                                                        you, because you consented to the communication, or because we
-                                                        have a legitimate interest in providing you with information
-                                                        about our services.
+                                                    <li>Để giao tiếp với người dùng và người dùng tiềm năng. Chúng tôi
+                                                        sử dụng thông tin của bạn để liên lạc với bạn, bao gồm bằng cách
+                                                        trả lời các yêu cầu của bạn và gửi cho bạn thông tin và cập nhật
+                                                        về các dịch vụ của chúng tôi. Chúng tôi có thể làm điều này để
+                                                        thực hiện hợp đồng của chúng tôi với bạn, vì bạn đã đồng ý với
+                                                        thông tin liên lạc hoặc vì chúng tôi có lợi ích hợp pháp trong
+                                                        việc cung cấp cho bạn thông tin về các dịch vụ của chúng tôi.
                                                     </li>
-                                                    <li>To improve our services. We want to offer you the best services
-                                                        and user experiences we can, so we have a legitimate interest in
-                                                        continually improving and optimizing our services. To do so, we
-                                                        use your information to understand how users interact with our
-                                                        services. Examples: we analyze certain usage, device, and
-                                                        diagnostic information to understand aggregated usage trends and
-                                                        user engagement with our services (and, for example, invest in
-                                                        technical infrastructure to better serve regions with increasing
-                                                        user demand); we may use device and threat information to
-                                                        conduct spam, threat, and other scientific research to improve
-                                                        our threat detection capabilities; we review customer feedback
-                                                        to understand what we could be doing better.
+                                                    <li>Để cải thiện dịch vụ của chúng tôi. Chúng tôi muốn cung cấp cho
+                                                        bạn các dịch vụ và trải nghiệm người dùng tốt nhất có thể, vì
+                                                        vậy chúng tôi có lợi ích chính đáng trong việc liên tục cải
+                                                        thiện và tối ưu hóa các dịch vụ của mình. Để làm như vậy, chúng
+                                                        tôi sử dụng thông tin của bạn để hiểu cách người dùng tương tác
+                                                        với các dịch vụ của chúng tôi. Ví dụ: chúng tôi phân tích một số
+                                                        thông tin sử dụng, thiết bị và chẩn đoán để hiểu xu hướng sử
+                                                        dụng tổng hợp và mức độ tương tác của người dùng với các dịch vụ
+                                                        của chúng tôi (và, ví dụ: đầu tư vào cơ sở hạ tầng kỹ thuật để
+                                                        phục vụ tốt hơn các khu vực có nhu cầu ngày càng tăng của người
+                                                        dùng); chúng tôi có thể sử dụng thông tin về thiết bị và mối đe
+                                                        dọa để tiến hành thư rác, mối đe dọa và nghiên cứu khoa học khác
+                                                        nhằm cải thiện khả năng phát hiện mối đe dọa của chúng tôi;
+                                                        chúng tôi xem xét phản hồi của khách hàng để hiểu những gì chúng
+                                                        tôi có thể làm tốt hơn.
                                                     </li>
-                                                    <li>To develop new services.We have a legitimate interest in using
-                                                        your information to plan for and develop new services. For
-                                                        example, we may use customer feedback to understand what new
-                                                        services users may want.
+                                                    <li>Để phát triển các dịch vụ mới. Chúng tôi có lợi ích hợp pháp
+                                                        trong việc sử dụng thông tin của bạn để lập kế hoạch và phát
+                                                        triển các dịch vụ mới. Ví dụ: chúng tôi có thể sử dụng phản hồi
+                                                        của khách hàng để hiểu những dịch vụ mới mà người dùng có thể
+                                                        muốn.
                                                     </li>
-                                                    <li>To market and advertise our services. We may use your
-                                                        information to provide, measure, personalize, and enhance our
-                                                        advertising and marketing based on our legitimate interest in
-                                                        offering you services that may be of interest. Examples: we may
-                                                        use information such as who or what referred you to our services
-                                                        to understand how effective our advertising is; we may use
-                                                        information to administer promotional activities such as
-                                                        sweepstakes and referral programs. Note that our VPN products do
-                                                        not use your VPN browsing activity for these purposes and we do
-                                                        not maintain any records that show what you were browsing or
-                                                        accessing through a VPN connection.
+                                                    <li>Để tiếp thị và quảng cáo dịch vụ của chúng tôi. Chúng tôi có thể
+                                                        sử dụng thông tin của bạn để cung cấp, đo lường, cá nhân hóa và
+                                                        tăng cường quảng cáo và tiếp thị của chúng tôi dựa trên lợi ích
+                                                        hợp pháp của chúng tôi trong việc cung cấp cho bạn các dịch vụ
+                                                        có thể được quan tâm. Ví dụ: chúng tôi có thể sử dụng thông tin
+                                                        như ai hoặc điều gì đã giới thiệu bạn đến các dịch vụ của chúng
+                                                        tôi để hiểu mức độ hiệu quả của quảng cáo của chúng tôi; chúng
+                                                        tôi có thể sử dụng thông tin để quản lý các hoạt động quảng cáo
+                                                        như chương trình rút thăm trúng thưởng và giới thiệu. Lưu ý rằng
+                                                        các sản phẩm VPN của chúng tôi không sử dụng hoạt động duyệt VPN
+                                                        của bạn cho những mục đích này và chúng tôi không lưu giữ bất kỳ
+                                                        bản ghi nào hiển thị những gì bạn đang duyệt hoặc truy cập thông
+                                                        qua kết nối VPN.
                                                     </li>
-                                                    <li>To prevent harm or liability. We may use information for
-                                                        security purposes (such as to investigate security issues or to
-                                                        monitor and prevent fraud) and to prevent abuse. We may do this
-                                                        to comply with our legal obligations, to protect an individual’s
-                                                        vital interests, or because we have a legitimate interest in
-                                                        preventing harm or liability to 44+ Technologies and our users. For
-                                                        example, we may use account, usage, and device information to
-                                                        determine if an entity is engaging in abusive or unauthorized
-                                                        activity in connection with our services.
+                                                    <li>Để ngăn chặn thiệt hại hoặc trách nhiệm pháp lý. Chúng tôi có
+                                                        thể sử dụng thông tin cho mục đích bảo mật (chẳng hạn như điều
+                                                        tra các vấn đề bảo mật hoặc theo dõi và ngăn chặn gian lận) và
+                                                        để ngăn chặn lạm dụng. Chúng tôi có thể làm điều này để tuân thủ
+                                                        các nghĩa vụ pháp lý của mình, để bảo vệ lợi ích thiết yếu của
+                                                        một cá nhân hoặc vì chúng tôi có lợi ích hợp pháp trong việc
+                                                        ngăn ngừa tổn hại hoặc trách nhiệm pháp lý đối với 44+
+                                                        Technologies và người dùng của chúng tôi. Ví dụ: chúng tôi có
+                                                        thể sử dụng thông tin tài khoản, cách sử dụng và thiết bị để xác
+                                                        định xem một thực thể có đang tham gia vào hoạt động lạm dụng
+                                                        hoặc trái phép liên quan đến các dịch vụ của chúng tôi hay
+                                                        không.
                                                     </li>
                                                 </ul>
-                                                <h4 id="pp3" style="padding-top: 20px;">3. Who Do We Share Your
-                                                    Information With and Why?</h4>
-                                                <p><strong>3.1. In General</strong></p>
-                                                <p>We may disclose your information in the following circumstances:</p>
+                                                <h4 id="pp3" style="padding-top: 20px;">3. Chúng tôi chia sẻ thông tin
+                                                    của bạn với ai và tại sao?</h4>
+                                                <p><strong>3.1. Nói chung</strong></p>
+                                                <p>Chúng tôi có thể tiết lộ thông tin của bạn trong các trường hợp
+                                                    sau:</p>
                                                 <ul>
-                                                    <li>In accordance with your instructions or consent. For example,
-                                                        some services may allow you to register an account using a third
-                                                        party account (such as a Google or Microsoft account). If you
-                                                        choose to do so, we will share information with the third party
-                                                        account provider.
+                                                    <li>Theo hướng dẫn hoặc sự đồng ý của bạn. Ví dụ: một số dịch vụ có
+                                                        thể cho phép bạn đăng ký tài khoản bằng tài khoản của bên thứ ba
+                                                        (chẳng hạn như tài khoản Google hoặc Microsoft). Nếu bạn chọn
+                                                        làm như vậy, chúng tôi sẽ chia sẻ thông tin với nhà cung cấp tài
+                                                        khoản bên thứ ba.
                                                     </li>
-                                                    <li>To your business organization (for our business services). If a
-                                                        business customer is providing you with access to our services
-                                                        through a business account, others in that organization may be
-                                                        able to see and manage the information necessary to maintain
-                                                        your account and the personal contact information associated
-                                                        with it (such as an administrator). Please note the following
-                                                        details about information shared as a result of these
-                                                        relationships;
+                                                    <li>Gửi tổ chức kinh doanh của bạn (đối với các dịch vụ kinh doanh
+                                                        của chúng tôi). Nếu một khách hàng doanh nghiệp cung cấp cho bạn
+                                                        quyền truy cập vào các dịch vụ của chúng tôi thông qua tài khoản
+                                                        doanh nghiệp, thì những người khác trong tổ chức đó có thể xem
+                                                        và quản lý thông tin cần thiết để duy trì tài khoản của bạn và
+                                                        thông tin liên hệ cá nhân được liên kết với tài khoản đó (chẳng
+                                                        hạn như quản trị viên). Vui lòng lưu ý các chi tiết sau về thông
+                                                        tin được chia sẻ do các mối quan hệ này;
                                                         <ul>
-                                                            <li>Business organizations do not get access to, or receive
-                                                                any reports from, any network or Internet usage
-                                                                information related to your VPN activity.
+                                                            <li>Các tổ chức kinh doanh không có quyền truy cập hoặc nhận
+                                                                bất kỳ báo cáo nào từ bất kỳ mạng hoặc thông tin sử dụng
+                                                                Internet nào liên quan đến hoạt động VPN của bạn.
                                                             </li>
-                                                            <li>Business organizations do not receive any information
-                                                                our identity products provide to you, such as
-                                                                information associated with your credit report, credit
-                                                                alerts, or other identity-related information unless you
-                                                                provide them with express consent for any such use in
-                                                                each instance of their request.
+                                                            <li>Các tổ chức kinh doanh không nhận được bất kỳ thông tin
+                                                                nào mà các sản phẩm nhận dạng của chúng tôi cung cấp cho
+                                                                bạn, chẳng hạn như thông tin liên quan đến báo cáo tín
+                                                                dụng, cảnh báo tín dụng hoặc thông tin liên quan đến
+                                                                danh tính khác trừ khi bạn đồng ý rõ ràng với họ về bất
+                                                                kỳ mục đích sử dụng nào như vậy trong từng trường hợp họ
+                                                                yêu cầu.
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li>For collaborating with others on your behalf. Some services may
-                                                        provide ways for different users to interact or collaborate with
-                                                        each other. Your information will be shared in connection with
-                                                        those activities if you choose to engage in them.
+                                                    <li>Để cộng tác với những người khác thay mặt bạn. Một số dịch vụ có
+                                                        thể cung cấp các cách để những người dùng khác nhau tương tác
+                                                        hoặc cộng tác với nhau. Thông tin của bạn sẽ được chia sẻ liên
+                                                        quan đến các hoạt động đó nếu bạn chọn tham gia vào chúng.
                                                     </li>
-                                                    <li>Vendors and service providers. To help us provide some aspects
-                                                        of our services, we work with trusted third parties and partners
-                                                        (including affiliated companies in the 44+ Technologies). To protect your
-                                                        data, we enter into appropriate confidentiality and data
-                                                        processing terms with these third parties, review their security
-                                                        practices, and limit information sharing to the scope of what
-                                                        they are helping us with. Examples of activities that third
-                                                        parties help us with include:
+                                                    <li>Các nhà cung cấp và nhà cung cấp dịch vụ. Để giúp chúng tôi cung
+                                                        cấp một số khía cạnh trong dịch vụ của mình, chúng tôi làm việc
+                                                        với các bên thứ ba và đối tác đáng tin cậy (bao gồm cả các công
+                                                        ty liên kết trong 44+ Technologies). Để bảo vệ dữ liệu của bạn,
+                                                        chúng tôi ký kết các điều khoản xử lý dữ liệu và bảo mật thích
+                                                        hợp với các bên thứ ba này, xem xét các biện pháp bảo mật của họ
+                                                        và giới hạn việc chia sẻ thông tin trong phạm vi những gì họ
+                                                        đang giúp chúng tôi. Ví dụ về các hoạt động mà các bên thứ ba
+                                                        giúp chúng tôi bao gồm:
                                                         <ul>
-                                                            <li>processing customer payments</li>
-                                                            <li>providing analytics about our services</li>
-                                                            <li>providing sales and customer support</li>
-                                                            <li>maintaining the infrastructure required to provide our
-                                                                services
+                                                            <li>xử lý thanh toán của khách hàng</li>
+                                                            <li>cung cấp phân tích về các dịch vụ của chúng tôi</li>
+                                                            <li>cung cấp bán hàng và hỗ trợ khách hàng</li>
+                                                            <li>duy trì cơ sở hạ tầng cần thiết để cung cấp dịch vụ của
+                                                                chúng tôi
                                                             </li>
-                                                            <li>delivering our marketing and advertising content.
-                                                                However, please see below for more information about the
-                                                                advertising services that support our Free VPN Products.
+                                                            <li>cung cấp nội dung tiếp thị và quảng cáo của chúng tôi.
+                                                                Tuy nhiên, vui lòng xem bên dưới để biết thêm thông tin
+                                                                về các dịch vụ quảng cáo hỗ trợ Sản phẩm VPN miễn phí
+                                                                của chúng tôi.
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li>To corporate affiliates of Intersections LLC or 44+ Technologies GmbH,
-                                                        including other companies within the Aura Group family of
-                                                        companies.
+                                                    <li>Cho các công ty liên kết của Intersections LLC hoặc 44+
+                                                        Technologies GmbH, bao gồm các công ty khác trong tập đoàn Aura
+                                                        Group.
                                                     </li>
-                                                    <li>To a new owner of 44+ Technologies or any of our assets. If ownership or
-                                                        control of all or part of our services, assets, or business
-                                                        changes, we may transfer your information to the new owner.
+                                                    <li>Cho chủ sở hữu mới của 44+ Technologies hoặc bất kỳ tài sản nào
+                                                        của chúng tôi. Nếu quyền sở hữu hoặc quyền kiểm soát tất cả hoặc
+                                                        một phần dịch vụ, tài sản hoặc hoạt động kinh doanh của chúng
+                                                        tôi thay đổi, chúng tôi có thể chuyển thông tin của bạn cho chủ
+                                                        sở hữu mới.
                                                     </li>
-                                                    <li>Aggregated or de-identified data. We may use and share
-                                                        aggregated data and data that is de-identified such that it no
-                                                        longer reveals the identity of an individual user for regulatory
-                                                        compliance, research and analysis, our own marketing and
-                                                        advertising activities and other legitimate business purposes.
+                                                    <li>Dữ liệu tổng hợp hoặc không xác định. Chúng tôi có thể sử dụng
+                                                        và chia sẻ dữ liệu tổng hợp và dữ liệu được hủy nhận dạng sao
+                                                        cho dữ liệu đó không còn tiết lộ danh tính của một người dùng cá
+                                                        nhân để tuân thủ quy định, nghiên cứu và phân tích, các hoạt
+                                                        động tiếp thị và quảng cáo của chính chúng tôi cũng như các mục
+                                                        đích kinh doanh hợp pháp khác.
                                                     </li>
-                                                    <li>To comply with legal process and the law we may share your
-                                                        information if we are required to do so by applicable law; to
-                                                        comply with our legal obligations; to comply with legal process;
-                                                        and to respond to valid law enforcement requests relating to a
-                                                        criminal investigation, or alleged or suspected illegal activity
-                                                        that may expose 44+ Technologies, you, or any of our other users to legal
-                                                        liability. If we share your information for these purposes, we
-                                                        limit the information shared to what is legally necessary, and
-                                                        challenge information requests that we believe are unlawful,
-                                                        overbroad, or otherwise invalid. To reiterate, our VPN products
-                                                        do not collect information about which websites you visit or
-                                                        apps you use, so this information is not accessible in a law
-                                                        enforcement request.
+                                                    <li>Để tuân thủ quy trình pháp lý và luật pháp, chúng tôi có thể
+                                                        chia sẻ thông tin của bạn nếu chúng tôi bắt buộc phải làm như
+                                                        vậy theo luật hiện hành; để tuân thủ các nghĩa vụ pháp lý của
+                                                        chúng tôi; tuân thủ quy trình pháp lý; và để đáp ứng các yêu cầu
+                                                        thực thi pháp luật hợp lệ liên quan đến điều tra tội phạm hoặc
+                                                        hoạt động bất hợp pháp bị cáo buộc hoặc nghi ngờ có thể khiến
+                                                        44+ Technologies, bạn hoặc bất kỳ người dùng nào khác của chúng
+                                                        tôi phải chịu trách nhiệm pháp lý. Nếu chúng tôi chia sẻ thông
+                                                        tin của bạn cho những mục đích này, chúng tôi sẽ giới hạn thông
+                                                        tin được chia sẻ ở mức cần thiết về mặt pháp lý và thách thức
+                                                        các yêu cầu thông tin mà chúng tôi tin là bất hợp pháp, quá rộng
+                                                        hoặc không hợp lệ. Xin nhắc lại, các sản phẩm VPN của chúng tôi
+                                                        không thu thập thông tin về những trang web bạn truy cập hoặc
+                                                        ứng dụng bạn sử dụng, vì vậy thông tin này không thể truy cập
+                                                        được trong yêu cầu thực thi pháp luật.
                                                     </li>
-                                                    <li>To enforce our rights and prevent fraud and abuse.We may share
-                                                        limited amounts of your information to enforce and administer
-                                                        our agreements with customers and users, and to respond to
-                                                        claims asserted against 44+ Technologies. We may also share your
-                                                        information in order to protect against fraud and abuse against
-                                                        44+ Technologies, our affiliates, users and others.
+                                                    <li>Để thực thi các quyền của chúng tôi và ngăn chặn hành vi gian
+                                                        lận cũng như lạm dụng. Chúng tôi có thể chia sẻ một lượng giới
+                                                        hạn thông tin của bạn để thực thi và quản lý các thỏa thuận của
+                                                        chúng tôi với khách hàng và người dùng, đồng thời để phản hồi
+                                                        các khiếu nại chống lại 44+ Technologies. Chúng tôi cũng có thể
+                                                        chia sẻ thông tin của bạn để bảo vệ chống gian lận và lạm dụng
+                                                        đối với 44+ Technologies, các chi nhánh, người dùng của chúng
+                                                        tôi và những người khác.
                                                     </li>
                                                 </ul>
-                                                <p><strong>3.2. Cookies and Other Tracking Technologies</strong></p>
-                                                <p>44+ Technologies uses various technologies in our services to help us collect
-                                                    website or app user information. These technologies include:</p>
+                                                <p><strong>3.2. Cookie và các công nghệ theo dõi khác</strong></p>
+                                                <p>44+ Technologies sử dụng nhiều công nghệ khác nhau trong các dịch vụ
+                                                    của chúng tôi để giúp chúng tôi thu thập thông tin người dùng trang
+                                                    web hoặc ứng dụng. Những công nghệ này bao gồm:</p>
                                                 <ul>
-                                                    <li>Cookies. Cookies enable 44+ Technologies or third parties that we allow to
-                                                        set cookies on your device to recognize visitors to our
-                                                        websites. For more information on how we use cookies, please
-                                                        review the cookie notice associated with each product website
-                                                        indicated below.  We use cookies:
+                                                    <li>Cookie. Cookie cho phép 44+ Công nghệ hoặc bên thứ ba mà chúng
+                                                        tôi cho phép đặt cookie trên thiết bị của bạn để nhận dạng khách
+                                                        truy cập vào trang web của chúng tôi. Để biết thêm thông tin về
+                                                        cách chúng tôi sử dụng cookie, vui lòng xem lại thông báo cookie
+                                                        được liên kết với từng trang web sản phẩm được chỉ ra bên dưới.
+                                                        Chúng tôi sử dụng cookie:
                                                         <ul>
-                                                            <li>To provide our services. Some cookies are essential for
-                                                                the proper operation of our services. For example,
-                                                                cookies allow us to authenticate who you are and whether
-                                                                you’re authorized to access a resource.
+                                                            <li>Để cung cấp dịch vụ của chúng tôi. Một số cookie rất cần
+                                                                thiết để các dịch vụ của chúng tôi hoạt động bình
+                                                                thường. Ví dụ: cookie cho phép chúng tôi xác thực bạn là
+                                                                ai và liệu bạn có được phép truy cập tài nguyên hay
+                                                                không.
                                                             </li>
-                                                            <li>To store your preferences. Cookies can store your
-                                                                preferences, such as language preferences or whether to
-                                                                pre-fill your username on sign in forms. We may also use
-                                                                them to optimize the content that we show to you.
+                                                            <li>Để lưu trữ sở thích của bạn. Cookie có thể lưu trữ các
+                                                                tùy chọn của bạn, chẳng hạn như tùy chọn ngôn ngữ hoặc
+                                                                liệu có điền trước tên người dùng của bạn trên biểu mẫu
+                                                                đăng nhập hay không. Chúng tôi cũng có thể sử dụng chúng
+                                                                để tối ưu hóa nội dung mà chúng tôi hiển thị cho bạn.
                                                             </li>
-                                                            <li>For analytics. Cookies are used to inform us how users
-                                                                interact with our services so we can, as a legitimate
-                                                                interest, improve how they work (such as what screens or
-                                                                webpages you access, and whether our advertising is
-                                                                effective).
+                                                            <li>Đối với phân tích. Cookie được sử dụng để thông báo cho
+                                                                chúng tôi cách người dùng tương tác với các dịch vụ của
+                                                                chúng tôi để chúng tôi có thể, vì lợi ích hợp pháp, cải
+                                                                thiện cách chúng hoạt động (chẳng hạn như màn hình hoặc
+                                                                trang web nào bạn truy cập và liệu quảng cáo của chúng
+                                                                tôi có hiệu quả hay không).
                                                             </li>
-                                                            <li>For security. Cookies can enable us and our payment
-                                                                processors to detect certain kinds of fraud.
+                                                            <li>Để bảo mật. Cookie có thể cho phép chúng tôi và bộ xử lý
+                                                                thanh toán của chúng tôi phát hiện một số loại gian lận
+                                                                nhất định.
                                                             </li>
-                                                            <li>For 44+ Technologies’s advertising-related purposes. We advertise
-                                                                our services online with the help of third parties who
-                                                                show ads and marketing about us on sites around the
-                                                                internet.
+                                                            <li>Đối với các mục đích liên quan đến quảng cáo của 44+
+                                                                Technologies. Chúng tôi quảng cáo các dịch vụ của mình
+                                                                trực tuyến với sự trợ giúp của các bên thứ ba hiển thị
+                                                                quảng cáo và tiếp thị về chúng tôi trên các trang web
+                                                                trên internet.
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li>Pixel Tags / Page Tags / Web Beacons / Tracking Links.  These
-                                                        tools allow us to determine if you perform a specific action on
-                                                        a web page or email message. When you access a page, ad, or
-                                                        email, or click a link, these items let us know that you have
-                                                        accessed that page, opened an email, or clicked a link. They may
-                                                        also indicate your Internet Protocol (IP) address, which enables
-                                                        44+ Technologies to determine your approximate geographic location as
-                                                        assigned by your Internet Service Provider.
+                                                    <li>Thẻ pixel / Thẻ trang / Đèn hiệu web / Liên kết theo dõi. Những
+                                                        công cụ này cho phép chúng tôi xác định xem bạn có thực hiện một
+                                                        hành động cụ thể trên trang web hoặc thông báo email hay không.
+                                                        Khi bạn truy cập một trang, quảng cáo hoặc email hoặc nhấp vào
+                                                        liên kết, các mục này cho chúng tôi biết rằng bạn đã truy cập
+                                                        trang đó, mở email hoặc nhấp vào liên kết. Họ cũng có thể cho
+                                                        biết địa chỉ Giao thức Internet (IP) của bạn, cho phép 44+
+                                                        Technologies xác định vị trí địa lý gần đúng của bạn theo chỉ
+                                                        định của Nhà cung cấp dịch vụ Internet.
                                                     </li>
-                                                    <li>Software Development Kits (SDKs). This mobile app software is
-                                                        provided by our business partners that let our mobile apps
-                                                        interact with the services those partners provide. See below for
-                                                        more information about how we use SDKs with our Free VPN
-                                                        products to provide advertising services.
+                                                    <li>Bộ công cụ phát triển phần mềm (SDK). Phần mềm ứng dụng dành cho
+                                                        thiết bị di động này được cung cấp bởi các đối tác kinh doanh
+                                                        của chúng tôi để cho phép các ứng dụng dành cho thiết bị di động
+                                                        của chúng tôi tương tác với các dịch vụ mà các đối tác đó cung
+                                                        cấp. Xem bên dưới để biết thêm thông tin về cách chúng tôi sử
+                                                        dụng SDK với các sản phẩm VPN miễn phí của mình để cung cấp dịch
+                                                        vụ quảng cáo.
                                                     </li>
                                                 </ul>
-                                                <p>Your Choices With Our Use of Cookies</p>
+                                                <p>Lựa chọn của bạn với việc sử dụng cookie của chúng tôi</p>
                                                 <ul>
-                                                    <li>You have the ability to manage your cookie preferences in your
-                                                        web browser settings, including deleting cookies and blocking
-                                                        cookies from being set on those browsers or devices. Visit the
-                                                        “help” section of your browser to understand what controls it
-                                                        gives you over cookies. Note that deleting or blocking certain
-                                                        cookies could adversely impact the proper operation of our
-                                                        services.
+                                                    <li>Bạn có khả năng quản lý các tùy chọn cookie của mình trong cài
+                                                        đặt trình duyệt web, bao gồm xóa cookie và chặn cookie được đặt
+                                                        trên các trình duyệt hoặc thiết bị đó. Truy cập phần “trợ giúp”
+                                                        trong trình duyệt của bạn để hiểu nó cung cấp cho bạn những biện
+                                                        pháp kiểm soát nào đối với cookie. Lưu ý rằng việc xóa hoặc chặn
+                                                        một số cookie nhất định có thể ảnh hưởng xấu đến hoạt động bình
+                                                        thường của các dịch vụ của chúng tôi.
                                                     </li>
-                                                    <li>Industry Advertising Choices: For information on how to opt out
-                                                        of personalized or interest-based advertising, you can visit the
-                                                        following pages:
-                                                        <ul>
-                                                            <li>U.S.: <a
-                                                                    href="https://optout.aboutads.info/?c=2&amp;lang=EN">Digital
-                                                                Advertising Alliance opt out page</a></li>
-                                                            <li>EU or UK: <a href="https://www.youronlinechoices.eu/">Your
-                                                                Online Choices  </a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>For visitors to 44+ Technologies.co, we currently do not use third party
-                                                        advertising or cookies that enable preferences.
+                                                    <li>Đối với khách truy cập vào 44+ Technologies.co, chúng tôi hiện
+                                                        không sử dụng cookie hoặc quảng cáo của bên thứ ba để bật tùy
+                                                        chọn.
                                                     </li>
                                                 </ul>
-                                                <p>For more information on each 44+ Technologies product website’s use of cookies,
-                                                    visit the privacy or cookie-specific notices on their respective
-                                                    websites: <a href="https://www.hotspotshield.com/">Hotspot
+                                                <p>Để biết thêm thông tin về việc sử dụng cookie của từng trang web sản
+                                                    phẩm của 44+ Technologies, hãy truy cập thông báo về quyền riêng tư
+                                                    hoặc thông báo dành riêng cho cookie trên các trang web tương ứng
+                                                    của họ: <a href="https://www.hotspotshield.com/">Hotspot
                                                         Shield</a>, <a href="https://www.betternet.co/">BetterNet</a>,
                                                     <a href="https://www.vpnintouch.com/">VPN in Touch</a>, <a
                                                             href="https://ultravpn.com/">UltraVPN</a>, <a
                                                             href="https://intrusta.com/">Intrusta</a>, <a
                                                             href="https://identitydefense.com/">IdentityDefense</a>, <a
                                                             href="https://passwatch.co/"> PassWatch</a>, <a
-                                                            href="https://www.roboshield.com/">Roboshield</a>, and <a
+                                                            href="https://www.roboshield.com/">Roboshield</a>, và <a
                                                             href="https://privacymate.com/">PrivacyMate</a>.</p>
-                                                <h4 id="pp4">4. Use of Advertising Services With Free VPN Products</h4>
-                                                <p>For users of our free VPN products, namely Hotspot Shield, BetterNet
-                                                    and VPN360, we may serve ads through the use of third-party
-                                                    advertising services indicated below. As previously noted, neither
-                                                    44+ Technologies nor any third-party advertising service has access to the VPN
-                                                    browsing information, such as the websites you visit or apps you use
-                                                    while in a VPN session. However, as with any online advertising
-                                                    service, the entities will have access to the information associated
-                                                    with the ad delivery such as which website or app the ad was
-                                                    delivered to, and the device-specific information listed below.</p>
-                                                <p>In order to display ads in our apps, we may utilize third-party
-                                                    software development kits (SDKs), which consists of software code
-                                                    provided by a third party and embedded into our apps. These SDKs may
-                                                    collect the following information from your device or use;</p>
+                                                <h4 id="pp4">4. Sử dụng dịch vụ quảng cáo với các sản phẩm VPN miễn
+                                                    phí</h4>
+                                                <p>Đối với người dùng các sản phẩm VPN miễn phí của chúng tôi, cụ thể là
+                                                    Hotspot Shield, BetterNet và VPN360, chúng tôi có thể phân phát
+                                                    quảng cáo thông qua việc sử dụng các dịch vụ quảng cáo của bên thứ
+                                                    ba được chỉ ra bên dưới. Như đã lưu ý trước đây, cả 44+ Technologies
+                                                    và bất kỳ dịch vụ quảng cáo bên thứ ba nào đều không có quyền truy
+                                                    cập vào thông tin duyệt VPN, chẳng hạn như các trang web bạn truy
+                                                    cập hoặc các ứng dụng bạn sử dụng trong phiên VPN. Tuy nhiên, giống
+                                                    như bất kỳ dịch vụ quảng cáo trực tuyến nào, các thực thể sẽ có
+                                                    quyền truy cập vào thông tin liên quan đến việc phân phối quảng cáo,
+                                                    chẳng hạn như trang web hoặc ứng dụng mà quảng cáo được phân phối
+                                                    đến và thông tin dành riêng cho thiết bị được liệt kê bên dưới.</p>
+                                                <p>Để hiển thị quảng cáo trong ứng dụng của mình, chúng tôi có thể sử
+                                                    dụng bộ công cụ phát triển phần mềm (SDK) của bên thứ ba, bao gồm mã
+                                                    phần mềm do bên thứ ba cung cấp và được nhúng vào ứng dụng của chúng
+                                                    tôi. Các SDK này có thể thu thập thông tin sau từ thiết bị hoặc việc
+                                                    sử dụng của bạn;</p>
                                                 <ul>
-                                                    <li>Device or mobile advertising identifiers (controlled by your
-                                                        mobile operating system)
+                                                    <li>Số nhận dạng thiết bị hoặc quảng cáo trên thiết bị di động (được
+                                                        kiểm soát bởi hệ điều hành di động của bạn)
                                                     </li>
-                                                    <li>Internet Protocol (IP) Address, which may reveal your
-                                                        approximate geographic location as determined by your carrier or
-                                                        ISP. However, when using the VPN service, this may replace your
-                                                        actual location with an alternative geographic location.
+                                                    <li>Địa chỉ Giao thức Internet (IP), có thể tiết lộ vị trí địa lý
+                                                        gần đúng của bạn do nhà cung cấp dịch vụ hoặc ISP của bạn xác
+                                                        định. Tuy nhiên, khi sử dụng dịch vụ VPN, điều này có thể thay
+                                                        thế vị trí thực tế của bạn bằng một vị trí địa lý thay thế.
                                                     </li>
-                                                    <li>Device-specific information such as make, model, OS version,
-                                                        language, time zone and other information.
+                                                    <li>Thông tin dành riêng cho thiết bị như nhà sản xuất, kiểu máy,
+                                                        phiên bản hệ điều hành, ngôn ngữ, múi giờ và các thông tin khác.
                                                     </li>
-                                                    <li>The name of the app or website serving the ad.</li>
+                                                    <li>Tên của ứng dụng hoặc trang web phân phát quảng cáo.</li>
                                                 </ul>
-                                                <p>As some of the ads may be personalized based on your mobile
-                                                    advertising identifier or IP address, you may see an AdChoices icon
-                                                    on an ad. You can click this icon to learn more about the ad network
-                                                    that provided the ad, its privacy policy, and your choices regarding
-                                                    opting out from any personalized advertising. If you opt out from
-                                                    personalized advertising, you may still see non-personalized ads.
-                                                    While we request you not to use ad blockers to prevent the display
-                                                    of ads because that is how we support our free services, our
-                                                    services are able to continue functioning if you do use ad
-                                                    blockers.</p>
-                                                <p>We use the following advertising services to provide ads with our
-                                                    free VPN products:</p>
+                                                <p>Vì một số quảng cáo có thể được cá nhân hóa dựa trên số nhận dạng
+                                                    quảng cáo trên điện thoại di động hoặc địa chỉ IP của bạn, nên bạn
+                                                    có thể thấy biểu tượng Lựa chọn quảng cáo trên quảng cáo. Bạn có thể
+                                                    nhấp vào biểu tượng này để tìm hiểu thêm về mạng quảng cáo đã cung
+                                                    cấp quảng cáo, chính sách bảo mật của mạng đó và các lựa chọn của
+                                                    bạn về việc từ chối bất kỳ quảng cáo được cá nhân hóa nào. Nếu chọn
+                                                    không tham gia quảng cáo được cá nhân hóa, bạn vẫn có thể thấy quảng
+                                                    cáo không được cá nhân hóa. Mặc dù chúng tôi yêu cầu bạn không sử
+                                                    dụng trình chặn quảng cáo để ngăn hiển thị quảng cáo vì đó là cách
+                                                    chúng tôi hỗ trợ các dịch vụ miễn phí của mình, các dịch vụ của
+                                                    chúng tôi vẫn có thể tiếp tục hoạt động nếu bạn sử dụng trình chặn
+                                                    quảng cáo.</p>
+                                                <p>Chúng tôi sử dụng các dịch vụ quảng cáo sau để cung cấp quảng cáo với
+                                                    các sản phẩm VPN miễn phí của mình:</p>
                                                 <table>
                                                     <tbody>
                                                     <tr style="border: 1px solid; background-color: #f6f6f6;">
-                                                        <td>Company</td>
-                                                        <td>Privacy Policy or Opt-Out</td>
+                                                        <td>Công ty</td>
+                                                        <td>Chính sách bảo mật hoặc từ chối</td>
                                                     </tr>
                                                     <tr style="border: 1px solid black; background-color: #f6f6f6;">
                                                         <td>Unity Ads</td>
@@ -1448,168 +1444,159 @@
                                                     </tr>
                                                     </tbody>
                                                 </table>
-                                                <p>In addition, you may opt-out of interest-based mobile advertising by
-                                                    utilizing the <a href="https://youradchoices.com/appchoices">Digital
-                                                        Advertising Alliance (DAA) AppChoices app</a>.</p>
-                                                <h4 id="pp5">5. Security</h4>
-                                                <p>44+ Technologies employs a range of administrative, organizational, technical,
-                                                    and physical safeguards designed to protect your data against
-                                                    unauthorized access, loss, or modification. Access to your Account
-                                                    Information and Services Information is restricted to our employees
-                                                    who require such access to perform their job functions. While our
-                                                    controls are strong, no data security measures can guarantee 100%
-                                                    protection.</p>
-                                                <h4 id="pp6">6.Internal Data Transfers</h4>
-                                                <p>44+ Technologies may transfer your personal data to countries other than the one
-                                                    in which you reside. We do this to facilitate our operations, and
-                                                    transferees include other 44+ Technologies companies, service providers, and
-                                                    partners. Laws in other countries may be different to those that
-                                                    apply where you reside. For example, personal data collected within
-                                                    the U.K., Switzerland or the European Economic Area (EEA) may be
-                                                    transferred and processed in the United States for purposes
-                                                    described in this policy. However, we put in place appropriate
-                                                    safeguards that help to ensure that such data receives an adequate
-                                                    level of protection, which typically includes 44+ Technologies and corporate
-                                                    recipients executing the Standard Contractual Clauses (aka ‘Model
-                                                    Contracts’) adopted by the European Commission or UK for such
-                                                    transfers to the U.S. You may contact us if you would like more
-                                                    information about such safeguards.</p>
-                                                <p>If you change your country of residence, the 44+ Technologies company
-                                                    responsible for your data may change accordingly, and your data may
-                                                    be transferred to that other company.</p>
-                                                <p>For users of our VPN products, if you are a UK or EEA resident and
-                                                    you choose to use our software to route your Internet traffic
-                                                    through servers in countries not deemed ‘adequate’ by the UK or EEA,
-                                                    then you acknowledge that such transfers are executed at your
-                                                    direction and with your unambiguous consent.</p>
-                                                <h4 id="pp7">7. Data Retention</h4>
-                                                <p>With respect to our VPN products, 44+ Technologies does not collect or retain
-                                                    data about your browsing activity while you are connected to the VPN
-                                                    Services. 44+ Technologies generally retains your personal information for as
-                                                    long as is needed to provide the services to you, or for as long as
-                                                    you have an account or subscription with us. We may also retain
-                                                    personal information if required by law, or for our legitimate
-                                                    interests, such as abuse detection and prevention, and defending
-                                                    ourselves from legal claims. Residual copies of personal data may be
-                                                    stored in backup systems for a limited period as a security measure
-                                                    to protect against data loss.</p>
-                                                <h4 id="pp8">8. Your Rights</h4>
-                                                <p>Depending on your country of residence, you may have certain legal
-                                                    rights in relation to your personal data that we maintain. Subject
-                                                    to exceptions and limitations provided by applicable law, these may
-                                                    include the right to:</p>
+                                                <p>Ngoài ra, bạn có thể từ chối quảng cáo trên thiết bị di động dựa trên
+                                                    sở thích bằng cách sử dụng ứng dụng của <a
+                                                            href="https://youradchoices.com/appchoices">Liên minh quảng
+                                                        cáo kỹ thuật số (DAA).</a>.</p>
+                                                <h4 id="pp5">5. Bảo vệ</h4>
+                                                <p>44+ Technologies sử dụng một loạt các biện pháp bảo vệ hành chính, tổ
+                                                    chức, kỹ thuật và vật lý được thiết kế để bảo vệ dữ liệu của bạn
+                                                    khỏi bị truy cập, mất mát hoặc sửa đổi trái phép. Quyền truy cập vào
+                                                    Thông tin tài khoản và Thông tin dịch vụ của bạn bị hạn chế đối với
+                                                    nhân viên của chúng tôi, những người yêu cầu quyền truy cập đó để
+                                                    thực hiện các chức năng công việc của họ. Mặc dù các biện pháp kiểm
+                                                    soát của chúng tôi rất chặt chẽ nhưng không có biện pháp bảo mật dữ
+                                                    liệu nào có thể đảm bảo bảo vệ 100%.</p>
+                                                <h4 id="pp6">6.Truyền dữ liệu nội bộ</h4>
+                                                <p>44+ Technologies có thể chuyển dữ liệu cá nhân của bạn sang các quốc
+                                                    gia khác với quốc gia mà bạn cư trú. Chúng tôi làm điều này để tạo
+                                                    điều kiện thuận lợi cho các hoạt động của mình và những người được
+                                                    chuyển giao bao gồm các công ty, nhà cung cấp dịch vụ và đối tác
+                                                    khác của 44+ Technologies. Luật pháp ở các quốc gia khác có thể khác
+                                                    với luật áp dụng tại nơi bạn cư trú. Ví dụ: dữ liệu cá nhân được thu
+                                                    thập ở Vương quốc Anh, Thụy Sĩ hoặc Khu vực Kinh tế Châu Âu (EEA) có
+                                                    thể được truyền và xử lý ở Hoa Kỳ cho các mục đích được mô tả trong
+                                                    chính sách này. Tuy nhiên, chúng tôi đưa ra các biện pháp bảo vệ
+                                                    thích hợp giúp đảm bảo rằng dữ liệu đó nhận được mức độ bảo vệ phù
+                                                    hợp, thường bao gồm 44+ Công nghệ và người nhận là công ty thực hiện
+                                                    Điều khoản hợp đồng tiêu chuẩn (còn gọi là 'Hợp đồng mẫu') được Ủy
+                                                    ban châu Âu hoặc Vương quốc Anh thông qua đối với các lần chuyển như
+                                                    vậy đến Hoa Kỳ. Bạn có thể liên hệ với chúng tôi nếu bạn muốn biết
+                                                    thêm thông tin về các biện pháp bảo vệ đó.</p>
+                                                <p>Nếu bạn thay đổi quốc gia cư trú, công ty 44+ Technologies chịu trách
+                                                    nhiệm về dữ liệu của bạn có thể thay đổi tương ứng và dữ liệu của
+                                                    bạn có thể được chuyển sang công ty khác đó.</p>
+                                                <p>Đối với người dùng các sản phẩm VPN của chúng tôi, nếu bạn là cư dân
+                                                    Vương quốc Anh hoặc EEA và bạn chọn sử dụng phần mềm của chúng tôi
+                                                    để định tuyến lưu lượng truy cập Internet của mình thông qua các máy
+                                                    chủ ở các quốc gia không được Vương quốc Anh hoặc EEA coi là 'đủ
+                                                    tiêu chuẩn', thì bạn xác nhận rằng việc chuyển tiền đó được thực
+                                                    hiện theo hướng của bạn và với sự đồng ý rõ ràng của bạn.</p>
+                                                <h4 id="pp7">7. Lưu trữ dữ liệu</h4>
+                                                <p>Đối với các sản phẩm VPN của chúng tôi, 44+ Technologies không thu
+                                                    thập hoặc lưu giữ dữ liệu về hoạt động duyệt web của bạn khi bạn kết
+                                                    nối với Dịch vụ VPN. 44+ Technologies thường lưu giữ thông tin cá
+                                                    nhân của bạn miễn là cần thiết để cung cấp dịch vụ cho bạn hoặc miễn
+                                                    là bạn có tài khoản hoặc đăng ký với chúng tôi. Chúng tôi cũng có
+                                                    thể giữ lại thông tin cá nhân nếu luật pháp yêu cầu hoặc vì lợi ích
+                                                    hợp pháp của chúng tôi, chẳng hạn như phát hiện và ngăn chặn lạm
+                                                    dụng cũng như bảo vệ chúng tôi khỏi các khiếu nại pháp lý. Các bản
+                                                    sao còn lại của dữ liệu cá nhân có thể được lưu trữ trong các hệ
+                                                    thống sao lưu trong một khoảng thời gian giới hạn như một biện pháp
+                                                    bảo mật để chống mất dữ liệu.</p>
+                                                <h4 id="pp8">8. Quyền lợi của bạn</h4>
+                                                <p>Tùy thuộc vào quốc gia cư trú của bạn, bạn có thể có một số quyền hợp
+                                                    pháp liên quan đến dữ liệu cá nhân của mình mà chúng tôi lưu giữ.
+                                                    Tùy thuộc vào các trường hợp ngoại lệ và giới hạn do luật hiện hành
+                                                    quy định, những điều này có thể bao gồm quyền:</p>
                                                 <ul>
-                                                    <li>access and receive a copy of your personal data;</li>
-                                                    <li>correct your personal data;</li>
-                                                    <li>restrict the processing of your personal data;</li>
-                                                    <li>object at any time to the processing of your personal data;</li>
-                                                    <li>have your personal data erased;</li>
-                                                    <li>data portability;</li>
-                                                    <li>withdraw any consent you previously gave to the processing of
-                                                        your data (such as opting out to marketing communications);
+                                                    <li>truy cập và nhận bản sao dữ liệu cá nhân của bạn;</li>
+                                                    <li>sửa dữ liệu cá nhân của bạn;</li>
+                                                    <li>hạn chế xử lý dữ liệu cá nhân của bạn;</li>
+                                                    <li>bất cứ lúc nào phản đối việc xử lý dữ liệu cá nhân của bạn;</li>
+                                                    <li>xóa dữ liệu cá nhân của bạn;</li>
+                                                    <li>tính di động của dữ liệu;</li>
+                                                    <li>rút lại bất kỳ sự đồng ý nào mà bạn đã đưa ra trước đây đối với
+                                                        việc xử lý dữ liệu của mình (chẳng hạn như từ chối nhận thông
+                                                        tin tiếp thị);
                                                     </li>
-                                                    <li>lodge a complaint with a data protection authority;</li>
-                                                    <li>request that we provide you with the categories of personal data
-                                                        we collect, disclose or sell about you; the categories of
-                                                        sources of such information; the business or commercial purpose
-                                                        for collecting or selling your personal data; and the categories
-                                                        of third parties with whom we share personal data. This
-                                                        information may also be provided in this Privacy Policy.
+                                                    <li>khiếu nại với cơ quan bảo vệ dữ liệu;</li>
+                                                    <li>yêu cầu chúng tôi cung cấp cho bạn các loại dữ liệu cá nhân mà
+                                                        chúng tôi thu thập, tiết lộ hoặc bán về bạn; các loại nguồn
+                                                        thông tin đó; mục đích kinh doanh hoặc thương mại để thu thập
+                                                        hoặc bán dữ liệu cá nhân của bạn; và danh mục bên thứ ba mà
+                                                        chúng tôi chia sẻ dữ liệu cá nhân. Thông tin này cũng có thể
+                                                        được cung cấp trong Chính sách quyền riêng tư này.
                                                     </li>
                                                 </ul>
-                                                <p>You may be able to exercise some of these rights by using the
-                                                    settings and tools provided in our services. For example, you may be
-                                                    able to update your user account details via the relevant account
-                                                    settings screen of our apps. You may also be able to opt out from
-                                                    receiving marketing communications from us by clicking an “opt out”
-                                                    or “unsubscribe” link in such communications.</p>
-                                                <p>Some mobile and web browsers transmit &#8220;do-not-track&#8221; or
-                                                    “opt-out preference” signals. We currently do not take action in
-                                                    response to these signals. Otherwise, if you wish to exercise any of
-                                                    these rights, you may contact us using the details in the “Contact
-                                                    Us” section below. As permitted by law, we may ask you to verify
-                                                    your identity before taking further action on your request. You may
-                                                    also be permitted to designate an authorized agent to submit certain
-                                                    requests on your behalf. If you do so, you must give the authorized
-                                                    agent written permission to make such requests, or a power of
-                                                    attorney. We may also follow up with you to verify your identity
-                                                    before processing the authorized agent’s request.</p>
-                                                <h4 id="pp9">9. Your California Privacy Rights</h4>
-                                                <p>The above information includes the categories of personal information
-                                                    44+ Technologies collects, processes and shares with service providers and
-                                                    other businesses.  If you would like to exercise your rights to
-                                                    receive the specific pieces of information, or other rights
-                                                    indicated above applicable to you, please refer to the ‘Contact Us’
-                                                    section below.</p>
-                                                <p>44+ Technologies does not ‘sell’ personal information for our own monetary
-                                                    benefit. However, as the CCPA defines ‘sell’ broadly, some of the
-                                                    advertising services that support our website, marketing efforts,
-                                                    and mobile applications use third party advertising services that
-                                                    may be deemed a ‘sale’ under California Law.  Please see the list of
-                                                    cookies or cookie notices listed above, or app-specific advertising
-                                                    services listed above to indicate your continued preferences to
-                                                    receive such personalized ads.</p>
-                                                <h4 id="pp10">10. Technology Licensing</h4>
-                                                <p>44+ Technologies occasionally licenses its technology to third party partners
-                                                    who may integrate it with applications developed and offered by
-                                                    those partners. Our partners, and not 44+ Technologies, are responsible for
-                                                    those applications and for determining what data is collected by
-                                                    those applications and how it is processed. Please contact the
-                                                    relevant partner and refer to their Privacy Policy to learn more
-                                                    about how those applications process your personal data.</p>
-                                                <h4 id="pp11">11. Age Restrictions</h4>
-                                                <p>Our services are not intended for and may not be used by minors. In
-                                                    this context, minors are individuals under the age of 16 except for
-                                                    our identity and credit monitoring services, which are restricted to
-                                                    those under the age of 18. 44+ Technologies does not knowingly collect personal
-                                                    data from minors or allow them to use our services. If we discover
-                                                    that we have collected personal data from a minor, we may delete
-                                                    such data without notice. Please note that the legal terms under
-                                                    which we make certain services available may require users to be
-                                                    older than 16 years of age.</p>
-                                                <h4 id="pp12">12. Privacy Policy Updates</h4>
-                                                <p>44+ Technologies may update this Privacy Policy from time to time in accordance
-                                                    with this section for reasons such as changes in laws, industry
-                                                    standards, and business practices. 44+ Technologies will post updates to this
-                                                    page and update the “Last updated” date above. If we make updates
-                                                    that materially alter your privacy rights, we will also provide you
-                                                    with advance notice, such as via email or through the services. If
-                                                    you disagree with such an update to this policy, you may cancel your
-                                                    services account. If you do not cancel your account before the date
-                                                    the update becomes effective, your continued use of our services
-                                                    will be subject to the updated Privacy Policy.</p>
-                                                <h4 id="pp13">13. Contact Us</h4>
-                                                <p>We expect this Privacy Policy to evolve over time and welcome
-                                                    feedback from our users about our privacy practices. If you would
-                                                    like to exercise your rights, have any questions or complaints about
-                                                    our privacy practices, you can contact us using the following
-                                                    details:</p>
-                                                <p>Intersections, LLC d/b/a 44+ Technologies (“44+ Technologies”)<br/>
-                                                    P.O. Box 222455, Chantilly, VA 20153-2455<br/>
-                                                    <a href="cdn-cgi/l/email-protection#0e7e7c67786f6d774e7e6f606961206d61"><span
+                                                <p>Bạn có thể thực hiện một số quyền này bằng cách sử dụng các cài đặt
+                                                    và công cụ được cung cấp trong các dịch vụ của chúng tôi. Ví dụ: bạn
+                                                    có thể cập nhật chi tiết tài khoản người dùng của mình thông qua màn
+                                                    hình cài đặt tài khoản có liên quan trong các ứng dụng của chúng
+                                                    tôi. Bạn cũng có thể chọn không nhận thông tin tiếp thị từ chúng tôi
+                                                    bằng cách nhấp vào liên kết “chọn không tham gia” hoặc “hủy đăng ký”
+                                                    trong các thông tin liên lạc đó.</p>
+                                                <p>Một số trình duyệt web và điện thoại di động truyền tín hiệu “không
+                                                    theo dõi” hoặc “tùy chọn từ chối”. Chúng tôi hiện không thực hiện
+                                                    hành động để đáp lại những tín hiệu này. Mặt khác, nếu bạn muốn thực
+                                                    hiện bất kỳ quyền nào trong số này, bạn có thể liên hệ với chúng tôi
+                                                    bằng cách sử dụng thông tin chi tiết trong phần “Liên hệ với chúng
+                                                    tôi” bên dưới. Khi được pháp luật cho phép, chúng tôi có thể yêu cầu
+                                                    bạn xác minh danh tính của mình trước khi thực hiện thêm hành động
+                                                    đối với yêu cầu của bạn. Bạn cũng có thể được phép chỉ định một đại
+                                                    lý được ủy quyền để gửi một số yêu cầu thay mặt bạn. Nếu bạn làm như
+                                                    vậy, bạn phải cho phép đại lý được ủy quyền bằng văn bản để thực
+                                                    hiện các yêu cầu như vậy hoặc giấy ủy quyền. Chúng tôi cũng có thể
+                                                    liên hệ với bạn để xác minh danh tính của bạn trước khi xử lý yêu
+                                                    cầu của đại lý được ủy quyền.</p>
+                                                <h4 id="pp9">9. Quyền riêng tư tại California của bạn</h4>
+                                                <p>Thông tin trên bao gồm các loại thông tin cá nhân mà 44+ Technologies
+                                                    thu thập, xử lý và chia sẻ với các nhà cung cấp dịch vụ và các doanh
+                                                    nghiệp khác. Nếu bạn muốn thực hiện các quyền của mình để nhận các
+                                                    mẩu thông tin cụ thể hoặc các quyền khác được nêu ở trên áp dụng cho
+                                                    bạn, vui lòng tham khảo phần 'Liên hệ với chúng tôi' bên dưới.</p>
+                                                <p>44+ Technologies không 'bán' thông tin cá nhân vì lợi ích tiền tệ của
+                                                    chính chúng ta. Tuy nhiên, vì CCPA định nghĩa rộng rãi về 'bán', một
+                                                    số dịch vụ quảng cáo hỗ trợ trang web, nỗ lực tiếp thị và ứng dụng
+                                                    di động của chúng tôi sử dụng các dịch vụ quảng cáo của bên thứ ba
+                                                    có thể được coi là 'bán' theo Luật California. Vui lòng xem danh
+                                                    sách cookie hoặc thông báo cookie được liệt kê ở trên hoặc các dịch
+                                                    vụ quảng cáo dành riêng cho ứng dụng được liệt kê ở trên để cho biết
+                                                    các tùy chọn tiếp tục của bạn để nhận các quảng cáo được cá nhân hóa
+                                                    như vậy.</p>
+                                                <h4 id="pp10">10. Cấp phép công nghệ</h4>
+                                                <p>44+ Technologies đôi khi cấp phép công nghệ của mình cho các đối tác
+                                                    bên thứ ba, những người có thể tích hợp nó với các ứng dụng do các
+                                                    đối tác đó phát triển và cung cấp. Các đối tác của chúng tôi, chứ
+                                                    không phải 44+ Technologies, chịu trách nhiệm về các ứng dụng đó và
+                                                    xác định dữ liệu nào được các ứng dụng đó thu thập cũng như cách dữ
+                                                    liệu được xử lý. Vui lòng liên hệ với đối tác có liên quan và tham
+                                                    khảo Chính sách quyền riêng tư của họ để tìm hiểu thêm về cách các
+                                                    ứng dụng đó xử lý dữ liệu cá nhân của bạn.</p>
+                                                <h4 id="pp11">11. Hạn chế độ tuổi</h4>
+                                                <p>Dịch vụ của chúng tôi không dành cho và không được sử dụng bởi trẻ vị
+                                                    thành niên. Trong bối cảnh này, trẻ vị thành niên là những cá nhân
+                                                    dưới 16 tuổi ngoại trừ các dịch vụ giám sát danh tính và tín dụng
+                                                    của chúng tôi, những dịch vụ này chỉ dành cho những người dưới 18
+                                                    tuổi. 44+ Technologies không cố ý thu thập dữ liệu cá nhân từ trẻ vị
+                                                    thành niên hoặc cho phép họ sử dụng dịch vụ của chúng tôi . Nếu
+                                                    chúng tôi phát hiện ra rằng chúng tôi đã thu thập dữ liệu cá nhân từ
+                                                    trẻ vị thành niên, chúng tôi có thể xóa dữ liệu đó mà không cần
+                                                    thông báo trước. Xin lưu ý rằng các điều khoản pháp lý theo đó chúng
+                                                    tôi cung cấp một số dịch vụ nhất định có thể yêu cầu người dùng phải
+                                                    trên 16 tuổi.</p>
+                                                <h4 id="pp12">12. Cập nhật chính sách bảo mật</h4>
+                                                <p>44+ Technologies có thể cập nhật Chính sách quyền riêng tư này theo
+                                                    thời gian theo mục này vì những lý do như thay đổi luật, tiêu chuẩn
+                                                    ngành và thông lệ kinh doanh. 44+ Technologies sẽ đăng các bản cập
+                                                    nhật lên trang này và cập nhật ngày “Cập nhật lần cuối” ở trên. Nếu
+                                                    chúng tôi thực hiện các cập nhật làm thay đổi đáng kể quyền riêng tư
+                                                    của bạn, thì chúng tôi cũng sẽ thông báo trước cho bạn, chẳng hạn
+                                                    như qua email hoặc qua các dịch vụ. Nếu bạn không đồng ý với bản cập
+                                                    nhật như vậy đối với chính sách này, bạn có thể hủy tài khoản dịch
+                                                    vụ của mình. Nếu bạn không hủy tài khoản của mình trước ngày cập
+                                                    nhật có hiệu lực, việc bạn tiếp tục sử dụng các dịch vụ của chúng
+                                                    tôi sẽ tuân theo Chính sách quyền riêng tư được cập nhật.</p>
+                                                <h4 id="pp13">13. Liên hệ chúng tôi</h4>
+                                                <p>Chúng tôi hy vọng Chính sách quyền riêng tư này sẽ phát triển theo
+                                                    thời gian và hoan nghênh phản hồi từ người dùng về các hoạt động bảo
+                                                    mật của chúng tôi. Nếu bạn muốn thực hiện các quyền của mình, có bất
+                                                    kỳ câu hỏi hoặc khiếu nại nào về thực tiễn bảo mật của chúng tôi,
+                                                    bạn có thể liên hệ với chúng tôi theo email: <a
+                                                            href="mailto:contact@44.plus"><span
                                                             class="__cf_email__"
-                                                            data-cfemail="ea9a98839c8b8993aa9a8b848d85c48985">[email&#160;protected]</span></a>
+                                                            data-cfemail="ea9a98839c8b8993aa9a8b848d85c48985">contact@44.plus</span></a>
                                                 </p>
-                                                <p>44+ Technologies GmbH<br/>
-                                                    ‍Hansmatt 32, 6370 Stans, Switzerland<br/>
-                                                    <a href="cdn-cgi/l/email-protection#7606041f0017150f360617181119581519"><span
-                                                            class="__cf_email__"
-                                                            data-cfemail="0a7a78637c6b69734a7a6b646d65246965">[email&#160;protected]</span></a>
-                                                </p>
-                                                <p>For visitors from the UK or EEA, the GDPR gives you additional rights
-                                                    to contact our Data Protection Officer (DPO). The Aura Group has
-                                                    appointed Bird &amp; Bird DPO Services SRL as a DPO for 44+ Technologies and
-                                                    its services, and may be reached:</p>
-                                                <ul>
-                                                    <li>by using the following email: <a
-                                                            href="cdn-cgi/l/email-protection#df9b8f90f19eaaadbe9faba8b0bdb6adbbacf1bcb0b2"><span
-                                                            class="__cf_email__"
-                                                            data-cfemail="a2e6f2ed8ce3d7d0c3e2d6d5cdc0cbd0c6d18cc1cdcf">[email&#160;protected]</span></a>
-                                                    </li>
-                                                    <li>by mail at the following address: Bird &amp; Bird DPO Services
-                                                        SRL, Avenue Louise 235 b 1, 1050 Brussels, Belgium
-                                                    </li>
-                                                </ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -1625,7 +1612,7 @@
 
                 <div class='flex_column av_one_half  first el_before_av_one_half'>
                     <section id="media_image-3" class="widget clearfix widget_media_image"><a
-                            href="https://pango.co"><img width="300" height="300"
+                            href="index.html"><img width="300" height="300"
                                                          src="wp-content/uploads/2021/07/pangoLogoFooter.svg"
                                                          class="avia-img-lazy-loading-3744 image wp-image-3744 pangologofooter attachment-medium size-medium"
                                                          alt="" decoding="async" loading="lazy"
@@ -1653,18 +1640,17 @@
                         <div class="textwidget custom-html-widget">
                             <div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="index.html">Home</a><br><br>
-                                    <a style="color:#141415;" href="about.html">About</a><br><br>
-                                    <a style="color:#141415;" href="products.html">Products</a>
+                                    <a style="color:#141415;" href="index.html">Trang chủ</a><br><br>
+                                    <a style="color:#141415;" href="about.html">Về chúng tôi</a><br><br>
+                                    <a style="color:#141415;" href="products.html">Sản phẩm</a>
 
                                 </div>
                                 <div class="col-half">
-                                    <a style="color:#141415;" href="careers.html">Careers</a><br><br>
-                                    <a style="color:#141415;" href="contact.html">Contact</a>
+                                    <a style="color:#141415;" href="careers.html">Nghề nghiệp</a><br><br>
+                                    <a style="color:#141415;" href="contact.html">Liên hệ</a>
                                     <br><br>
-                                    <a style="color:#141415;" href="application-security-audit.html">Application
-                                        Security
-                                        Audit</a>
+                                    <a style="color:#141415;" href="application-security-audit.html">Kiểm tra bảo mật
+                                        ứng dụng</a>
 
                                 </div>
                             </div>
@@ -1681,244 +1667,25 @@
                 itemtype="https://schema.org/WPFooter">
             <div class='container'>
 
-                <span class='copyright'><div class=“legal”><a href="legal.html">Legal</a> | <a
-                        href="privacy-policy.html">Privacy Policy</a> |  © 2023 44+ Inc</div></span>
+                <span class='copyright'><div class=“legal”><a href="legal.html">Pháp lý</a> | <a
+                        href="privacy-policy.html">Chính sách bảo mật</a> |  © 44+ Inc</div></span>
 
 
             </div>
-
-            <!-- ####### END SOCKET CONTAINER ####### -->
         </footer>
 
 
         <!-- end main -->
     </div>
 
-    <!-- end wrap_all --></div>
+</div>
 
 <a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon=''
    data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
 
 <div id="fb-root"></div>
 
-<div class="avia-cookie-consent-wrap" aria-hidden="true">
-    <div class='avia-cookie-consent cookiebar-hidden  avia-cookiemessage-bottom' aria-hidden='true'
-         data-contents='228864ac5ab74b528722e14fa69ce48a||v1.0'>
-        <div class="container"><p class='avia_cookie_text'>
-            <div class="cookie-infotext">
-                <div style="font-weight: 600;">We are using cookies to give you the best experience on our website.
-                </div>
-                <div style="font-weight: 200;">You can find out more about which cookies we are using <a
-                        style="color: rgba(255, 255, 255, 1.2)!important; text-decoration: underline;"
-                        href="privacy-policy.html#pp4">here</a>.
-                </div>
-            </div>
-            </p><a href='#'
-                   class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-1  avia-cookie-close-bar '>Accept
-                & Close</a><a href='#'
-                              class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-2 av-extra-cookie-btn  avia-cookie-hide-notification'>Decline</a>
-        </div>
-    </div>
-    <div id='av-consent-extra-info' class='av-inline-modal main_color avia-hide-popup-close'>
-        <div style='padding-bottom:10px; margin: 10px 0 0 0;'
-             class='av-special-heading av-special-heading-h3  blockquote modern-quote  '><h3
-                class='av-special-heading-tag ' itemprop="headline">Cookie and Privacy Settings</h3>
-            <div class='special-heading-border'>
-                <div class='special-heading-inner-border'></div>
-            </div>
-        </div>
-        <br/>
-        <div style=' margin-top:0px; margin-bottom:0px;' class='hr hr-custom hr-left hr-icon-no  '><span
-                class='hr-inner  inner-border-av-border-thin' style=' width:100%;'><span class='hr-inner-style'></span></span>
-        </div>
-        <br/>
-        <div class="tabcontainer   sidebar_tab sidebar_tab_left noborder_tabs " role="tablist">
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-1-content" role="tab" tabindex="0" data-fake-id="#tab-id-1"
-                     class="tab active_tab">How we use cookies
-                </div>
-                <div id="tab-id-1-content" class="tab_content active_tab_content" aria-hidden="false">
-                    <div class="tab_inner_content invers-color">
-                        <p>We may request cookies to be set on your device. We use cookies to let us know when you visit
-                            our websites, how you interact with us, to enrich your user experience, and to customize
-                            your relationship with our website. </p>
-                        <p>Click on the different category headings to find out more. You can also change some of your
-                            preferences. Note that blocking some types of cookies may impact your experience on our
-                            websites and the services we are able to offer.</p>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-2-content" role="tab" tabindex="0" data-fake-id="#tab-id-2" class="tab ">
-                    Essential Website Cookies
-                </div>
-                <div id="tab-id-2-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>These cookies are strictly necessary to provide you with services available through our
-                            website and to use some of its features.</p>
-                        <p>Because these cookies are strictly necessary to deliver the website, refuseing them will have
-                            impact how our site functions. You always can block or delete cookies by changing your
-                            browser settings and force blocking all cookies on this website. But this will always prompt
-                            you to accept/refuse cookies when revisiting our site.</p>
-                        <p>We fully respect if you want to refuse cookies but to avoid asking you again and again kindly
-                            allow us to store a cookie for that. You are free to opt out any time or opt in for other
-                            cookies to get a better experience. If you refuse cookies we will remove all set cookies in
-                            our domain.</p>
-                        <p>We provide you with a list of stored cookies on your computer in our domain so you can check
-                            what we stored. Due to security reasons we are not able to show or modify cookies from other
-                            domains. You can check these in your browser security settings.</p>
-                        <div class="av-switch-aviaPrivacyRefuseCookiesHideBar av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyRefuseCookiesHideBar"
-                                          class="aviaPrivacyRefuseCookiesHideBar "
-                                          name="aviaPrivacyRefuseCookiesHideBar"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Check to enable permanent hiding of message bar and refuse all cookies if you do not opt in. We need 2 cookies to store this setting. Otherwise you will be prompted again when opening a new browser window or new a tab.</span></label>
-                        </div>
-                        <div class="av-switch-aviaPrivacyEssentialCookiesEnabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-checked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyEssentialCookiesEnabled"
-                                          class="aviaPrivacyEssentialCookiesEnabled "
-                                          name="aviaPrivacyEssentialCookiesEnabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable essential site cookies.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-3-content" role="tab" tabindex="0" data-fake-id="#tab-id-3" class="tab ">
-                    Other external services
-                </div>
-                <div id="tab-id-3-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>We also use different external services like Google Webfonts, Google Maps, and external Video
-                            providers. Since these providers may collect personal data like your IP address we allow you
-                            to block them here. Please be aware that this might heavily reduce the functionality and
-                            appearance of our site. Changes will take effect once you reload the page.</p>
-                        <p>Google Webfont Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleWebfontsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleWebfontsDisabled"
-                                          class="aviaPrivacyGoogleWebfontsDisabled "
-                                          name="aviaPrivacyGoogleWebfontsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google Webfonts.</span></label>
-                        </div>
-                        <p>Google Map Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleMapsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleMapsDisabled"
-                                          class="aviaPrivacyGoogleMapsDisabled "
-                                          name="aviaPrivacyGoogleMapsDisabled"><span class="toggle-track"></span><span
-                                    class="toggle-label-content">Click to enable/disable Google Maps.</span></label>
-                        </div>
-                        <p>Google reCaptcha Settings:</p>
-                        <div class="av-switch-aviaPrivacyGoogleReCaptchaDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyGoogleReCaptchaDisabled"
-                                          class="aviaPrivacyGoogleReCaptchaDisabled "
-                                          name="aviaPrivacyGoogleReCaptchaDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable Google reCaptcha.</span></label>
-                        </div>
-                        <p>Vimeo and Youtube video embeds:</p>
-                        <div class="av-switch-aviaPrivacyVideoEmbedsDisabled av-toggle-switch av-cookie-disable-external-toggle av-cookie-save-unchecked av-cookie-default-checked">
-                            <label><input type="checkbox" checked="checked" id="aviaPrivacyVideoEmbedsDisabled"
-                                          class="aviaPrivacyVideoEmbedsDisabled " name="aviaPrivacyVideoEmbedsDisabled"><span
-                                    class="toggle-track"></span><span class="toggle-label-content">Click to enable/disable video embeds.</span></label>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="av_tab_section">
-                <div aria-controls="tab-id-4-content" role="tab" tabindex="0" data-fake-id="#tab-id-4" class="tab ">
-                    Privacy Policy
-                </div>
-                <div id="tab-id-4-content" class="tab_content " aria-hidden="true">
-                    <div class="tab_inner_content invers-color">
-                        <p>You can read about our cookies and privacy settings in detail on our Privacy Policy
-                            Page. </p>
-
-
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="avia-cookie-consent-modal-buttons-wrap"><a href='#'
-                                                               class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-3  avia-cookie-close-bar avia-cookie-consent-modal-button'
-                                                               title="Allow to use cookies, you always can modify used cookies and services">Accept
-            settings</a><a href='#'
-                           class='avia-button avia-color-theme-color-highlight avia-cookie-consent-button avia-cookie-consent-button-4 av-extra-cookie-btn avia-cookie-consent-modal-button avia-cookie-hide-notification'
-                           title="Do not allow to use cookies or services - some functionality on our site might not work as expected.">Hide
-            notification only</a></div>
-    </div>
-</div>
-<script data-cfasync="false"
-        src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var avia_framework_globals = avia_framework_globals || {}
-    avia_framework_globals.frameworkUrl = 'wp-content/themes/enfold/framework/'
-    avia_framework_globals.installedAt = 'wp-content/themes/enfold/'
-    avia_framework_globals.ajaxurl = 'wp-admin/admin-ajax.php'
-    /* ]]> */
-</script>
-
-<script type='text/javascript'
-        src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3'
-        id='jquery-core-js'></script>
-<script type='text/javascript' id='avia-cookie-js-js-extra'>
-    /* <![CDATA[ */
-    var AviaPrivacyCookieConsent = {
-        "?": "Usage unknown",
-        "aviaCookieConsent": "Use and storage of Cookies has been accepted - restrictions set in other cookies",
-        "aviaPrivacyRefuseCookiesHideBar": "Hide cookie message bar on following page loads and refuse cookies if not allowed - aviaPrivacyEssentialCookiesEnabled must be set",
-        "aviaPrivacyEssentialCookiesEnabled": "Allow storage of site essential cookies and other cookies and use of features if not opt out",
-        "aviaPrivacyVideoEmbedsDisabled": "Do not allow video embeds",
-        "aviaPrivacyGoogleTrackingDisabled": "Do not allow Google Analytics",
-        "aviaPrivacyGoogleWebfontsDisabled": "Do not allow Google Webfonts",
-        "aviaPrivacyGoogleMapsDisabled": "Do not allow Google Maps",
-        "aviaPrivacyGoogleReCaptchaDisabled": "Do not allow Google reCaptcha",
-        "aviaPrivacyMustOptInSetting": "Settings are for users that must opt in for cookies and services",
-        "PHPSESSID": "Operating site internal cookie - Keeps track of your session",
-        "XDEBUG_SESSION": "Operating site internal cookie - PHP Debugger session cookie",
-        "wp-settings*": "Operating site internal cookie",
-        "wordpress*": "Operating site internal cookie",
-        "tk_ai*": "Shop internal cookie",
-        "woocommerce*": "Shop internal cookie",
-        "wp_woocommerce*": "Shop internal cookie",
-        "wp-wpml*": "Needed to manage different languages"
-    }
-    var AviaPrivacyCookieAdditionalData = {
-        "cookie_refuse_button_alert": "When refusing all cookies this site might not be able to work as expected. Please check our settings page and opt out for cookies or functions you do not want to use and accept cookies. You will be shown this message every time you open a new window or a new tab.\\n\\nAre you sure you want to continue?",
-        "no_cookies_found": "No accessable cookies found in domain",
-        "admin_keep_cookies": ["PHPSESSID", "wp-*", "wordpress*", "XDEBUG*"],
-        "remove_custom_cookies": [],
-        "no_lightbox": "We need a lightbox to show the modal popup. Please enable the built in lightbox in Theme Options Tab or include your own modal window plugin.\\n\\nYou need to connect this plugin in JavaScript with callback wrapper functions - see avia_cookie_consent_modal_callback in file enfold\\js\\avia-snippet-cookieconsent.js "
-    }
-    /* ]]> */
-</script>
-<script type='text/javascript' id='avia_google_recaptcha_front_script-js-extra'>
-    /* <![CDATA[ */
-    var AviaReCAPTCHA_front = {
-        "version": "avia_recaptcha_v3",
-        "site_key2": "6Lfzwa4fAAAAADHOBXmdktHNblX0y83OTlvzicMP",
-        "site_key3": "6Lf4yq4fAAAAAI2UMj9XA4EfJ_X4jltX0hCs5DCW",
-        "api": "https:\/\/www.google.com\/recaptcha\/api.js",
-        "avia_api_script": "https:\/\/www.pango.co\/wp-content\/themes\/enfold\/framework\/js\/conditional_load\/avia_google_recaptcha_api.js",
-        "theme": "light",
-        "score": "0.5",
-        "verify_nonce": "39691fde10",
-        "cannot_use": "<h3 class=\"av-recaptcha-error-main\">Sorry, a problem occurred trying to communicate with Google reCAPTCHA API. You are currently not able to submit the contact form. Please try again later - reload the page and also check your internet connection.<\/h3>",
-        "init_error_msg": "Initial setting failed. Sitekey 2 and\/or sitekey 3 missing in frontend.",
-        "v3_timeout_pageload": "Timeout occurred connecting to V3 API on initial pageload",
-        "v3_timeout_verify": "Timeout occurred connecting to V3 API on verifying submit",
-        "v2_timeout_verify": "Timeout occurred connecting to V2 API on verifying you as human. Please try again and check your internet connection. It might be necessary to reload the page.",
-        "verify_msg": "Verify....",
-        "connection_error": "Could not connect to the internet. Please reload the page and try again.",
-        "validate_first": "Please validate that you are a human first",
-        "validate_submit": "Before submitting we validate that you are a human first.",
-        "no_token": "Missing internal token on valid submit - unable to proceed.",
-        "invalid_version": "Invalid reCAPTCHA version found.",
-        "api_load_error": "Google reCAPTCHA API could not be loaded."
-    }
-    /* ]]> */
-</script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
 <script type='text/javascript' id='avia-footer-scripts-js-extra'>
     /* <![CDATA[ */
     var AviaPrivacyCookieConsent = {
@@ -1975,77 +1742,5 @@
 <script type='text/javascript'
         src='wp-content/uploads/dynamic_avia/avia-footer-scripts-da18094d71d2a424d7daa12ad1bb3098---6450004fa6194.js'
         id='avia-footer-scripts-js'></script>
-<script type='text/javascript'>function av_privacy_cookie_setter(cookie_name) {
-    var cookie_check = jQuery('html').hasClass('av-cookies-needs-opt-in') || jQuery('html').hasClass('av-cookies-can-opt-out')
-    var toggle = jQuery('.' + cookie_name)
-    toggle.each(function () {
-        var container = jQuery(this).closest('.av-toggle-switch')
-        if (cookie_check && !document.cookie.match(/aviaCookieConsent/)) {
-            this.checked = container.hasClass('av-cookie-default-checked')
-        } else if (cookie_check && document.cookie.match(/aviaCookieConsent/) && !document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) && cookie_name != 'aviaPrivacyRefuseCookiesHideBar') {
-            if (cookie_name == 'aviaPrivacyEssentialCookiesEnabled') {
-                this.checked = false
-            } else {
-                this.checked = container.hasClass('av-cookie-default-checked')
-            }
-        } else {
-            if (container.hasClass('av-cookie-save-checked')) {
-                this.checked = document.cookie.match(cookie_name) ? true : false
-            } else {
-                this.checked = document.cookie.match(cookie_name) ? false : true
-            }
-        }
-    })
-    jQuery('.' + 'av-switch-' + cookie_name).addClass('active')
-    toggle.on('click', function () {/* sync if more checkboxes exist because user added them to normal page content */
-        var check = this.checked
-        jQuery('.' + cookie_name).each(function () {
-            this.checked = check
-        })
-        var silent_accept_cookie = jQuery('html').hasClass('av-cookies-user-silent-accept')
-        if (!silent_accept_cookie && cookie_check && !document.cookie.match(/aviaCookieConsent/) || sessionStorage.getItem('aviaCookieRefused')) {
-            return
-        }
-        var container = jQuery(this).closest('.av-toggle-switch')
-        var action = ''
-        if (container.hasClass('av-cookie-save-checked')) {
-            action = this.checked ? 'save' : 'remove'
-        } else {
-            action = this.checked ? 'remove' : 'save'
-        }
-        if ('remove' == action) {
-            document.cookie = cookie_name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'
-        } else {
-            var theDate = new Date()
-            var oneYearLater = new Date(theDate.getTime() + 31536000000)
-            document.cookie = cookie_name + '=true; Path=/; Expires=' + oneYearLater.toGMTString() + ';'
-        }
-    })
-}
-
-av_privacy_cookie_setter('aviaPrivacyRefuseCookiesHideBar')
-av_privacy_cookie_setter('aviaPrivacyEssentialCookiesEnabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleWebfontsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleMapsDisabled')
-av_privacy_cookie_setter('aviaPrivacyGoogleReCaptchaDisabled')
-av_privacy_cookie_setter('aviaPrivacyVideoEmbedsDisabled') </script>
 </body>
 </html>
-<!-- *´¨)
-     ¸.•´¸.•*´¨) ¸.•*¨)
-     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
-
-<!-- Cache File Version Salt:       n/a -->
-
-<!-- Cache File URL:                privacy-policy/ -->
-<!-- Cache File Path:               /cache/comet-cache/cache/https/www-pango-co/privacy-policy.html -->
-
-<!-- Cache File Generated Via:      HTTP request -->
-<!-- Cache File Generated On:       May 15th, 2023 @ 5:28 pm UTC -->
-<!-- Cache File Generated In:       0.17295 seconds -->
-
-<!-- Cache File Expires On:         May 22nd, 2023 @ 5:28 pm UTC -->
-<!-- Cache File Auto-Rebuild On:    May 22nd, 2023 @ 5:28 pm UTC -->
-
-<!-- Loaded via Cache On:    May 22nd, 2023 @ 5:07 am UTC -->
-<!-- Loaded via Cache In:    0.02437 seconds -->
