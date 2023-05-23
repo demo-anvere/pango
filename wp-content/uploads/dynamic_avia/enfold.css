@@ -1430,3 +1430,19 @@ section.slide-entry.flex_column.post-entry.slide-entry-overview.slide-loop-2.sli
 #top #wrap_all .all_colors h3{font-size:27px;}
 #top #wrap_all .all_colors h1{font-size:64px;line-height:1.2em;font-weight:200;text-transform:none;}
 #top #header .av-main-nav > li > a{font-size:30px;}
+
+
+@media only screen and (max-width: 767px) {
+
+    .responsive #top #wrap_all .container {
+        height: auto;
+    }
+
+    #footer .pangologofooter {
+        margin-bottom: 30px;
+    }
+
+    .avia-section-large .content, .avia-section-large .sidebar {
+        padding-bottom: 30px;
+    }
+}
